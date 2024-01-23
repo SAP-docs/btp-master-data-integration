@@ -1,0 +1,43 @@
+<!-- loiod09d7b9a840147bda023f078e6db9d80 -->
+
+# Disconnecting Applications
+
+To disconnect an application, delete the corresponding service instance or subscription to SAP Master Data Integration.
+
+> ### Note:  
+> After deleting a service instance or subscription, it is no longer possible to reconnect an application as the same client and resume the synchronization process. Instead, you will have to repeat the full setup and initial loads for the data that is to be kept in sync.
+
+
+
+<a name="loiod09d7b9a840147bda023f078e6db9d80__deleting-a-service-instance"/>
+
+## Deleting a Service Instance
+
+**Services \> Instances and Subscriptions** [Deleting Service Instances](https://help.sap.com/docs/service-manager/sap-service-manager/deleting-service-instances) Navigate to the subaccount in the SAP BTP Cockpit and select. Select the relevant service instance and delete all existing service bindings. Once all service bindings are deleted, you will be able to delete the service instance. For more information, refer to.
+
+If you have connected a SAP BTP application via a service instance and a destination, please review and potentially delete the corresponding destination pointing to the deleted service instance.
+
+
+
+<a name="loiod09d7b9a840147bda023f078e6db9d80__deleting-a-subscription"/>
+
+## Deleting a Subscription
+
+SAP Master Data Integration can also be used as a dependency of an SAP BTP application. In this case, a subscription to SAP Master Data Integration is maintained along with the subscription of the SAP BTP application. If such an application is unsubscribed, the corresponding subscription to SAP Master Data Integration will also be deleted.
+
+
+
+<a name="loiod09d7b9a840147bda023f078e6db9d80__remarks"/>
+
+## Remarks
+
+[Deleting Tenants](deleting-tenants-c53da25.md) If you do not intend to delete the tenant of the subaccount, make sure to always have at least one service instance or subscription of SAP Master Data Integration in the subaccount. Refer toto learn more about deleting tenants.
+
+[Deactivating Distribution Models](configuring-distribution-models-b033b0a.md) Before deleting a service instance or subscription, make sure to always deactivate its distribution models. Refer tofor more details on how to manage distribution models.
+
+An attempt to delete a service instance with an active distribution model will result in an error, asking you to deactivate it before deleting the instance.
+
+[Update the service instance](https://help.sap.com/docs/SERVICEMANAGEMENT/09cc82baadc542a688176dce601398de/002ae850a32244af85c8405fbcd7d9ab.html) `enableTenantDeletion` `true` An attempt to delete the last service instance when no other subscriptions exist in the subaccount, will lead to an error, asking you to update the instance to confirm deletion.with the fieldset to.
+
+[Deleting Tenants](deleting-tenants-c53da25.md) If the tenant of a subaccount has been deleted and a new client is created in the same subaccount, a new SAP Master Data Integration tenant will be created for that subaccount. For more information, see.
+

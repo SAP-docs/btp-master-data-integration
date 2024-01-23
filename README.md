@@ -2,7 +2,7 @@
 
 # Contributions to the SAP Master Data Integration Documentation
 
-Found a mistake in our documentation? Always wanted to add a step in one of our procedures that could save many others much time? Then you're at the right place! All contributions made to the Markdown files in the [docs](docs) directory are reviewed, and if deemed valuable be added to our [official documentation on SAP Help Portal](https://help.sap.com/docs/master-data-integration?version=CLOUD&locale=en-US). The easiest way is to start there, and choose _Edit_ to find the right Markdown file to contribute to.
+Found a mistake in our documentation? Always wanted to add a step in one of our procedures that could save many others much time? Then you're at the right place! All contributions made to the Markdown files in the [docs](docs) directory are reviewed, and if deemed valuable be added to our [official documentation on SAP Help Portal](https://help.sap.com/docs/master-data-integration/sap-master-data-integration-prod/what-is-master-data-integration?version=CLOUD). The easiest way is to start there, and choose _Edit_ to find the right Markdown file to contribute to.
 
 ## Requirements
 
@@ -13,7 +13,7 @@ For contributions, it's required that you have a GitHub account. For more inform
 
 We recommend using the SAP Master Data Integration documentation on SAP Help Portal as a starting point for contributions:
 
-1. Open the [SAP Master Data Integration documentation](https://help.sap.com/docs/master-data-integration?version=CLOUD&locale=en-US).
+1. Open the [SAP Master Data Integration documentation](https://help.sap.com/docs/master-data-integration/sap-master-data-integration-prod/what-is-master-data-integration?version=CLOUD).
 1. You can either:
     * Choose *Feedback* > *Edit page* to suggest a change for the current page you see in the Help Portal viewer, or
     * Choose *Feedback* > *Create issue* to open a GitHub issue in this repository.
