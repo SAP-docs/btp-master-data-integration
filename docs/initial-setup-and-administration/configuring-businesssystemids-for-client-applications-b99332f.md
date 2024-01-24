@@ -19,7 +19,7 @@ The `businessSystemId` serves the following two purposes.
     -   In SAP S/4HANA Cloud, or the SAP Business Technology Platform ABAP environment, go to the Communication Systems and select the system that is marked as **Own System** . Use the name that is maintained in the **Business System** field.
 
 
-
+ 
 
 
 <a name="loiob99332fc2bd145a58c6200920d9a6e35__how-to-configure-businesssystemid"/>
