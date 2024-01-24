@@ -12,15 +12,15 @@ Follow the below steps for connecting S/4HANA Cloud, or applications that are ba
 
 ## Prerequisites
 
-`businessSystemId` In the following it is assumed that you have created a dedicated service instance and a service binding for the application that is to be connected to SAP Master Data Integration. In addition, for the service instance, you have to maintain theattribute as well as configure write permissions for the objects your application needs.
+In the following it is assumed that you have created a dedicated service instance and a service binding for the application that is to be connected to SAP Master Data Integration. In addition, for the service instance, you have to maintain the `businessSystemId` attribute as well as configure write permissions for the objects your application needs.
 
 For more details, refer to
 
 -   [Connecting Applications via Service Instances](connecting-applications-via-service-instances-e01bb46.md) 
 
--   [`businessSystemId` Configuring](configuring-businesssystemids-for-client-applications-b99332f.md) 
+-   [Configuring `businessSystemId` ](configuring-businesssystemids-for-client-applications-b99332f.md) 
 
--   [`writePermissions` Configuring](configuring-writepermissions-8fe4492.md) 
+-   [Configuring `writePermissions` ](configuring-writepermissions-8fe4492.md) 
 
 
 
@@ -35,22 +35,22 @@ For more details, refer to
 
 ## Create a Communication Arrangement \(SAP\_COM\_0659\)
 
-**SAP BTP Cockpit** **Service Instance** **Service Binding** *Basic or mTLS Authentication* Before you create a Communication Arrangement, go to, select the respective, and copy thefor.
+Before you create a Communication Arrangement, go to **SAP BTP Cockpit** , select the respective **Service Instance** , and copy the **Service Binding** for *Basic or mTLS Authentication* .
+
+> ### Note:  
+> For *mTLS Client Certificate Authentication* , the service Key is generated with **Certificate** and **Key** information.
 
 Using the service binding, create a Communication Arrangement as follows:
 
-> ### Note:  
-> *mTLS Client Certificate Authentication* **Certificate** **Key** For, the service Key is generated withandinformation.
+1.  Go to the ABAP system’s launchpad and select the **Communication Arrangement** tile.
 
-1.  **Communication Arrangement** Go to the ABAP system’s launchpad and select thetile.
+2.  Choose **New** . Select communication scenario `SAP_COM_0659` .
 
-2.  **New** `SAP_COM_0659` Choose. Select communication scenario.
+3.  Paste the **Service Binding** copied from the **SAP BTP Cockpit** .
 
-3.  **Service Binding** **SAP BTP Cockpit** Paste thecopied from the.
+4.  Select **Create** .
 
-4.  **Create** Select.
-
-5.  ***auto-filled* ** **Arrangement Name** **Communication System** **Outbound Communication** **Outbound Services** Open the newly created Communication Arrangement and verify thedetails like,,, and.
+5.  Open the newly created Communication Arrangement and verify the ***auto-filled* ** details like **Arrangement Name** , **Communication System** , **Outbound Communication** , and **Outbound Services** .
 
 
 
@@ -65,25 +65,25 @@ Using the service binding, create a Communication Arrangement as follows:
 
 ## Create a Communication Arrangement \(SAP\_COM\_0594\)
 
-**Communication Arrangement** Go to the ABAP system’s launchpad and select thetile.
+Go to the ABAP system’s launchpad and select the **Communication Arrangement** tile.
 
 Create a Communication Arrangement as follows:
 
-1.  **Communication Arrangement** Go to the ABAP system's launchpad and select thetile.
+1.  Go to the ABAP system's launchpad and select the **Communication Arrangement** tile.
 
-2.  **New** **Save** `SAP_COM_0594` Choose. Select communication scenario, enter any description, and click on.
+2.  Choose **New** . Select communication scenario `SAP_COM_0594` , enter any description, and click on **Save** .
 
-3.  **MDO: Distribution Administration** **Inbound Services** Make note of the service URL of service "" in thetable, as you will need it later when configuring the SAP BTP destination for SAP Master Data Orchestration.
+3.  Make note of the service URL of service " **MDO: Distribution Administration** " in the **Inbound Services** table, as you will need it later when configuring the SAP BTP destination for SAP Master Data Orchestration.
 
-4.  **New** Create the communication system by clicking on thelink.
+4.  Create the communication system by clicking on the **New** link.
 
-5.  **Communication System** **Inbound Only** : Check thecheckbox.
+5.  **Communication System** : Check the **Inbound Only** checkbox.
 
-6.  **Users for Inbound Communication** In the table, click the "+" icon.
+6.  In the table **Users for Inbound Communication** , click the "+" icon.
 
-7.  **New User** Create a new user with any name by clicking on.
+7.  Create a new user with any name by clicking on **New User** .
 
-8.  **Note:** Enter a password \(long enough\) if required, and create the user.Ensure that you copy this password since it is required later while configuring the SAP BTP destination for SAP Master Data Orchestration.
+8.  Enter a password \(long enough\) if required, and create the user. **Note:** Ensure that you copy this password since it is required later while configuring the SAP BTP destination for SAP Master Data Orchestration.
 
 9.  Save the communication system.
 
@@ -96,7 +96,7 @@ Create a Communication Arrangement as follows:
 
 ## Create a SAP BTP Destination for SAP Master Data Orchestration
 
-[SAP Master Data Integration\>SAP Master Data Orchestration\>Initial Setup of SAP Master Data Orchestration\>Connecting Clients](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION/8ce78b673ef04cc1bcfeb01c93ef7885/6b7029a67db0438084485b3b26579b4f.html) Follow guideto create a destination for your ABAP system using the service URL as well as the inbound user details noted in the previous step.
+Follow guide [SAP Master Data Integration\>SAP Master Data Orchestration\>Initial Setup of SAP Master Data Orchestration\>Connecting Clients](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION/8ce78b673ef04cc1bcfeb01c93ef7885/6b7029a67db0438084485b3b26579b4f.html) to create a destination for your ABAP system using the service URL as well as the inbound user details noted in the previous step.
 
 
 
@@ -104,5 +104,5 @@ Create a Communication Arrangement as follows:
 
 ## Set up Distribution Models
 
-[SAP Master Data Integration\>SAP Master Data Orchestration\>Initial Setup of SAP Master Data Orchestration\>Manage Distribution Models](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION/8ce78b673ef04cc1bcfeb01c93ef7885/f63ec1de09ea4211a8dab5884447c25c.html) Follow guideto create push or pull distribution models depending on your scenario.
+Follow guide [SAP Master Data Integration\>SAP Master Data Orchestration\>Initial Setup of SAP Master Data Orchestration\>Manage Distribution Models](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION/8ce78b673ef04cc1bcfeb01c93ef7885/f63ec1de09ea4211a8dab5884447c25c.html) to create push or pull distribution models depending on your scenario.
 

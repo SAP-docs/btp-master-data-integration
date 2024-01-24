@@ -24,7 +24,5 @@ In addition, the created attributes can be automatically used as filter criteria
 
 ## Related Information
 
-Learn how to set up and use extensions- [Manage Business Object Type](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION/8ce78b673ef04cc1bcfeb01c93ef7885/ba60c0c3e1b848a391e26795d3b3aee7.html?version=CLOUD) 
-
-.
+Learn how to set up and use extensions- [Manage Business Object Type](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION/8ce78b673ef04cc1bcfeb01c93ef7885/ba60c0c3e1b848a391e26795d3b3aee7.html?version=CLOUD).
 

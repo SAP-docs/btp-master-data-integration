@@ -6,7 +6,13 @@ Distribution models contain distribution relevant settings in a central place. T
 
 SAP Master Data Orchestration delivers a user interface for the central maintenance of distribution models. These are later replicated to the clients when the models are activated.
 
+> ### Note:  
+> The transition process from the local distribution frameworks to its central representation and maintenance has started. Further information on supported clients will be made available in the scenario descriptions of the Intelligent Enterprise Suite.
+
 What are now the main ingredients of the distribution model and how are they used in the connected applications? First of all, a model has a name and contains a language-dependent description to be able to easily identify its purpose. Next, the object type and its version have to be specified. Master Data Integration operates based on the master date defined in SAP One Domain Model as a common language. This is important information to identify the contained data scope of the master data. Furthermore, it offers connectivity for one data provider with multiple consumers or the other way around, for multiple providers with one consumer.
+
+> ### Note:  
+> For transparency reasons and also flexibility for later changes, it is recommended to always connect only one provider with one consumer.
 
 In Master Data Integration using scenarios, one partner will always be Master Data Integration depending on the direction. Currently, for distribution only ABAP-based systems like S/4HANA or SAP Cloud Master Data Governance can act as provider in a distribution model because of the ABAP library. Master Data Integration is then the consumer.
 
@@ -14,21 +20,15 @@ More important are the filters, which allow to control the data flow, that is, w
 
 To fulfill these requirements two types of filters are available, instance and data scope filters:
 
-As already indicated in the above two examples, the final filtering occurs by setting up logical conditions based on the payload of the replicated object. The explicit formulation of the specific condition requires knowledge of the business process. Therefore, it can only be set up at the individual SAP customer. This clarifies that the user of the distribution model maintenance in SAP Master Data Orchestration would rather be a user with business background than a technical administrator.
-
-> ### Note:  
-> The transition process from the local distribution frameworks to its central representation and maintenance has started. Further information on supported clients will be made available in the scenario descriptions of the Intelligent Enterprise Suite.
-
-> ### Note:  
-> For transparency reasons and also flexibility for later changes, it is recommended to always connect only one provider with one consumer.
-
-> ### Note:  
-> This implies directly that data providers \("upstream clients" of Master Data Integration\) will normally only have filters if data are strictly only for local use or outdated.
-
 -   **Object Selection Filters** : Object selection filters are used to control which records \(instances\) is to be replicated to a specific consumer \("downstream client"\).
 
 -   **Data Scope Filters** : Data scope filters control the parts of the records that are to be replicated to a specific consumer \("downstream client"\).
 
+
+> ### Note:  
+> This implies directly that data providers \("upstream clients" of Master Data Integration\) will normally only have filters if data are strictly only for local use or outdated.
+
+As already indicated in the above two examples, the final filtering occurs by setting up logical conditions based on the payload of the replicated object. The explicit formulation of the specific condition requires knowledge of the business process. Therefore, it can only be set up at the individual SAP customer. This clarifies that the user of the distribution model maintenance in SAP Master Data Orchestration would rather be a user with business background than a technical administrator.
 
 
 

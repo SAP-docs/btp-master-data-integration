@@ -8,9 +8,7 @@ Master Data Integration focuses exclusively on the integration aspect regarding 
 
 [Support for Initial Loads](support-for-initial-loads-923c184.md) and [Distribution Models](distribution-models-9254f0e.md).
 
-For staying in sync with the master data database of Master Data Integration, the service offers a REST API. For business partners and business partner relationships, it additionally offers SOAP APIs. For more information, see [Connecting SOAP Applications](../initial-setup-and-administration/connecting-soap-applications-14fcc48.md)
-
-.
+For staying in sync with the master data database of Master Data Integration, the service offers a REST API. For business partners and business partner relationships, it additionally offers SOAP APIs. For more information, see [Connecting SOAP Applications](../initial-setup-and-administration/connecting-soap-applications-14fcc48.md).
 
 Applications use the REST Events API to perform initial loads and then delta loads to stay in sync. Delta loads enable the applications to receive events about all changes to the master data database of Master Data Integration that happened since the last call to the events API.
 

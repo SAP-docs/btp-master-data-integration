@@ -312,20 +312,7 @@ This parameter is required for providing different soap parameters based for dif
 > ### Note:  
 > `soapParameters` only supported for 2.1.1 businesspartner and 2.2.0 businesspartner relationship.
 
-> ### Note:  
-> `<namespace>.<name-from-type-parameters>` `BP1.BPDigitalIdentity` After creating a node extension, the extension point of that node extension would be in this format:. In case of the above sample payload, the extension point would be.
-
 **Example \(Node Level Extension\):** You can extend the business partner entity by adding a new node starting with **ext\_\_** with pattern **ext\_\_comSomeCustomer\_nodeName**. Follow the steps below:
-
-**Example \(Field Level Extension\):** **ext\_\_** **ext\_\_comSomeCustomer\_fieldName** You can extend the business partner entity by adding a new field starting withwith pattern. Follow the steps below:
-
-**Example \(Field Level Extension\(BusinessPartnerRelationship\)\):** **ext\_\_** **ext\_\_comSomeCustomer\_fieldName** You can extend the business partner relationship entity by adding a new field starting withwith pattern.
-
-**Example \(get extension\):** You can fetch all existing extensions. Follow the steps below:
-
-**Example \(status\):** You can check the activation status of the extension. Follow the steps below:
-
-**Example \(UI\):** [SAP Master Data Orchestration UI](https://help.sap.com/viewer/8ce78b673ef04cc1bcfeb01c93ef7885/CLOUD/en-US/4841c92c3aec46bbaeb5abf2fdab9d00.html) Entities can also be extended via.
 
 1.  `<mdi-url>/v1/odm/2.1.1/sap.odm.businesspartner.BusinessPartner/extensions` Url:.
 
@@ -374,6 +361,9 @@ This parameter is required for providing different soap parameters based for dif
     }
     ```
 
+
+> ### Note:  
+> After creating a node extension, the extension point of that node extension would be in this format: `<namespace>.<name-from-type-parameters>`. In case of the above sample payload, the extension point would be `BP1.BPDigitalIdentity`.
 
 1.  To add a new Node to One Domain Model and SOAP Model, perform PUT operation with the below payload:
 
@@ -485,6 +475,8 @@ This parameter is required for providing different soap parameters based for dif
     ```
 
 
+**Example \(Field Level Extension\):** You can extend the business partner entity by adding a new field starting with **ext\_\_** with pattern **ext\_\_comSomeCustomer\_fieldName**. Follow the steps below:
+
 1.  `<mdi-url>/v1/odm/2.1.1/sap.odm.businesspartner.BusinessPartner/extensions` Url:.
 
 2.  Perform PUT operation with the below REST-based payload:
@@ -529,6 +521,10 @@ This parameter is required for providing different soap parameters based for dif
     ```
 
 
+**Example \(Field Level Extension\(BusinessPartnerRelationship\)\):** You can extend the business partner relationship entity by adding a new field starting with **ext\_\_** with pattern **ext\_\_comSomeCustomer\_fieldName**.
+
+**Example \(get extension\):** You can fetch all existing extensions. Follow the steps below:
+
 1.  Url:. `<mdi-url>/v1/odm/<odm-version>/<odm-entity-name>/extensions` 
 
 2.  Perform the GET operation. Response will have an array of all existing extensions.
@@ -565,6 +561,8 @@ This parameter is required for providing different soap parameters based for dif
     ```
 
 
+**Example \(status\):** You can check the activation status of the extension. Follow the steps below:
+
 1.  `<mdi-url>/v1/odm/<odm-version>/<odm-entity-name>Url:. /extensions/<extension-id>/status` 
 
 2.  `<mdi-url>/v1/odm/2.1.1/sap.odm.businesspartner.BusinessPartner/extensions/bd3ba922-953d-49b2-bb37-7e9194efd883/status` Perform the GET operation, sample URL:.z
@@ -573,21 +571,21 @@ This parameter is required for providing different soap parameters based for dif
 
     Sample response when extension is activated:
 
+    ```
+    {
+      "status": "activated"}
+    ```
+
     Sample response when extension is rejected:
 
     ```
     {
-      "status": "activated"
-    }
-    ```
-
-    ```
-    {
       "status": "failed",
-      "rejectionReason": "Replication to Hana failed"
-    }
+      "rejectionReason": "Replication to Hana failed"}
     ```
 
+
+**Example \(UI\):** Entities can also be extended via [SAP Master Data Orchestration UI](https://help.sap.com/viewer/8ce78b673ef04cc1bcfeb01c93ef7885/CLOUD/en-US/4841c92c3aec46bbaeb5abf2fdab9d00.html).
 
 
 
@@ -610,23 +608,25 @@ Once all the extensions are accurately defined and activated, the subsequent ste
 
 **To extend WSDL:** 
 
-`Business Partner:<BASE_URL>/businesspartner/v0/soap/extend` 
+-   URL:
 
-**To retrieve extended WSDL:** 
+    `Business Partner:<BASE_URL>/businesspartner/v0/soap/extend` 
 
-`https://one-mds.cfapps.{region}.hana.ondemand.com` Here, the <BASE\_URL\> is. The corresponding region of the base URL can be fetched from "uri" present in service keys of the service instance for Generic Configuration, created as part of [Connecting SOAP Applications](connecting-soap-applications-14fcc48.md) .
-
--   `{}` Request type: PUT with empty body like -
+-   Request type: PUT with empty body like -`{}`
 
 -   Authorization token is needed in header
 
 
+**To retrieve extended WSDL:** 
+
 -   URL:
 
-    `<BASE_URL>/businesspartner/v0/soap/BusinessPartnerBulkReplicateRequestIn.wsdl` Business Partner:
+    Business Partner: `<BASE_URL>/businesspartner/v0/soap/BusinessPartnerBulkReplicateRequestIn.wsdl` 
 
 -   Request type: GET
 
 -   Authorization token is needed in header
 
+
+Here, the <BASE\_URL\> is `https://one-mds.cfapps.{region}.hana.ondemand.com`. The corresponding region of the base URL can be fetched from "uri" present in service keys of the service instance for Generic Configuration, created as part of [Connecting SOAP Applications](connecting-soap-applications-14fcc48.md) .
 

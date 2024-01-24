@@ -1,4 +1,4 @@
-[![REUSE status]()]()
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-docs/btp-master-data-integration)](https://api.reuse.software/info/github.com/SAP-docs/btp-master-data-integration)
 
 # Contributions to the SAP Master Data Integration Documentation
 
