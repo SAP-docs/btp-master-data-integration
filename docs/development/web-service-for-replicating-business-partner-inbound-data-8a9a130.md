@@ -8,7 +8,7 @@
 
 ## Description
 
-`BusinessPartnerSUITEBulkReplicateRequest_In` Technical name:
+Technical name: `BusinessPartnerSUITEBulkReplicateRequest_In` .
 
 This service enables you to replicate Business Partner data from the client system to SAP Master Data Integration - Business Partners system.
 
@@ -18,7 +18,7 @@ This service enables you to replicate Business Partner data from the client syst
 
 ## Service Structure
 
-`BusinessPartnerSUITEBulkReplicateRequest_In` This inbound interface uses the operation Inbound interface for Business Partner Data \(\).
+This inbound interface uses the operation Inbound interface for Business Partner Data \( `BusinessPartnerSUITEBulkReplicateRequest_In` \).
 
 
 
@@ -63,7 +63,7 @@ BusinessPartner
 </td>
 <td valign="top">
 
-Node that contains details of BusinessPartner
+Node that contains details of BusinessPartner.
 
 </td>
 <td valign="top">
@@ -80,7 +80,7 @@ Person
 </td>
 <td valign="top">
 
-Business Partner person data
+Business Partner person data.
 
 </td>
 <td valign="top">
@@ -97,7 +97,7 @@ Organization
 </td>
 <td valign="top">
 
-Entity details organization
+Entity details organization.
 
 </td>
 <td valign="top">
@@ -114,7 +114,7 @@ Identification
 </td>
 <td valign="top">
 
-Entity details identification
+Entity details identification.
 
 </td>
 <td valign="top">
@@ -131,7 +131,7 @@ BankDetails
 </td>
 <td valign="top">
 
-Entity details of bank
+Entity details of bank.
 
 </td>
 <td valign="top">
@@ -148,7 +148,7 @@ TaxNumber
 </td>
 <td valign="top">
 
-Entity details of tax
+Entity details of tax.
 
 </td>
 <td valign="top">
@@ -165,7 +165,7 @@ Role
 </td>
 <td valign="top">
 
-Entity details of Business Partner role
+Entity details of Business Partner role.
 
 </td>
 <td valign="top">
@@ -182,7 +182,7 @@ Business Partner Group
 </td>
 <td valign="top">
 
-Entity details of Business Partner group
+Entity details of Business Partner group.
 
 </td>
 <td valign="top">
@@ -199,7 +199,7 @@ Address Data
 </td>
 <td valign="top">
 
-Entiry details of address
+Entity details of address.
 
 </td>
 <td valign="top">
@@ -216,7 +216,7 @@ Customer
 </td>
 <td valign="top">
 
-Entity details of customer
+Entity details of customer.
 
 </td>
 <td valign="top">
@@ -233,29 +233,12 @@ Supplier
 </td>
 <td valign="top">
 
-Entity details of supplier
+Entity details of supplier.
 
 </td>
 <td valign="top">
 
 [BusinessPartnerSUITEBulkReplicateRequest - Supplier](web-service-for-replicating-business-partner-inbound-data-8a9a130.md#loio8a9a1305ac764111b648e3303f24c784__businesspartnersuitebulkreplicaterequest---supplier) 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-MultipleAssignment
-
-</td>
-<td valign="top">
-
-Entity details of multiple assignment
-
-</td>
-<td valign="top">
-
-[BusinessPartnerSUITEBulkReplicateRequest - Multiple Assignment](web-service-for-replicating-business-partner-inbound-data-8a9a130.md#loio8a9a1305ac764111b648e3303f24c784__businesspartnersuitebulkreplicaterequest---multiple-assignment) 
 
 </td>
 </tr>
@@ -357,7 +340,7 @@ CategoryCode
 </td>
 <td valign="top">
 
-Category under which a business partner is classified\(Organization/Natural person/Group of natural persons or organizations\).
+Category under which a business partner is classified \(Organization/Natural person/Group of natural persons or organizations\).
 
 </td>
 <td valign="top">
@@ -549,7 +532,7 @@ ContactAllowedCode
 </td>
 <td valign="top">
 
-Business Partner: Contact Permission
+Business Partner: Contact Permission.
 
 </td>
 <td valign="top">
@@ -613,7 +596,7 @@ CorrespondenceBrailleRequiredIndicator
 </td>
 <td valign="top">
 
-Business Partner Print Format
+Business Partner Print Format.
 
 </td>
 <td valign="top">
@@ -645,7 +628,7 @@ CorrespondenceLargePrintRequiredIndicator
 </td>
 <td valign="top">
 
-Business Partner Print Large Format
+Business Partner Print Large Format.
 
 </td>
 <td valign="top">
@@ -786,12 +769,12 @@ This service node contains the following parameters:
 <tr>
 <th valign="top">
 
-SOAP Field Name
+Category
 
 </th>
 <th valign="top">
 
- 
+SOAP Field Name
 
 </th>
 <th valign="top">
@@ -828,7 +811,7 @@ GenderCode
 </td>
 <td valign="top">
 
-Selection: Business partner is male / Selection: Business partner is female
+Selection: Business partner is male / Selection: Business partner is female.
 
 </td>
 <td valign="top">
@@ -860,7 +843,7 @@ NationalityCountryCode
 </td>
 <td valign="top">
 
- 
+Nationality of Business Partner \(Person\).
 
 </td>
 <td valign="top">
@@ -892,7 +875,7 @@ BirthDate
 </td>
 <td valign="top">
 
-Date of Birth of Business Partner
+Date of Birth of Business Partner.
 
 </td>
 <td valign="top">
@@ -924,7 +907,7 @@ VerbalCommunicationLanguageCode
 </td>
 <td valign="top">
 
-Business partner Language
+Language for verbal communication with a business partner.
 
 </td>
 <td valign="top">
@@ -956,7 +939,7 @@ NonVerbalCommunicationLanguageCode
 </td>
 <td valign="top">
 
-Correspondence Language of Business Partner
+Correspondence language \(written\) for business partners in the Person category.
 
 </td>
 <td valign="top">
@@ -983,12 +966,12 @@ BusinessPartner/person
 </td>
 <td valign="top">
 
-MaritalStatus
+MaritalStatusCode
 
 </td>
 <td valign="top">
 
- 
+Marital Status of Business Partner.
 
 </td>
 <td valign="top">
@@ -1015,12 +998,12 @@ BusinessPartner/person
 </td>
 <td valign="top">
 
-NaturalPersonEmployerName
+Employer
 
 </td>
 <td valign="top">
 
- 
+Name of Employer of a natural Person.
 
 </td>
 <td valign="top">
@@ -1079,12 +1062,12 @@ BusinessPartner/person
 </td>
 <td valign="top">
 
-BusinessPartnerBirthplaceName
+BirthPlaceName
 
 </td>
 <td valign="top">
 
- 
+Birthplace of business partner.
 
 </td>
 <td valign="top">
@@ -1111,12 +1094,12 @@ BusinessPartner/person
 </td>
 <td valign="top">
 
-BusinessPartnerDeathDate
+DeathDate
 
 </td>
 <td valign="top">
 
- 
+Date of death of business partner.
 
 </td>
 <td valign="top">
@@ -1148,7 +1131,7 @@ GivenName
 </td>
 <td valign="top">
 
- 
+First Name of Business Partner \(Person\).
 
 </td>
 <td valign="top">
@@ -1180,7 +1163,7 @@ MiddleName
 </td>
 <td valign="top">
 
- 
+Middle name or second forename of a person.
 
 </td>
 <td valign="top">
@@ -1212,7 +1195,7 @@ FamilyName
 </td>
 <td valign="top">
 
- 
+Last Name of Business Partner \(Person\).
 
 </td>
 <td valign="top">
@@ -1244,7 +1227,7 @@ AdditionalFamilyName
 </td>
 <td valign="top">
 
- 
+Other Last Name of a Person.
 
 </td>
 <td valign="top">
@@ -1276,7 +1259,7 @@ NickName
 </td>
 <td valign="top">
 
- 
+Nickname of Business Partner \(Person\).
 
 </td>
 <td valign="top">
@@ -1308,7 +1291,7 @@ BirthName
 </td>
 <td valign="top">
 
- 
+Name at birth of business partner.
 
 </td>
 <td valign="top">
@@ -1340,7 +1323,7 @@ InitialsName
 </td>
 <td valign="top">
 
- 
+"Middle Initial" or personal initials.
 
 </td>
 <td valign="top">
@@ -1372,7 +1355,7 @@ FormOfAddressCode
 </td>
 <td valign="top">
 
-Title of Business Partner created
+Title of Business Partner created.
 
 </td>
 <td valign="top">
@@ -1404,7 +1387,7 @@ AcademicTitleCode
 </td>
 <td valign="top">
 
-Describes a name component that is an additional title of a natural person to indicate academic training
+Describes a name component that is an additional title of a natural person to indicate academic training.
 
 </td>
 <td valign="top">
@@ -1436,7 +1419,7 @@ AdditionalAcademicTitleCode
 </td>
 <td valign="top">
 
-Possible academic titles \(or academic qualifications\)
+Possible academic titles \(or academic qualifications\).
 
 </td>
 <td valign="top">
@@ -1468,7 +1451,7 @@ NamePrefixCode
 </td>
 <td valign="top">
 
- 
+Key for name prefix.
 
 </td>
 <td valign="top">
@@ -1500,7 +1483,7 @@ AdditionalNamePrefixCode
 </td>
 <td valign="top">
 
-An addition to the last name that is usually a title of nobility
+An addition to the last name that is usually a title of nobility.
 
 </td>
 <td valign="top">
@@ -1532,7 +1515,7 @@ NameSupplementCode
 </td>
 <td valign="top">
 
-Describes a name component that is an additional title of a natural person to indicate noble origin. This could be a title of nobility, but there are other possibilities
+Describes a name component that is an additional title of a natural person to indicate noble origin. This could be a title of nobility, but there are other possibilities.
 
 </td>
 <td valign="top">
@@ -1678,7 +1661,7 @@ FoundationDate
 </td>
 <td valign="top">
 
-Indicates the official registration of a company in the Commercial Register
+Indicates the official registration of a company in the Commercial Register.
 
 </td>
 <td valign="top">
@@ -1774,7 +1757,7 @@ LocationStandardID
 </td>
 <td valign="top">
 
-This field represents combination of InternationLocationNumber1 , InternationLocationNumber2 , InternationLocationNumber3
+This field represents combination of InternationLocationNumber1, InternationLocationNumber2, InternationLocationNumber3.
 
 </td>
 <td valign="top">
@@ -1870,7 +1853,7 @@ ThirdLineName
 </td>
 <td valign="top">
 
-Organsiation Name Line 3. Third name field for business partners in the Organization category.
+Organization Name Line 3. Third name field for business partners in the Organization category.
 
 </td>
 <td valign="top">
@@ -1998,7 +1981,7 @@ DefaultIndicator
 </td>
 <td valign="top">
 
-Identifies the industry in an industry system that can be defined as the standard industry
+Identifies the industry in an industry system that can be defined as the standard industry.
 
 </td>
 <td valign="top">
@@ -2107,7 +2090,7 @@ BusinessPartnerID
 </td>
 <td valign="top">
 
-Number that serves to identify a business partner, such as driver's license, or ID card number.
+Number that serves to identify a business partner, such as driver's licence, or ID card number.
 
 </td>
 <td valign="top">
@@ -2139,7 +2122,7 @@ PartyIdentifierTypeCode
 </td>
 <td valign="top">
 
-A document \(such as an ID card or driver's license\) or an entry in a system of records \(such as a commercial register\) whose key can be stored as an attribute for a business partner.
+A document \(such as an ID card or driver's licence\) or an entry in a system of records \(such as a commercial register\) whose key can be stored as an attribute for a business partner.
 
 </td>
 <td valign="top">
@@ -2235,7 +2218,7 @@ AreaOfValidityRegionCode
 </td>
 <td valign="top">
 
-Regionin which ID number is valid or was assigned.
+Region in which ID number is valid or was assigned.
 
 </td>
 <td valign="top">
@@ -2267,7 +2250,7 @@ IdentifierIssuingAgencyName
 </td>
 <td valign="top">
 
- 
+Institution that administers or assigns an ID number.
 
 </td>
 <td valign="top">
@@ -2299,7 +2282,7 @@ StartDate
 </td>
 <td valign="top">
 
- 
+Validity Start Date of the master data object.
 
 </td>
 <td valign="top">
@@ -2331,7 +2314,7 @@ EndDate
 </td>
 <td valign="top">
 
- 
+Validity End Date of the master data object.
 
 </td>
 <td valign="top">
@@ -2413,7 +2396,7 @@ BankAccountID
 </td>
 <td valign="top">
 
-The bank key \(under which the bank data is stored in the appropriate country\) is specified in this field
+The bank key \(under which the bank data is stored in the appropriate country\) is specified in this field.
 
 </td>
 <td valign="top">
@@ -2445,7 +2428,7 @@ BankCountryCode
 </td>
 <td valign="top">
 
-Country Key
+Identifies the country in which the bank is based.
 
 </td>
 <td valign="top">
@@ -2477,7 +2460,7 @@ BankInternalID
 </td>
 <td valign="top">
 
- 
+The bank key \(under which the bank data is stored in the appropriate country\) is specified in this field.The country-specific meaning of this bank key is specified when defining country key.
 
 </td>
 <td valign="top">
@@ -2536,12 +2519,44 @@ Optional
 <tr>
 <td valign="top">
 
+BusinessPartnerExternalBankID
+
+</td>
+<td valign="top">
+
+The field contains ID in the external system that provides information on the number under which the bank details were created in the legacy or operational system.
+
+</td>
+<td valign="top">
+
+BusinessPartner/BankDetails/BusinessPartnerExternalBankID
+
+</td>
+<td valign="top">
+
+businessPartnerExternalBankId
+
+</td>
+<td valign="top">
+
+BusinessPartner/bankAccounts
+
+</td>
+<td valign="top">
+
+Optional
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Name
 
 </td>
 <td valign="top">
 
-Name of Bank Account
+Name of Bank Account.
 
 </td>
 <td valign="top">
@@ -2573,7 +2588,7 @@ BankAccountHolderName
 </td>
 <td valign="top">
 
-Bank Account Holder Name
+Bank Account Holder Name. Here you can enter another name that the payment program can use if the name of the account holder is not the same as the name of the Business Partner.
 
 </td>
 <td valign="top">
@@ -2605,7 +2620,7 @@ BankAccountStandardID
 </td>
 <td valign="top">
 
-IBAN \(International Bank Account Number\)
+An IBAN \(International Bank Account Number\) has a maximum of 34 alphanumeric characters and is a combination of the following elements: Country key of the bank \(ISO code\), two-digit check number, country-specific account number.
 
 </td>
 <td valign="top">
@@ -2637,7 +2652,7 @@ StartDate
 </td>
 <td valign="top">
 
-Bank Validity start date
+Validity Start of Business Partner Bank Details
 
 </td>
 <td valign="top">
@@ -2669,7 +2684,7 @@ EndDate
 </td>
 <td valign="top">
 
-Bank Validity end date
+Validity End of Business Partner Bank Details.
 
 </td>
 <td valign="top">
@@ -2701,7 +2716,7 @@ SpecificationsDescription
 </td>
 <td valign="top">
 
-In some countries the data for the bank details of the business partner \(bank number, bank account number, name of the account holder\) have to supplemented by other details in order to be able to use certain payment processes. This supplementary details are defined here.
+In some countries the data for the bank details of the business partner \(bank number, bank account number, name of the account holder\) have to be supplemented by other details in order to be able to use certain payment processes. This supplementary details are defined here.
 
 </td>
 <td valign="top">
@@ -2733,7 +2748,7 @@ ID
 </td>
 <td valign="top">
 
-Bank ID \(Key\); Key identifying a business partner's bank details
+Key identifying a business partner's bank details.
 
 </td>
 <td valign="top">
@@ -2815,7 +2830,7 @@ PartyTaxID
 </td>
 <td valign="top">
 
-Specifies the tax number \(Length 20\)
+Specifies the tax number.
 
 </td>
 <td valign="top">
@@ -2847,7 +2862,7 @@ PartyRoleCode
 </td>
 <td valign="top">
 
- 
+Specifies the tax number category.
 
 </td>
 <td valign="top">
@@ -2961,7 +2976,7 @@ StartDate
 </td>
 <td valign="top">
 
-Validity Period of the Role
+Validity Start Date of the master data object.
 
 </td>
 <td valign="top">
@@ -2993,7 +3008,7 @@ EndDate
 </td>
 <td valign="top">
 
-Validity Period of the Role
+Validity End Date of the master data object.
 
 </td>
 <td valign="top">
@@ -3070,7 +3085,7 @@ PartnerGroupTypeCode
 </td>
 <td valign="top">
 
-Business partner that consists of several persons or organizations.For business partners belonging to the category "Group", you can specify the type of group involved.You can define the group types in Customizing.
+Business partner that consists of several persons or organizations. For business partners belonging to the category "Group", you can specify the type of group involved. You can define the group types in Customizing.
 
 </td>
 <td valign="top">
@@ -3151,7 +3166,7 @@ FormOfAddress
 </td>
 <td valign="top">
 
-Key for form of address text. You can also define a form of address text in Customizing.The form of address text can be maintained in different languages.
+Key for form of address text. You can also define a form of address text in Customizing. The form of address text can be maintained in different languages.
 
 </td>
 <td valign="top">
@@ -3233,7 +3248,7 @@ StartDate
 </td>
 <td valign="top">
 
-Address validity start date
+Address validity start date.
 
 </td>
 <td valign="top">
@@ -3265,7 +3280,7 @@ EndDate
 </td>
 <td valign="top">
 
-Address validity end date
+Address validity end date.
 
 </td>
 <td valign="top">
@@ -3297,7 +3312,7 @@ CorrespondenceLanguage
 </td>
 <td valign="top">
 
-Correspondence Language; The language key indicates the language in which texts are displayed, the language in which you enter texts, the language in which the system prints texts.
+Correspondence language \(written\) for business partners in the Person category. Correspondence Language; The language key indicates the language in which texts are displayed, the language in which you enter texts, the language in which the system prints texts.
 
 </td>
 <td valign="top">
@@ -3324,12 +3339,12 @@ BusinessPartner/addressData/communicationPreferences
 </td>
 <td valign="top">
 
-PrfrdCommMediumType
+PreferredCommunicationMediumTypeCode
 
 </td>
 <td valign="top">
 
-Preferred Medium of Communication \(Phone/Email etc\)
+Preferred Medium of Communication \(Phone/Email etc.\).
 
 </td>
 <td valign="top">
@@ -3361,7 +3376,7 @@ URI
 </td>
 <td valign="top">
 
-E-Mail Address
+E-Mail Address. Internet mail address, also called e-mail address.
 
 </td>
 <td valign="top">
@@ -3425,7 +3440,7 @@ StartDate
 </td>
 <td valign="top">
 
-Validity for email address Start Date
+Validity for email address Start Date.
 
 </td>
 <td valign="top">
@@ -3457,7 +3472,7 @@ EndDate
 </td>
 <td valign="top">
 
-Validity for email address End Date
+Validity for email address End Date.
 
 </td>
 <td valign="top">
@@ -3489,7 +3504,7 @@ IsDefaultEmailAddress
 </td>
 <td valign="top">
 
-Default E-Maild Address
+Flag: this address is the default address.
 
 </td>
 <td valign="top">
@@ -3521,7 +3536,7 @@ CountryCode
 </td>
 <td valign="top">
 
-Country Code
+The country for the telephone number or fax number is maintained here.
 
 </td>
 <td valign="top">
@@ -3553,7 +3568,7 @@ SubscriberID
 </td>
 <td valign="top">
 
-Suscriber ID
+Fax number, consisting of dialing code and number, but without country dialing code.
 
 </td>
 <td valign="top">
@@ -3585,7 +3600,7 @@ ExtensionID
 </td>
 <td valign="top">
 
-Extension
+If the fax number consists of a company number and an extension, the extension must be entered here.
 
 </td>
 <td valign="top">
@@ -3649,7 +3664,7 @@ StartDate
 </td>
 <td valign="top">
 
-Validity for fax address Start date
+Validity for fax address Start date.
 
 </td>
 <td valign="top">
@@ -3681,7 +3696,7 @@ EndDate
 </td>
 <td valign="top">
 
-Validity for fax address end date
+Validity for fax address end date.
 
 </td>
 <td valign="top">
@@ -3713,12 +3728,12 @@ IsDefaultFaxNumber
 </td>
 <td valign="top">
 
- 
+Standard Sender Address in this Communication Type.
 
 </td>
 <td valign="top">
 
-BusinessPartner/AddressInformation/Address/Facsimile/IsDefaultFaxNumber, BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Facsimile/IsDefaultFaxNumber
+BusinessPartner/AddressInformation/Address/Telephone/IsDefaultFaxNumber, BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Telephone/IsDefaultFaxNumber
 
 </td>
 <td valign="top">
@@ -3745,7 +3760,7 @@ CountryCode
 </td>
 <td valign="top">
 
-Country Code
+The country for the telephone number or fax number is maintained here.
 
 </td>
 <td valign="top">
@@ -3777,12 +3792,12 @@ SubscriberID
 </td>
 <td valign="top">
 
-Suscriber ID
+Telephone number, consisting of dialing code and number, but without country dialing code.
 
 </td>
 <td valign="top">
 
-BusinessPartner/AddressInformation/Address/Facsimile/Number/SubscriberID, BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Telephone/Number/SubscriberID
+BusinessPartner/AddressInformation/Address/Telephone/Number/SubscriberID, BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Telephone/Number/SubscriberID
 
 </td>
 <td valign="top">
@@ -3809,12 +3824,12 @@ ExtensionID
 </td>
 <td valign="top">
 
-Extension
+If the telephone number consists of a company number and an extension, the extension should be entered here.
 
 </td>
 <td valign="top">
 
-BusinessPartner/AddressInformation/Address/Facsimile/Number/ExtensionID, BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Telephone/Number/ExtensionID
+BusinessPartner/AddressInformation/Address/Telephone/Number/ExtensionID, BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Telephone/Number/ExtensionID
 
 </td>
 <td valign="top">
@@ -3873,7 +3888,7 @@ StartDate
 </td>
 <td valign="top">
 
- 
+Validity Start Date of the master data object.
 
 </td>
 <td valign="top">
@@ -3905,7 +3920,7 @@ EndDate
 </td>
 <td valign="top">
 
- 
+Validity End Date of the master data object.
 
 </td>
 <td valign="top">
@@ -3937,12 +3952,12 @@ SMSEnabledIndicator
 </td>
 <td valign="top">
 
-Indicator: Telephone is SMS-Enabled
+Indicator: Telephone is SMS-Enabled.
 
 </td>
 <td valign="top">
 
-BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Telephone/SMSEnabledIndicator
+BusinessPartner/AddressInformation/Address/Telephone/SMSEnabledIndicator,BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Telephone/SMSEnabledIndicator
 
 </td>
 <td valign="top">
@@ -4001,7 +4016,7 @@ IsDefaultPhoneNumber
 </td>
 <td valign="top">
 
- 
+Standard Sender Address in this Communication Type.
 
 </td>
 <td valign="top">
@@ -4033,7 +4048,7 @@ IsDefaultUri
 </td>
 <td valign="top">
 
- 
+Flag: this URI is the default URI.
 
 </td>
 <td valign="top">
@@ -4065,7 +4080,7 @@ URI
 </td>
 <td valign="top">
 
-Website Address
+Website Address. Universal Resource Identifier \(URI\).
 
 </td>
 <td valign="top">
@@ -4097,7 +4112,7 @@ URITypeCode
 </td>
 <td valign="top">
 
-URI type flag Eg. HPG: Homepage, FTP, Log : Company Logo etc
+URI type flag Eg. HPG: Homepage, FTP, Log : Company Logo etc.
 
 </td>
 <td valign="top">
@@ -4129,7 +4144,7 @@ StartDate
 </td>
 <td valign="top">
 
- 
+Validity Start Date of the master data object.
 
 </td>
 <td valign="top">
@@ -4161,7 +4176,7 @@ EndDate
 </td>
 <td valign="top">
 
- 
+Validity End Date of the master data object.
 
 </td>
 <td valign="top">
@@ -4193,7 +4208,7 @@ RoomID
 </td>
 <td valign="top">
 
-Room or Appartment Number
+Room or Apartment Number in an address.
 
 </td>
 <td valign="top">
@@ -4225,7 +4240,7 @@ CountryCode
 </td>
 <td valign="top">
 
-Country Key
+The country key contains information which the system uses to check entries such as the length of the postal code or bank account number.
 
 </td>
 <td valign="top">
@@ -4257,7 +4272,7 @@ GivenName
 </td>
 <td valign="top">
 
- 
+First Name of Business Partner \(Person\).
 
 </td>
 <td valign="top">
@@ -4289,7 +4304,7 @@ MiddleName
 </td>
 <td valign="top">
 
- 
+Middle name or second forename of a person.
 
 </td>
 <td valign="top">
@@ -4321,7 +4336,7 @@ FamilyName
 </td>
 <td valign="top">
 
- 
+Last Name of Business Partner \(Person\).
 
 </td>
 <td valign="top">
@@ -4353,7 +4368,7 @@ AdditionalFamilyName
 </td>
 <td valign="top">
 
- 
+Other Last Name of a Person.
 
 </td>
 <td valign="top">
@@ -4385,7 +4400,7 @@ InitialsName
 </td>
 <td valign="top">
 
- 
+"Middle Initial" or personal initials.
 
 </td>
 <td valign="top">
@@ -4417,7 +4432,7 @@ FormOfAddressCode
 </td>
 <td valign="top">
 
- 
+Title of Business Partner created.
 
 </td>
 <td valign="top">
@@ -4449,7 +4464,7 @@ AcademicTitleCode
 </td>
 <td valign="top">
 
-Describes a name component that is an additional title of a natural person to indicate academic training
+Key for academic title. Describes a name component that is an additional title of a natural person to indicate academic training.
 
 </td>
 <td valign="top">
@@ -4481,7 +4496,7 @@ AdditionalAcademicTitleCode
 </td>
 <td valign="top">
 
-Possible academic titles \(or academic qualifications\)
+Second academic title \(key\). Possible academic titles \(or academic qualifications\).
 
 </td>
 <td valign="top">
@@ -4513,7 +4528,7 @@ NamePrefixCode
 </td>
 <td valign="top">
 
-An addition to the last name that is usually a title of nobility
+Key for name prefix. An addition to the last name that is usually a title of nobility.
 
 </td>
 <td valign="top">
@@ -4545,7 +4560,7 @@ AdditionalNamePrefixCode
 </td>
 <td valign="top">
 
-An addition to the last name that is usually a title of nobility
+2nd name prefix \(key\). An addition to the last name that is usually a title of nobility.
 
 </td>
 <td valign="top">
@@ -4577,7 +4592,7 @@ NameSupplementCode
 </td>
 <td valign="top">
 
-Describes a name component that is an additional title of a natural person to indicate noble origin. This could be a title of nobility, but there are other possibilities
+Describes a name component that is an additional title of a natural person to indicate noble origin. This could be a title of nobility, but there are other possibilities.
 
 </td>
 <td valign="top">
@@ -4673,7 +4688,7 @@ NickName
 </td>
 <td valign="top">
 
- 
+Nickname of Business Partner \(Person\).
 
 </td>
 <td valign="top">
@@ -4705,7 +4720,7 @@ BirthName
 </td>
 <td valign="top">
 
- 
+Name at birth of business partner.
 
 </td>
 <td valign="top">
@@ -4737,7 +4752,7 @@ DeviatingFullName
 </td>
 <td valign="top">
 
-If the SOAP field, DeviatingFullName is left blank, then the corresponding ODM field, formattedPersonName will also remains blank
+If the SOAP field DeviatingFullName is left blank, then the corresponding ODM field, formattedPersonName will also remains blank.
 
 </td>
 <td valign="top">
@@ -4769,7 +4784,7 @@ HouseID
 </td>
 <td valign="top">
 
-House Number
+House number as part of an address.
 
 </td>
 <td valign="top">
@@ -4801,7 +4816,7 @@ POBoxIDVisibleIndicator
 </td>
 <td valign="top">
 
- 
+PO Box address without PO Box number flag.
 
 </td>
 <td valign="top">
@@ -4833,7 +4848,7 @@ StreetName
 </td>
 <td valign="top">
 
-Street Address
+Street name as part of the address.
 
 </td>
 <td valign="top">
@@ -4865,7 +4880,7 @@ StreetSuffixName
 </td>
 <td valign="top">
 
-Additional address text line for Street
+Additional address text line for Street.
 
 </td>
 <td valign="top">
@@ -4897,7 +4912,7 @@ StreetPrefixName
 </td>
 <td valign="top">
 
-Additional address text line for Street
+Additional address field which is printed below the Street line.
 
 </td>
 <td valign="top">
@@ -4929,7 +4944,7 @@ AdditionalStreetPrefixName
 </td>
 <td valign="top">
 
-Additional address text line for Street
+Additional address field which is printed above the Street line.
 
 </td>
 <td valign="top">
@@ -4961,7 +4976,7 @@ AdditionalStreetSuffixName
 </td>
 <td valign="top">
 
-Additional address text line for Street
+Additional address field which is printed under the Street line.
 
 </td>
 <td valign="top">
@@ -4993,7 +5008,7 @@ FloorID
 </td>
 <td valign="top">
 
-Floor in building
+Floor of the building as more exact specification of an address.
 
 </td>
 <td valign="top">
@@ -5185,7 +5200,7 @@ TimeZoneCode
 </td>
 <td valign="top">
 
-Address Time Zone
+Address Time Zone.
 
 </td>
 <td valign="top">
@@ -5377,7 +5392,7 @@ AdditionalHouseID
 </td>
 <td valign="top">
 
-House number supplement
+House number supplement.
 
 </td>
 <td valign="top">
@@ -5473,7 +5488,7 @@ POBoxDeviatingRegionCode
 </td>
 <td valign="top">
 
-Region for PO Box \(Country, State, Province, ...\)
+Region for PO Box \(Country, State, Province, etc.\).
 
 </td>
 <td valign="top">
@@ -5505,7 +5520,7 @@ POBoxDeviatingCityName
 </td>
 <td valign="top">
 
-PO Box city
+PO Box city.
 
 </td>
 <td valign="top">
@@ -5569,7 +5584,7 @@ POBoxLobbyName
 </td>
 <td valign="top">
 
-PO Box Lobby
+PO Box Lobby.
 
 </td>
 <td valign="top">
@@ -5633,7 +5648,7 @@ AddressRepresentationCode
 </td>
 <td valign="top">
 
-Version indicator of an address
+Version indicator of an address.
 
 </td>
 <td valign="top">
@@ -5665,7 +5680,7 @@ RoomID
 </td>
 <td valign="top">
 
-RoomID Room or Appartment Number
+RoomID Room or Apartment Number.
 
 </td>
 <td valign="top">
@@ -5697,7 +5712,7 @@ CountryCode
 </td>
 <td valign="top">
 
-Country Code
+Country Code.
 
 </td>
 <td valign="top">
@@ -5729,7 +5744,7 @@ FirstLineName
 </td>
 <td valign="top">
 
-Organisation Name Line1. First name field for business partners in the Organization category.
+Organisation Name Line 1. First name field for business partners in the Organization category.
 
 </td>
 <td valign="top">
@@ -5793,7 +5808,7 @@ ThirdLineName
 </td>
 <td valign="top">
 
-Organsiation Name Line 3. Third name field for business partners in the Organization category.
+Organization Name Line 3. Third name field for business partners in the Organization category.
 
 </td>
 <td valign="top">
@@ -5857,7 +5872,7 @@ HouseID
 </td>
 <td valign="top">
 
-House Number
+House Number.
 
 </td>
 <td valign="top">
@@ -5921,7 +5936,7 @@ StreetName
 </td>
 <td valign="top">
 
-Street Address
+Street Address.
 
 </td>
 <td valign="top">
@@ -5953,7 +5968,7 @@ StreetSuffixName
 </td>
 <td valign="top">
 
-Additional address text line for Street
+Additional address text line for Street.
 
 </td>
 <td valign="top">
@@ -5985,7 +6000,7 @@ StreetPrefixName
 </td>
 <td valign="top">
 
-Additional address text line for Street
+Additional address text line for Street.
 
 </td>
 <td valign="top">
@@ -6017,7 +6032,7 @@ AdditionalStreetPrefixName
 </td>
 <td valign="top">
 
-Additional address text line for Street
+Additional address text line for Street.
 
 </td>
 <td valign="top">
@@ -6049,7 +6064,7 @@ AdditionalStreetSuffixName
 </td>
 <td valign="top">
 
-Additional address text line for Street
+Additional address text line for Street.
 
 </td>
 <td valign="top">
@@ -6081,7 +6096,7 @@ FloorID
 </td>
 <td valign="top">
 
-Floor in building
+Floor in building.
 
 </td>
 <td valign="top">
@@ -6145,7 +6160,7 @@ RegionCode
 </td>
 <td valign="top">
 
-Region Key. For example, Washington is a Region of USA, Karnataka is region of India etc.
+Region Key. For example, Washington is a Region of USA, Karnataka is a region of India etc.
 
 </td>
 <td valign="top">
@@ -6273,7 +6288,7 @@ TimeZoneCode
 </td>
 <td valign="top">
 
-Address Time Zone
+Address Time Zone.
 
 </td>
 <td valign="top">
@@ -6433,7 +6448,7 @@ DistrictName
 </td>
 <td valign="top">
 
-In some countries, this entry is appended with a hyphen to the city name by the automatic address formatting, other countries, it is output on a line of its own or \(For example, in the USA\) not printed.
+In some countries this entry is appended with a hyphen to the city name by the automatic address formatting. In other countries, it is output on a line of its own or \(for example, in the USA\) not printed.
 
 </td>
 <td valign="top">
@@ -6465,7 +6480,7 @@ AdditionalHouseID
 </td>
 <td valign="top">
 
-House number supplement
+House number supplement.
 
 </td>
 <td valign="top">
@@ -6529,7 +6544,7 @@ POBoxDeviatingCountryCode
 </td>
 <td valign="top">
 
-PO Box Country
+PO Box Country.
 
 </td>
 <td valign="top">
@@ -6561,7 +6576,7 @@ POBoxDeviatingRegionCode
 </td>
 <td valign="top">
 
-Region for PO Box \(Country, State, Province, ...\)
+Region for PO Box \(Country, State, Province, etc.\),
 
 </td>
 <td valign="top">
@@ -6593,7 +6608,7 @@ POBoxDeviatingCityName
 </td>
 <td valign="top">
 
-PO Box city
+PO Box city.
 
 </td>
 <td valign="top">
@@ -6657,7 +6672,7 @@ POBoxLobbyName
 </td>
 <td valign="top">
 
-PO Box Lobby
+PO Box Lobby.
 
 </td>
 <td valign="top">
@@ -6721,7 +6736,7 @@ AddressRepresentationCode
 </td>
 <td valign="top">
 
-Version indicator of an address
+Version indicator of an address.
 
 </td>
 <td valign="top">
@@ -6808,7 +6823,7 @@ Customer Account Group. The account group is a classifying feature within custom
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/MaintenanceProfileCode,BusinessPartner/MultipleAssignment/Customer/MaintenanceProfileCode
+BusinessPartner/Customer/MaintenanceProfileCode
 
 </td>
 <td valign="top">
@@ -6840,7 +6855,7 @@ Relevant only for taxes/Group key. If the customer or the supplier belongs to a 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/CorporateGroupName,BusinessPartner/MultipleAssignment/Customer/CorporateGroupName
+BusinessPartner/Customer/CorporateGroupName
 
 </td>
 <td valign="top">
@@ -6872,7 +6887,7 @@ Central Deletion Flag for Master Record. Indicates that all data in this master 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/DeletedIndicator,BusinessPartner/MultipleAssignment/Customer/DeletedIndicator
+BusinessPartner/Customer/DeletedIndicator
 
 </td>
 <td valign="top">
@@ -6904,7 +6919,7 @@ Tax type. Classification of companies according to tax aspects.
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/TaxGroupCode,BusinessPartner/MultipleAssignment/Customer/TaxGroupCode
+BusinessPartner/Customer/TaxGroupCode
 
 </td>
 <td valign="top">
@@ -6931,12 +6946,12 @@ OrderBlockingReasonCode
 </td>
 <td valign="top">
 
-Order type block indicator \(for example, only cash sales\)
+Order type block indicator \(for example, only cash sales\). Indicates if sales order processing is blocked for the customer in all sales areas.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SaleSalesAndDistributionBlocks/OrderBlockingReasonCode,BusinessPartner/MultipleAssignment/Customer/SaleSalesAndDistributionBlocks/OrderBlockingReasonCode
+BusinessPartner/Customer/SaleSalesAndDistributionBlocks/OrderBlockingReasonCode
 
 </td>
 <td valign="top">
@@ -6963,12 +6978,12 @@ BillingBlockingReasonCode
 </td>
 <td valign="top">
 
-Billing document type block \(for example, credit memos\)
+Billing document type block \(for example, credit memos\). Indicates if the processing of billing documents is blocked for the customer in all sales areas.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SaleSalesAndDistributionBlocks/BillingBlockingReasonCode,BusinessPartner/MultipleAssignment/Customer/SaleSalesAndDistributionBlocks/BillingBlockingReasonCode
+BusinessPartner/Customer/SaleSalesAndDistributionBlocks/BillingBlockingReasonCode
 
 </td>
 <td valign="top">
@@ -6995,12 +7010,12 @@ DeliveryBlockingReasonCode
 </td>
 <td valign="top">
 
-Indicator: Delivery note block
+Indicator: Delivery note block. Indicates if delivery processing is blocked for the customer in all sales areas.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SaleSalesAndDistributionBlocks/DeliveryBlockingReasonCode,BusinessPartner/MultipleAssignment/Customer/SaleSalesAndDistributionBlocks/DeliveryBlockingReasonCode
+BusinessPartner/Customer/SaleSalesAndDistributionBlocks/DeliveryBlockingReasonCode
 
 </td>
 <td valign="top">
@@ -7032,7 +7047,7 @@ Contact block \(Sales support\). Indicates if sales order processing is blocked 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SaleSalesAndDistributionBlocks/SalesSupportBlockedIndicator,BusinessPartner/MultipleAssignment/Customer/SaleSalesAndDistributionBlocks/SalesSupportBlockedIndicator
+BusinessPartner/Customer/SaleSalesAndDistributionBlocks/SalesSupportBlockedIndicator
 
 </td>
 <td valign="top">
@@ -7064,7 +7079,7 @@ Customer classification. Specifies a classification of the customer \(for exampl
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/MarketingAttributes/CustomerGroupCode,BusinessPartner/MultipleAssignment/Customer/MarketingAttributes/CustomerGroupCode
+BusinessPartner/Customer/MarketingAttributes/CustomerGroupCode
 
 </td>
 <td valign="top">
@@ -7096,7 +7111,7 @@ Nielsen ID. Specifies a regional division according to the market categories cre
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/MarketingAttributes/CustomerNielsenRegionCode,BusinessPartner/MultipleAssignment/Customer/MarketingAttributes/CustomerNielsenRegionCode
+BusinessPartner/Customer/MarketingAttributes/CustomerNielsenRegionCode
 
 </td>
 <td valign="top">
@@ -7123,12 +7138,12 @@ IndustrialSectorCode
 </td>
 <td valign="top">
 
- 
+Industry Code 1.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/IndustrySector/IndustrialSectorCode,BusinessPartner/MultipleAssignment/Customer/IndustrySector/IndustrialSectorCode
+BusinessPartner/Customer/IndustrySector/IndustrialSectorCode
 
 </td>
 <td valign="top">
@@ -7155,12 +7170,12 @@ FirstAdditionalIndustrialSectorCode
 </td>
 <td valign="top">
 
- 
+Industry Code 2.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/IndustrySector/FirstAdditionalIndustrialSectorCode,BusinessPartner/MultipleAssignment/Customer/IndustrySector/FirstAdditionalIndustrialSectorCode
+BusinessPartner/Customer/IndustrySector/FirstAdditionalIndustrialSectorCode
 
 </td>
 <td valign="top">
@@ -7187,12 +7202,12 @@ SecondAdditionalIndustrialSectorCode
 </td>
 <td valign="top">
 
- 
+Industry Code 3.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/IndustrySector/SecondAdditionalIndustrialSectorCode,BusinessPartner/MultipleAssignment/Customer/IndustrySector/SecondAdditionalIndustrialSectorCode
+BusinessPartner/Customer/IndustrySector/SecondAdditionalIndustrialSectorCode
 
 </td>
 <td valign="top">
@@ -7219,12 +7234,12 @@ ThirdAdditionalIndustrialSectorCode
 </td>
 <td valign="top">
 
- 
+Industry Code 4.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/IndustrySector/ThirdAdditionalIndustrialSectorCode,BusinessPartner/MultipleAssignment/Customer/IndustrySector/ThirdAdditionalIndustrialSectorCode
+BusinessPartner/Customer/IndustrySector/ThirdAdditionalIndustrialSectorCode
 
 </td>
 <td valign="top">
@@ -7251,12 +7266,12 @@ FourthAdditionalIndustrialSectorCode
 </td>
 <td valign="top">
 
- 
+Industry Code 5.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/IndustrySector/FourthAdditionalIndustrialSectorCode,BusinessPartner/MultipleAssignment/Customer/IndustrySector/FourthAdditionalIndustrialSectorCode
+BusinessPartner/Customer/IndustrySector/FourthAdditionalIndustrialSectorCode
 
 </td>
 <td valign="top">
@@ -7283,12 +7298,12 @@ EqualizationTaxRelevanceIndicator
 </td>
 <td valign="top">
 
- 
+Indicator to specify Business Partner Subject to Equalization Tax.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/EqualizationTaxRelevanceIndicator,BusinessPartner/MultipleAssignment/Customer/EqualizationTaxRelevanceIndicator
+BusinessPartner/Customer/EqualizationTaxRelevanceIndicator
 
 </td>
 <td valign="top">
@@ -7315,12 +7330,12 @@ AnnualSalesVolumeAmount
 </td>
 <td valign="top">
 
- 
+Indicator to specify Annual Sales.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/MarketingAttributes/AnnualSalesVolumeAmount,BusinessPartner/MultipleAssignment/Customer/MarketingAttributes/AnnualSalesVolumeAmount
+BusinessPartner/Customer/MarketingAttributes/AnnualSalesVolumeAmount
 
 </td>
 <td valign="top">
@@ -7347,12 +7362,12 @@ currencyCode
 </td>
 <td valign="top">
 
- 
+Indicator to specify Currency of sales figure.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/MarketingAttributes/AnnualSalesVolumeAmount/currencyCode,BusinessPartner/MultipleAssignment/Customer/MarketingAttributes/AnnualSalesVolumeAmount/currencyCode
+BusinessPartner/Customer/MarketingAttributes/AnnualSalesVolumeAmount/@currencyCode
 
 </td>
 <td valign="top">
@@ -7379,12 +7394,12 @@ AnnualSalesVolumeAmountReportedYear
 </td>
 <td valign="top">
 
- 
+Indicator to specify Year For Which Sales are given.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/MarketingAttributes/AnnualSalesVolumeAmountReportedYear,BusinessPartner/MultipleAssignment/Customer/MarketingAttributes/AnnualSalesVolumeAmountReportedYear
+BusinessPartner/Customer/MarketingAttributes/AnnualSalesVolumeAmountReportedYear
 
 </td>
 <td valign="top">
@@ -7411,12 +7426,12 @@ ValueAddedTaxRelevanceIndicator
 </td>
 <td valign="top">
 
- 
+Indicator to specify Business Partner Liable for VAT.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/ValueAddedTaxRelevanceIndicator,BusinessPartner/MultipleAssignment/Customer/ValueAddedTaxRelevanceIndicator
+BusinessPartner/Customer/ValueAddedTaxRelevanceIndicator
 
 </td>
 <td valign="top">
@@ -7438,49 +7453,17 @@ BusinessPartner/customerInformation
 </td>
 <td valign="top">
 
-NinthAdditionalCustomerExtensionCode
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-BusinessPartner/Customer/NinthAdditionalCustomerExtensionCode,BusinessPartner/MultipleAssignment/Customer/NinthAdditionalCustomerExtensionCode
-
-</td>
-<td valign="top">
-
-customerExtensionCode10
-
-</td>
-<td valign="top">
-
-BusinessPartner/customerInformation
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
 IndustryTypeName
 
 </td>
 <td valign="top">
 
- 
+Indicator to specify Industry Type.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/IndustryTypeName,BusinessPartner/MultipleAssignment/Customer/IndustryTypeName
+BusinessPartner/Customer/IndustryTypeName
 
 </td>
 <td valign="top">
@@ -7507,12 +7490,12 @@ TradingPartnerCompanyID
 </td>
 <td valign="top">
 
- 
+Company ID of Trading Partner.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/TradingPartnerCompanyID,BusinessPartner/MultipleAssignment/Customer/TradingPartnerCompanyID
+BusinessPartner/Customer/TradingPartnerCompanyID
 
 </td>
 <td valign="top">
@@ -7539,12 +7522,12 @@ CFOPCategoryCode
 </td>
 <td valign="top">
 
- 
+Indicator to specify CFOP category of Customer.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/CFOPCategoryCode,BusinessPartner/MultipleAssignment/Customer/CFOPCategoryCode
+BusinessPartner/Customer/CFOPCategoryCode
 
 </td>
 <td valign="top">
@@ -7571,12 +7554,12 @@ FiscalYearVariantCode
 </td>
 <td valign="top">
 
- 
+Fiscal Year Variant.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/MarketingAttributes/FiscalYearVariantCode,BusinessPartner/MultipleAssignment/Customer/MarketingAttributes/FiscalYearVariantCode
+BusinessPartner/Customer/MarketingAttributes/FiscalYearVariantCode
 
 </td>
 <td valign="top">
@@ -7603,12 +7586,12 @@ CustomerConditionGroupCode
 </td>
 <td valign="top">
 
- 
+Indicator to specify Customer condition group 1.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/PriceSpecifications/CustomerConditionGroupCode,BusinessPartner/MultipleAssignment/Customer/PriceSpecifications/CustomerConditionGroupCode
+BusinessPartner/Customer/PriceSpecifications/CustomerConditionGroupCode
 
 </td>
 <td valign="top">
@@ -7635,12 +7618,12 @@ FirstAdditionalCustomerConditionGroupCode
 </td>
 <td valign="top">
 
- 
+Indicator to specify Customer condition group 2.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/PriceSpecifications/FirstAdditionalCustomerConditionGroupCode,BusinessPartner/MultipleAssignment/Customer/PriceSpecifications/FirstAdditionalCustomerConditionGroupCode
+BusinessPartner/Customer/PriceSpecifications/FirstAdditionalCustomerConditionGroupCode
 
 </td>
 <td valign="top">
@@ -7667,12 +7650,12 @@ SecondAdditionalCustomerConditionGroupCode
 </td>
 <td valign="top">
 
- 
+Indicator to specify Customer condition group 3.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/PriceSpecifications/SecondAdditionalCustomerConditionGroupCode,BusinessPartner/MultipleAssignment/Customer/PriceSpecifications/SecondAdditionalCustomerConditionGroupCode
+BusinessPartner/Customer/PriceSpecifications/SecondAdditionalCustomerConditionGroupCode
 
 </td>
 <td valign="top">
@@ -7699,12 +7682,12 @@ ThirdAdditionalCustomerConditionGroupCode
 </td>
 <td valign="top">
 
- 
+Indicator to specify Customer condition group 4.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/PriceSpecifications/ThirdAdditionalCustomerConditionGroupCode,BusinessPartner/MultipleAssignment/Customer/PriceSpecifications/ThirdAdditionalCustomerConditionGroupCode
+BusinessPartner/Customer/PriceSpecifications/ThirdAdditionalCustomerConditionGroupCode
 
 </td>
 <td valign="top">
@@ -7731,12 +7714,12 @@ FourthAdditionalCustomerConditionGroupCode
 </td>
 <td valign="top">
 
- 
+Indicator to specify Customer condition group 5.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/PriceSpecifications/FourthAdditionalCustomerConditionGroupCode,BusinessPartner/MultipleAssignment/Customer/PriceSpecifications/FourthAdditionalCustomerConditionGroupCode
+BusinessPartner/Customer/PriceSpecifications/FourthAdditionalCustomerConditionGroupCode
 
 </td>
 <td valign="top">
@@ -7763,12 +7746,12 @@ CustomerPartyWithFiscalAddressInternalID
 </td>
 <td valign="top">
 
- 
+Indicator to specify Account number of the master record with the fiscal address.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/CustomerPartyWithFiscalAddressInternalID,BusinessPartner/MultipleAssignment/Customer/CustomerPartyWithFiscalAddressInternalID
+BusinessPartner/Customer/CustomerPartyWithFiscalAddressInternalID
 
 </td>
 <td valign="top">
@@ -7795,12 +7778,12 @@ ExpressTrainStationLocationName
 </td>
 <td valign="top">
 
- 
+Indicator to specify Express train station.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/ExpressTrainStationLocationName,BusinessPartner/MultipleAssignment/Customer/ExpressTrainStationLocationName
+BusinessPartner/Customer/ExpressTrainStationLocationName
 
 </td>
 <td valign="top">
@@ -7827,12 +7810,12 @@ DataMediumExchangeInstructionCode
 </td>
 <td valign="top">
 
- 
+Indicator to specify Instruction key for data medium exchange.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/DataMediumExchangeInstructionCode,BusinessPartner/MultipleAssignment/Customer/DataMediumExchangeInstructionCode
+BusinessPartner/Customer/DataMediumExchangeInstructionCode
 
 </td>
 <td valign="top">
@@ -7859,12 +7842,12 @@ AlternativePayeeAllowedIndicator
 </td>
 <td valign="top">
 
- 
+Indicator to specify is an alternative payer allowed in document.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/AlternativePayeeAllowedIndicator,BusinessPartner/MultipleAssignment/Customer/AlternativePayeeAllowedIndicator
+BusinessPartner/Customer/AlternativePayeeAllowedIndicator
 
 </td>
 <td valign="top">
@@ -7891,12 +7874,12 @@ CustomerExtensionCode
 </td>
 <td valign="top">
 
- 
+Indicator to specify Customer Extension Code 1.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/CustomerExtensionCode,BusinessPartner/MultipleAssignment/Customer/CustomerExtensionCode
+BusinessPartner/Customer/CustomerExtensionCode
 
 </td>
 <td valign="top">
@@ -7923,12 +7906,12 @@ FirstAdditionalCustomerExtensionCode
 </td>
 <td valign="top">
 
- 
+Indicator to specify Customer Extension Code 2.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/FirstAdditionalCustomerExtensionCode,BusinessPartner/MultipleAssignment/Customer/FirstAdditionalCustomerExtensionCode
+BusinessPartner/Customer/FirstAdditionalCustomerExtensionCode,
 
 </td>
 <td valign="top">
@@ -7955,12 +7938,12 @@ SecondAdditionalCustomerExtensionCode
 </td>
 <td valign="top">
 
- 
+Indicator to specify Customer Extension Code 3.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SecondAdditionalCustomerExtensionCode,BusinessPartner/MultipleAssignment/Customer/SecondAdditionalCustomerExtensionCode
+BusinessPartner/Customer/SecondAdditionalCustomerExtensionCode
 
 </td>
 <td valign="top">
@@ -7987,12 +7970,12 @@ ThirdAdditionalCustomerExtensionCode
 </td>
 <td valign="top">
 
- 
+Indicator to specify Customer Extension Code 4.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/ThirdAdditionalCustomerExtensionCode,BusinessPartner/MultipleAssignment/Customer/ThirdAdditionalCustomerExtensionCode
+BusinessPartner/Customer/ThirdAdditionalCustomerExtensionCode
 
 </td>
 <td valign="top">
@@ -8019,12 +8002,12 @@ FourthAdditionalCustomerExtensionCode
 </td>
 <td valign="top">
 
- 
+Indicator to specify Customer Extension Code 5.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/FourthAdditionalCustomerExtensionCode,BusinessPartner/MultipleAssignment/Customer/FourthAdditionalCustomerExtensionCode
+BusinessPartner/Customer/FourthAdditionalCustomerExtensionCode
 
 </td>
 <td valign="top">
@@ -8051,12 +8034,12 @@ FifthAdditionalCustomerExtensionCode
 </td>
 <td valign="top">
 
- 
+Indicator to specify Customer Extension Code 6.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/FifthAdditionalCustomerExtensionCode,BusinessPartner/MultipleAssignment/Customer/FifthAdditionalCustomerExtensionCode
+BusinessPartner/Customer/FifthAdditionalCustomerExtensionCode
 
 </td>
 <td valign="top">
@@ -8083,12 +8066,12 @@ SixthAdditionalCustomerExtensionCode
 </td>
 <td valign="top">
 
- 
+Indicator to specify Customer Extension Code 7.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SixthAdditionalCustomerExtensionCode,BusinessPartner/MultipleAssignment/Customer/SixthAdditionalCustomerExtensionCode
+BusinessPartner/Customer/SixthAdditionalCustomerExtensionCode
 
 </td>
 <td valign="top">
@@ -8115,12 +8098,12 @@ SeventhAdditionalCustomerExtensionCode
 </td>
 <td valign="top">
 
- 
+Indicator to specify Customer Extension Code 8.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SeventhAdditionalCustomerExtensionCode,BusinessPartner/MultipleAssignment/Customer/SeventhAdditionalCustomerExtensionCode
+BusinessPartner/Customer/SeventhAdditionalCustomerExtensionCode
 
 </td>
 <td valign="top">
@@ -8147,12 +8130,12 @@ EighthAdditionalCustomerExtensionCode
 </td>
 <td valign="top">
 
- 
+Indicator to specify Customer Extension Code 9.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/EighthAdditionalCustomerExtensionCode,BusinessPartner/MultipleAssignment/Customer/EighthAdditionalCustomerExtensionCode
+BusinessPartner/Customer/EighthAdditionalCustomerExtensionCode
 
 </td>
 <td valign="top">
@@ -8174,9 +8157,31 @@ BusinessPartner/customerInformation
 </td>
 <td valign="top">
 
-BusinessTypeName
+NinthAdditionalCustomerExtensionCode
 
 </td>
+<td valign="top">
+
+Indicator to specify Customer Extension Code 10.
+
+</td>
+<td valign="top">
+
+BusinessPartner/Customer/NinthAdditionalCustomerExtensionCode
+
+</td>
+<td valign="top">
+
+customerExtensionCode10
+
+</td>
+<td valign="top">
+
+BusinessPartner/customerInformation
+
+</td>
+</tr>
+<tr>
 <td valign="top">
 
  
@@ -8184,7 +8189,17 @@ BusinessTypeName
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/BusinessTypeName,BusinessPartner/MultipleAssignment/Customer/BusinessTypeName
+BusinessTypeName
+
+</td>
+<td valign="top">
+
+Indicator to specify Business Type.
+
+</td>
+<td valign="top">
+
+BusinessPartner/Customer/BusinessTypeName
 
 </td>
 <td valign="top">
@@ -8211,12 +8226,12 @@ RepresentativeName
 </td>
 <td valign="top">
 
- 
+Indicator to specify Representative Name.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/RepresentativeName,BusinessPartner/MultipleAssignment/Customer/RepresentativeName
+BusinessPartner/Customer/RepresentativeName
 
 </td>
 <td valign="top">
@@ -8243,12 +8258,12 @@ PostingBlockedIndicator
 </td>
 <td valign="top">
 
- 
+Central posting block.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/PostingBlockedIndicator,BusinessPartner/MultipleAssignment/Customer/PostingBlockedIndicator
+BusinessPartner/Customer/PostingBlockedIndicator
 
 </td>
 <td valign="top">
@@ -8275,12 +8290,12 @@ TransferLocationName
 </td>
 <td valign="top">
 
- 
+Additional information for the primary Incoterm.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SalesArrangement/DeliveryTerms/Incoterms/TransferLocationName,BusinessPartner/MultipleAssignment/Customer/SalesArrangement/DeliveryTerms/Incoterms/TransferLocationName
+BusinessPartner/Customer/SalesArrangement/DeliveryTerms/Incoterms/TransferLocationName
 
 </td>
 <td valign="top">
@@ -8307,12 +8322,12 @@ SalesOrderCompleteDeliveryIndicator
 </td>
 <td valign="top">
 
- 
+Indicates whether a sales order must be delivered completely in a single delivery or whether the order can be partially delivered and completed over a number of deliveries.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SalesArrangement/DeliveryTerms/SalesOrderCompleteDeliveryIndicator,BusinessPartner/MultipleAssignment/Customer/SalesArrangement/DeliveryTerms/SalesOrderCompleteDeliveryIndicator
+BusinessPartner/Customer/SalesArrangement/DeliveryTerms/SalesOrderCompleteDeliveryIndicator
 
 </td>
 <td valign="top">
@@ -8339,12 +8354,12 @@ PartialDeliveryControlCode
 </td>
 <td valign="top">
 
- 
+Specifies whether the customer requires full or partial delivery for the item.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SalesArrangement/PartialDeliveryControlCode,BusinessPartner/MultipleAssignment/Customer/SalesArrangement/PartialDeliveryControlCode
+BusinessPartner/Customer/SalesArrangement/DeliveryTerms/PartialDeliveryControlCode
 
 </td>
 <td valign="top">
@@ -8371,12 +8386,12 @@ ClassificationCode
 </td>
 <td valign="top">
 
- 
+Commonly used trading terms that comply with the standards established by the International Chamber of Commerce \(ICC\).
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SalesArrangement/DeliveryTerms/Incoterms/ClassificationCode,BusinessPartner/MultipleAssignment/Customer/SalesArrangement/DeliveryTerms/Incoterms/ClassificationCode
+BusinessPartner/Customer/SalesArrangement/DeliveryTerms/Incoterms/ClassificationCode
 
 </td>
 <td valign="top">
@@ -8408,7 +8423,7 @@ Customer order block \(sales area\). Indicates if further sales order processing
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SalesArrangement/OrderBlockingReasonCode,BusinessPartner/MultipleAssignment/Customer/SalesArrangement/OrderBlockingReasonCode
+BusinessPartner/Customer/SalesArrangement/OrderBlockingReasonCode
 
 </td>
 <td valign="top">
@@ -8440,7 +8455,7 @@ Customer group. Identifies a particular group of customers \(for example, wholes
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SalesArrangement/GroupCode,BusinessPartner/MultipleAssignment/Customer/SalesArrangement/GroupCode
+BusinessPartner/Customer/SalesArrangement/GroupCode
 
 </td>
 <td valign="top">
@@ -8467,12 +8482,12 @@ PriceGroupCode
 </td>
 <td valign="top">
 
-Price group \(customer\). A grouping of customers who share the same pricing requirements.You can define price groups according to the needs of your organization and create pricing records for each group. You can, for example, define a group of customers to whom you want to give the same kind of discount. You can assign a price group to an individual customer either in the customer master record or in the sales document.
+Price group \(customer\). A grouping of customers who share the same pricing requirements. You can define price groups according to the needs of your organization and create pricing records for each group. You can, for example, define a group of customers to whom you want to give the same kind of discount. You can assign a price group to an individual customer either in the customer master record or in the sales document.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SalesArrangement/PriceGroupCode,BusinessPartner/MultipleAssignment/Customer/SalesArrangement/PriceGroupCode
+BusinessPartner/Customer/SalesArrangement/PriceGroupCode
 
 </td>
 <td valign="top">
@@ -8504,7 +8519,7 @@ Customer delivery block \(sales area\). Indicates if further delivery processing
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SalesArrangement/DeliveryBlockingReasonCode,BusinessPartner/MultipleAssignment/Customer/SalesArrangement/DeliveryBlockingReasonCode
+BusinessPartner/Customer/SalesArrangement/DeliveryBlockingReasonCode
 
 </td>
 <td valign="top">
@@ -8536,7 +8551,7 @@ Billing block for customer \(sales and distribution\). Indicates if further bill
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SalesArrangement/BillingBlockingReasonCode,BusinessPartner/MultipleAssignment/Customer/SalesArrangement/BillingBlockingReasonCode
+BusinessPartner/Customer/SalesArrangement/BillingBlockingReasonCode
 
 </td>
 <td valign="top">
@@ -8568,7 +8583,7 @@ Currency. Customer's currency for a sales area. This currency will be used to se
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SalesArrangement/CurrencyCode,BusinessPartner/MultipleAssignment/Customer/SalesArrangement/CurrencyCode
+BusinessPartner/Customer/SalesArrangement/CurrencyCode
 
 </td>
 <td valign="top">
@@ -8600,7 +8615,7 @@ Sales group. A group of sales people who are responsible for processing sales of
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SalesArrangement/SalesGroupCode,BusinessPartner/MultipleAssignment/Customer/SalesArrangement/SalesGroupCode
+BusinessPartner/Customer/SalesArrangement/SalesGroupCode
 
 </td>
 <td valign="top">
@@ -8632,7 +8647,7 @@ Sales office. A physical location \(for example, a branch office\) that has resp
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SalesArrangement/SalesOfficeCode,BusinessPartner/MultipleAssignment/Customer/SalesArrangement/SalesOfficeCode
+BusinessPartner/Customer/SalesArrangement/SalesOfficeCode
 
 </td>
 <td valign="top">
@@ -8659,12 +8674,12 @@ SalesSupportBlockedIndicator
 </td>
 <td valign="top">
 
-Sales block for customer \(sales area\)
+Sales block for customer \(sales area\).
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SalesArrangement/SalesSupportBlockedIndicator,BusinessPartner/MultipleAssignment/Customer/SalesArrangement/SalesSupportBlockedIndicator
+BusinessPartner/Customer/SalesArrangement/SalesSupportBlockedIndicator
 
 </td>
 <td valign="top">
@@ -8675,102 +8690,6 @@ salesBlockForCustomer
 <td valign="top">
 
 BusinessPartner/customerInformation/salesArrangements
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**Sales Area Reference** 
-
-</td>
-<td valign="top">
-
-DivisionCode
-
-</td>
-<td valign="top">
-
-Division. A way of grouping materials, products, or services. The system uses divisions to determine the sales areas and the business areas for a material, product, or service.
-
-</td>
-<td valign="top">
-
-BusinessPartner/Customer/SalesArrangement/DivisionCode, BusinessPartner/MultipleAssignment/Customer/SalesArrangement/DivisionCode
-
-</td>
-<td valign="top">
-
-division
-
-</td>
-<td valign="top">
-
-BusinessPartner/customerInformation/salesAreaRef
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-SalesOrganisationID
-
-</td>
-<td valign="top">
-
-Sales Organization. An organizational unit responsible for the sale of certain products or services. The responsibility of a sales organization may include legal liability for products and customer claims.
-
-</td>
-<td valign="top">
-
-BusinessPartner/Customer/SalesArrangement/SalesOrganisationID, BusinessPartner/MultipleAssignment/Customer/SalesArrangement/SalesOrganisationID
-
-</td>
-<td valign="top">
-
-salesOrganizationDisplayId
-
-</td>
-<td valign="top">
-
-BusinessPartner/customerInformation/salesAreaRef
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-DistributionChannelCode
-
-</td>
-<td valign="top">
-
-Distribution Channel.The way in which products or services reach the customer. Typical examples of distribution channels are wholesale, retail, or direct sales.
-
-</td>
-<td valign="top">
-
-BusinessPartner/Customer/SalesArrangement/DistributionChannelCode, BusinessPartner/MultipleAssignment/Customer/SalesArrangement/DistributionChannelCode
-
-</td>
-<td valign="top">
-
-distributionChannel
-
-</td>
-<td valign="top">
-
-BusinessPartner/customerInformation/salesAreaRef
 
 </td>
 </tr>
@@ -8802,7 +8721,103 @@ paymentTermCode
 </td>
 <td valign="top">
 
-customerInformation/salesArrangements/paymentTermCode
+BusinessPartner/customerInformation/salesArrangements
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Sales Area Reference** 
+
+</td>
+<td valign="top">
+
+DivisionCode
+
+</td>
+<td valign="top">
+
+Division. A way of grouping materials, products, or services. The system uses divisions to determine the sales areas and the business areas for a material, product, or service.
+
+</td>
+<td valign="top">
+
+BusinessPartner/Customer/SalesArrangement/DivisionCode
+
+</td>
+<td valign="top">
+
+division
+
+</td>
+<td valign="top">
+
+BusinessPartner/customerInformation/salesArrangements/salesAreaRef
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+SalesOrganisationID
+
+</td>
+<td valign="top">
+
+Sales Organization. An organizational unit responsible for the sale of certain products or services. The responsibility of a sales organization may include legal liability for products and customer claims.
+
+</td>
+<td valign="top">
+
+BusinessPartner/Customer/SalesArrangement/SalesOrganisationID
+
+</td>
+<td valign="top">
+
+salesOrganizationDisplayId
+
+</td>
+<td valign="top">
+
+BusinessPartner/customerInformation/salesArrangements/salesAreaRef
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+DistributionChannelCode
+
+</td>
+<td valign="top">
+
+Distribution Channel.The way in which products or services reach the customer. Typical examples of distribution channels are wholesale, retail, or direct sales.
+
+</td>
+<td valign="top">
+
+BusinessPartner/Customer/SalesArrangement/DistributionChannelCode
+
+</td>
+<td valign="top">
+
+distributionChannel
+
+</td>
+<td valign="top">
+
+BusinessPartner/customerInformation/salesArrangements/salesAreaRef
 
 </td>
 </tr>
@@ -8819,12 +8834,12 @@ PartyRoleCode
 </td>
 <td valign="top">
 
-Partner Function. The abbreviated form of the name that identifies the partner function. The same are determined based on the Customer / Supplier Account Group. Also, if the outbound is SenderHANA, the same will be filled and sent. If some third party is having their specific outbound implementation, they should fill it and dexplcitly send it.
+Partner Function. The abbreviated form of the name that identifies the partner function. The same is determined based on the Customer / Supplier Account Group. Also, if the outbound is SenderHANA, the same will be filled and sent. If some third party is having their specific outbound implementation, they should fill it and explicitly send it.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SalesArrangement/PartnerFunctions/PartyRoleCode, BusinessPartner/MultipleAssignment/Customer/SalesArrangement/PartnerFunctions/PartyRoleCode
+BusinessPartner/Customer/SalesArrangement/PartnerFunctions/PartyRoleCode
 
 </td>
 <td valign="top">
@@ -8834,7 +8849,7 @@ functionCode
 </td>
 <td valign="top">
 
-BusinessPartner/customerInformation/functions
+BusinessPartner/customerInformation/salesArrangements/functions
 
 </td>
 </tr>
@@ -8851,12 +8866,12 @@ PartyInternalID
 </td>
 <td valign="top">
 
-Reference to other customer
+Identifier of the corresponding partner based on PartnerType.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SalesArrangement/PartnerFunctions/PartyInternalID,BusinessPartner/MultipleAssignment/Customer/SalesArrangement/PartnerFunctions/PartyInternalID
+BusinessPartner/Customer/SalesArrangement/PartnerFunctions/PartyInternalID
 
 </td>
 <td valign="top">
@@ -8866,7 +8881,7 @@ partnerNumber
 </td>
 <td valign="top">
 
-BusinessPartner/customerInformation/functions
+BusinessPartner/customerInformation/salesArrangements/functions
 
 </td>
 </tr>
@@ -8883,12 +8898,12 @@ PartnerType
 </td>
 <td valign="top">
 
- 
+Type of partner for Ex: Customer, Supplier or Personnel.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SalesArrangement/PartnerFunctions/PartnerType, BusinessPartner/MultipleAssignment/Customer/SalesArrangement/PartnerFunctions/PartnerType
+BusinessPartner/Customer/SalesArrangement/PartnerFunctions/PartnerType
 
 </td>
 <td valign="top">
@@ -8898,7 +8913,7 @@ functionPartnerType
 </td>
 <td valign="top">
 
-BusinessPartner/customerInformation/functions
+BusinessPartner/customerInformation/salesArrangements/functions
 
 </td>
 </tr>
@@ -8915,12 +8930,12 @@ DefaultIndicator
 </td>
 <td valign="top">
 
-Default Partner. Specifies a partner as the default for a particular partner function.When you enter more than one partner for a particular partner function \(for example, you define three different ship-to parties\), you can select one partner as the default. During sales or purchasing processing, if you have defined multiple partners for a partner function, the system prompts you to choose just one partner. The system presents the default partner as the first choice in the pop-up window.
+Default Partner. Specifies a partner as the default for a particular partner function. When you enter more than one partner for a particular partner function \(for example, you define three different ship-to parties\), you can select one partner as the default. During sales or purchasing processing, if you have defined multiple partners for a partner function, the system prompts you to choose just one partner. The system presents the default partner as the first choice in the pop-up window.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SalesArrangement/PartnerFunctions/DefaultIndicator,BusinessPartner/MultipleAssignment/Customer/SalesArrangement/PartnerFunctions/DefaultIndicator
+BusinessPartner/Customer/SalesArrangement/PartnerFunctions/DefaultIndicator
 
 </td>
 <td valign="top">
@@ -8930,7 +8945,7 @@ isDefault
 </td>
 <td valign="top">
 
-BusinessPartner/customerInformation/functions
+BusinessPartner/customerInformation/salesArrangements/functions
 
 </td>
 </tr>
@@ -8947,12 +8962,12 @@ PartnerDescription
 </td>
 <td valign="top">
 
-Customer description of partner \(plant, storage location\). Sold-to party number sent in by the customer in delivery schedules.
+Customer description of partner \(plant, storage location\).
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/SalesArrangement/PartnerFunctions/PartnerDescription,BusinessPartner/MultipleAssignment/Customer/SalesArrangement/PartnerFunctions/PartnerDescription
+BusinessPartner/Customer/SalesArrangement/PartnerFunctions/PartnerDescription
 
 </td>
 <td valign="top">
@@ -8962,7 +8977,7 @@ partnerDescription
 </td>
 <td valign="top">
 
-BusinessPartner/customerInformation/functions
+BusinessPartner/customerInformation/salesArrangements/functions
 
 </td>
 </tr>
@@ -8979,12 +8994,12 @@ TaxCountryCode
 </td>
 <td valign="top">
 
-Departure country \(country from which the goods are sent\). Identifies the country in which the delivery originates.You can define the country key in a table. As a rule, it is a good idea to use the existing international standards for identifying vehicles from different countries \(for example: USA = United States, I = Italy, and so on\). The system uses the key to \(1\) help determine the relevant taxes during pricing, \(2\) determine important country-specific standards \(the length of postal codes and bank account numbers, for example\)
+Departure country \(country from which the goods are sent\). Identifies the country in which the delivery originates. You can define the country key in a table. As a rule, it is a good idea to use the existing international standards for identifying vehicles from different countries \(for example: USA = United States, I = Italy, and so on\). The system uses the key to \(1\) help determine the relevant taxes during pricing, \(2\) determine important country-specific standards \(the length of postal codes and bank account numbers, for example\).
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/TaxClassification/TaxCountryCode, BusinessPartner/MultipleAssignment/Customer/TaxClassification/TaxCountryCode
+BusinessPartner/Customer/TaxClassification/TaxCountryCode
 
 </td>
 <td valign="top">
@@ -9011,12 +9026,12 @@ TaxTypeCode
 </td>
 <td valign="top">
 
-Tax category \(sales tax, federal sales tax,...\). Identifies the condition that the system uses to automatically determine country-specific taxes during pricing.You can define one or more tax categories for each country. During sales order processing, the system applies the tax category according to \(1\) the geographical location of your delivering plant and the location of the customer receiving the goods. \(2\) tax classifications in the customer master record and the material master record.
+Tax category \(sales tax, federal sales tax,...\). Identifies the condition that the system uses to automatically determine country-specific taxes during pricing. You can define one or more tax categories for each country. During sales order processing, the system applies the tax category according to \(1\) the geographical location of your delivering plant and the location of the customer receiving the goods. \(2\) tax classifications in the customer master record and the material master record.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/TaxClassification/TaxTypeCode, BusinessPartner/MultipleAssignment/Customer/TaxClassification/TaxTypeCode
+BusinessPartner/Customer/TaxClassification/TaxTypeCode
 
 </td>
 <td valign="top">
@@ -9043,12 +9058,12 @@ TaxGroupCode
 </td>
 <td valign="top">
 
- 
+Specifies the tax liability of the customer, based on the tax structure of the customers' country.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Customer/TaxClassification/TaxGroupCode, BusinessPartner/MultipleAssignment/Customer/TaxClassification/TaxGroupCode
+BusinessPartner/Customer/TaxClassification/TaxGroupCode
 
 </td>
 <td valign="top">
@@ -9130,7 +9145,7 @@ Fiscal Type. Classification of companies according to tax aspects.
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/TaxGroupCode,BusinessPartner/MultipleAssignment/Supplier/TaxGroupCode
+BusinessPartner/Supplier/TaxGroupCode
 
 </td>
 <td valign="top">
@@ -9157,12 +9172,12 @@ PostingBlockedIndicator
 </td>
 <td valign="top">
 
-Yes/No field / Central posting block. Indicates that the account is blocked for posting for all company codes.
+Yes/No field/Central posting block. Indicates that the account is blocked for posting for all company codes.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/PostingBlockedIndicator,BusinessPartner/MultipleAssignment/Supplier/PostingBlockedIndicator
+BusinessPartner/Supplier/PostingBlockedIndicator
 
 </td>
 <td valign="top">
@@ -9189,12 +9204,12 @@ PurchasingBlockedIndicator
 </td>
 <td valign="top">
 
-Yes/No field / Centrally imposed purchasing block. Indicates whether or not the supplier master record is blocked for all departments \(that is, whether or not posting to this record is allowed at all\).
+Yes/No field / Centrally imposed purchasing block.Indicates whether or not the supplier master record is blocked for all departments \(that is, whether or not posting to this record is allowed at all\).
 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/PurchasingTerms/PurchasingBlockedIndicator,BusinessPartner/MultipleAssignment/Supplier/PurchasingTerms/PurchasingBlockedIndicator
+BusinessPartner/Supplier/PurchasingTerms/PurchasingBlockedIndicator
 
 </td>
 <td valign="top">
@@ -9226,7 +9241,7 @@ Yes/No field / Liable for VAT. Determines whether the company is liable to value
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/ValueAddedTaxRelevanceIndicator,BusinessPartner/MultipleAssignment/Supplier/ValueAddedTaxRelevanceIndicator
+BusinessPartner/Supplier/ValueAddedTaxRelevanceIndicator
 
 </td>
 <td valign="top">
@@ -9253,12 +9268,12 @@ DeletedIndicator
 </td>
 <td valign="top">
 
-Yes/No field / Central Deletion Flag for Master Record. Indicates that all data in this master record is to be deleted. To delete this data, you have to run the archiving program for Accounts Receivable or Payable. This program will archive all master records marked for deletion provided that there is no dependent data in them.
+Yes/No field / Central Deletion Flag for Master Record. Indicates that all data in this master record is to be deleted.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/DeletedIndicator,BusinessPartner/MultipleAssignment/Supplier/DeletedIndicator
+BusinessPartner/Supplier/DeletedIndicator
 
 </td>
 <td valign="top">
@@ -9285,7 +9300,7 @@ RelatedCustomerInternalID
 </td>
 <td valign="top">
 
-The customer or debtor in the SAP system, represented as legacy ID.
+Gives an alphanumeric key, which clearly identifies the customer or supplier in the SAP system.
 
 </td>
 <td valign="top">
@@ -9300,7 +9315,7 @@ customerId
 </td>
 <td valign="top">
 
-supplierInformation/customerId
+BusinessPartner/supplierInformation
 
 </td>
 </tr>
@@ -9332,7 +9347,7 @@ alternativePayees
 </td>
 <td valign="top">
 
-supplierInformation/alternativePayees
+BusinessPartner/supplierInformation/alternativePayees
 
 </td>
 </tr>
@@ -9349,12 +9364,12 @@ TransferLocationName
 </td>
 <td valign="top">
 
- 
+Additional information for the primary Incoterm.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/ProcurementArrangement/PurchasingTerms/Incoterms/TransferLocationName,BusinessPartner/MultipleAssignment/Supplier/ProcurementArrangement/PurchasingTerms/Incoterms/TransferLocationName
+BusinessPartner/Supplier/ProcurementArrangement/PurchasingTerms/Incoterms/TransferLocationName
 
 </td>
 <td valign="top">
@@ -9381,12 +9396,12 @@ DeletedIndicator
 </td>
 <td valign="top">
 
-Yes/No field / Central Deletion Flag for Master Record. Indicates that all data in this master record is to be deleted.To delete this data, you have to run the archiving program for Accounts Receivable or Payable. This program will archive all master records marked for deletion provided that there is no dependent data in them.
+Yes/No field / Central Deletion Flag for Master Record. Indicates whether or not the supplier master record is marked for deletion.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/ProcurementArrangement/DeletedIndicator,BusinessPartner/MultipleAssignment/Supplier/ProcurementArrangement/DeletedIndicator
+BusinessPartner/Supplier/ProcurementArrangement/DeletedIndicator
 
 </td>
 <td valign="top">
@@ -9413,12 +9428,12 @@ PurchasingBlockedIndicator
 </td>
 <td valign="top">
 
-Yes/No field / Centrally imposed purchasing block. Indicates whether or not the supplier master record is blocked for all departments \(that is, whether or not posting to this record is allowed at all\).
+Yes/No field/Centrally imposed purchasing block. Indicates whether or not the supplier master record is blocked for the purchasing organization for posting purposes.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/ProcurementArrangement/PurchasingTerms/PurchasingBlockedIndicator,BusinessPartner/MultipleAssignment/Supplier/ProcurementArrangement/PurchasingTerms/PurchasingBlockedIndicator
+BusinessPartner/Supplier/ProcurementArrangement/PurchasingTerms/PurchasingBlockedIndicator
 
 </td>
 <td valign="top">
@@ -9445,12 +9460,12 @@ ClassificationCode
 </td>
 <td valign="top">
 
- 
+Commonly used trading terms that comply with the standards established by the International Chamber of Commerce \(ICC\).
 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/ProcurementArrangement/PurchasingTerms/Incoterms/ClassificationCode,BusinessPartner/MultipleAssignment/Supplier/ProcurementArrangement/PurchasingTerms/Incoterms/ClassificationCode
+BusinessPartner/Supplier/ProcurementArrangement/PurchasingTerms/Incoterms/ClassificationCode
 
 </td>
 <td valign="top">
@@ -9477,12 +9492,12 @@ PurchaseOrderCurrencyCode
 </td>
 <td valign="top">
 
-Purchase order currency: Key for the currency on which an order placed with a supplier is based
+Purchase order currency: Key for the currency on which an order placed with a supplier is based.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/ProcurementArrangement/PurchasingTerms/PurchaseOrderCurrencyCode,BusinessPartner/MultipleAssignment/Supplier/ProcurementArrangement/PurchasingTerms/PurchaseOrderCurrencyCode
+BusinessPartner/Supplier/ProcurementArrangement/PurchasingTerms/PurchaseOrderCurrencyCode
 
 </td>
 <td valign="top">
@@ -9509,12 +9524,12 @@ SupplierABCClassificationCode
 </td>
 <td valign="top">
 
-ABC indicator: Means of classifying suppliers according to their significance to your company
+ABC indicator: Means of classifying suppliers according to their significance to your company.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/ProcurementArrangement/SupplierABCClassificationCode,BusinessPartner/MultipleAssignment/Supplier/ProcurementArrangement/SupplierABCClassificationCode
+BusinessPartner/Supplier/ProcurementArrangement/SupplierABCClassificationCode
 
 </td>
 <td valign="top">
@@ -9541,12 +9556,12 @@ PriceSpecificationSupplierGroupCode
 </td>
 <td valign="top">
 
-Group for Calculation Schema \(Supplier\):Determines which calculation schema \(pricing procedure\) is to be used in purchasing documents containing this supplier number
+Group for Calculation Schema \(Supplier\): Determines which calculation schema \(pricing procedure\) is to be used in purchasing documents containing this supplier number.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/ProcurementArrangement/PurchasingTerms/PriceSpecificationSupplierGroupCode,BusinessPartner/MultipleAssignment/Supplier/ProcurementArrangement/PurchasingTerms/PriceSpecificationSupplierGroupCode
+BusinessPartner/Supplier/ProcurementArrangement/PurchasingTerms/PriceSpecificationSupplierGroupCode
 
 </td>
 <td valign="top">
@@ -9573,12 +9588,12 @@ PurchasingOrganisationID
 </td>
 <td valign="top">
 
-Purchasing Organisation ID in Sender System
+Denotes the purchasing organization.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/ProcurementArrangement/PurchasingOrganisationID, BusinessPartner/MultipleAssignment/Supplier/ProcurementArrangement/PurchasingOrganisationID
+BusinessPartner/Supplier/ProcurementArrangement/PurchasingOrganisationID
 
 </td>
 <td valign="top">
@@ -9605,12 +9620,12 @@ PurchasingGroupID
 </td>
 <td valign="top">
 
-Purchasing Group: Key for a buyer or a group of buyers, who is/are responsible for certain purchasing activities
+Purchasing Group: Key for a buyer or a group of buyers, who are responsible for certain purchasing activities.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/ProcurementArrangement/PurchasingGroupID,BusinessPartner/MultipleAssignment/Supplier/ProcurementArrangement/PurchasingGroupID
+BusinessPartner/Supplier/ProcurementArrangement/PurchasingGroupID
 
 </td>
 <td valign="top">
@@ -9637,12 +9652,12 @@ AutomaticPurchaseOrderGenerationAllowedIndicator
 </td>
 <td valign="top">
 
-Automatic Generation of Purchase Order Allowed
+Automatic Generation of Purchase Order Allowed.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/ProcurementArrangement/PurchasingTerms/AutomaticPurchaseOrderGenerationAllowedIndicator,BusinessPartner/MultipleAssignment/Supplier/ProcurementArrangement/PurchasingTerms/AutomaticPurchaseOrderGenerationAllowedIndicator
+BusinessPartner/Supplier/ProcurementArrangement/PurchasingTerms/AutomaticPurchaseOrderGenerationAllowedIndicator
 
 </td>
 <td valign="top">
@@ -9684,7 +9699,7 @@ paymentTermCode
 </td>
 <td valign="top">
 
-supplierInformation/purchasingArrangements/paymentTermCode
+BusinessPartner/supplierInformation/purchasingArrangements
 
 </td>
 </tr>
@@ -9701,12 +9716,12 @@ PaymentBlockCode
 </td>
 <td valign="top">
 
-**Automatic Payment Transactions** **In the document** **Manual Payment** **Release for Payment** Block key for payment. Block key \(enqueue key\) that is used to block an open item or an account to payment transactions.You can use the block key as described below.•In automatic payment transactions, the block takes effect when it is entered in the system as follows:◦In the master record ◦If you enter the block in the master record then all open items for this account are contained in the exception list.The following block keys have a special meaning in the master record: ◦The block key \* has the effect that all items of the account are skipped in automatic payment transactions. ◦The block key + has the effect that all items are skipped in which a payment method was not entered explicitly. ◦The block key A is always set automatically when a down payment is entered. Therefore, you must not delete the block key A or use it for other purposes. Whether a block key can be set or removed in payment proposal processing depends on the attribute Changeable in payment proposal of the block key. •s ◦ Manual payments are only affected by a block key in the document if you set the attribute Blocked for manual payments in the block key. ◦ A block key that was set in the master record does not have any effect on manual payments. You can have the system issue a warning message in that case. To do so, you have to make system settings. Set up message 671 of work area F5 in message control accordingly.•If you want to use a block key for payment release in accounting, then you have to set the attribute Not Changeable for the block key.
+Block key for payment. Block key \(enqueue key\) that is used to block an open item or an account to payment transactions. You can use the block key as described below. • **Automatic Payment Transactions** In automatic payment transactions, the block takes effect when it is entered in the system as follows:◦In the master record. ◦ **In the document** If you enter the block in the master record then all open items for this account are contained in the exception list.The following block keys have a special meaning in the master record: ◦The block key \* has the effect that all items of the account are skipped in automatic payment transactions. ◦The block key + has the effect that all items are skipped in which a payment method was not entered explicitly. ◦The block key A is always set automatically when a down payment is entered. Therefore, you must not delete the block key A or use it for other purposes. Whether a block key can be set or removed in payment proposal processing depends on the attribute Changeable in payment proposal of the block key. • **Manual Payments** ◦ Manual payments are only affected by a block key in the document if you set the attribute Blocked for manual payments in the block key. ◦ A block key that was set in the master record does not have any effect on manual payments. You can have the system issue a warning message in that case. To do so, you have to make system settings. Set up message 671 of work area F5 in message control accordingly.• **Release for Payment** If you want to use a block key for payment release in accounting, then you have to set the attribute Not Changeable for the block key.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/PaymentBlockCode,BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/PaymentBlockCode
+BusinessPartner/Supplier/AccountingInformation/PaymentBlockCode
 
 </td>
 <td valign="top">
@@ -9738,7 +9753,7 @@ Selection key for allocation number layout. Indicates the layout rule for the Al
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/SortCode,BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/SortCode
+BusinessPartner/Supplier/AccountingInformation/SortCode
 
 </td>
 <td valign="top">
@@ -9770,7 +9785,7 @@ Cash management and forecast group \(risk group\).Planning group. In cash manage
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/PlanningGroupCode,BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/PlanningGroupCode
+BusinessPartner/Supplier/AccountingInformation/PlanningGroupCode
 
 </td>
 <td valign="top">
@@ -9797,12 +9812,12 @@ MinorityIndicatorsCode
 </td>
 <td valign="top">
 
-Minority indicators
+Minority indicators.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/MinorityIndicatorsCode,BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/MinorityIndicatorsCode
+BusinessPartner/Supplier/AccountingInformation/MinorityIndicatorsCode
 
 </td>
 <td valign="top">
@@ -9834,7 +9849,7 @@ Deletion Indicator for Supplier at Purchasing Level. Indicates that the company 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/DeletedIndicator,BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/DeletedIndicator
+BusinessPartner/Supplier/AccountingInformation/DeletedIndicator
 
 </td>
 <td valign="top">
@@ -9866,7 +9881,7 @@ Yes/No field / Posting block for company code. Indicates that the account is blo
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/BlockedIndicator,BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/BlockedIndicator
+BusinessPartner/Supplier/AccountingInformation/BlockedIndicator
 
 </td>
 <td valign="top">
@@ -9898,7 +9913,7 @@ Short key for a house bank. All bank data is determined using this key.
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/HouseBankInternalID,BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/HouseBankInternalID
+BusinessPartner/Supplier/AccountingInformation/HouseBankInternalID
 
 </td>
 <td valign="top">
@@ -9925,12 +9940,12 @@ CompanyID
 </td>
 <td valign="top">
 
-Company Code. The company code is an organizational unit within financial accounting
+Company Code. The company code is an organizational unit within financial accounting.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/CompanyID, BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/CompanyID
+BusinessPartner/Supplier/AccountingInformation/CompanyID
 
 </td>
 <td valign="top">
@@ -9957,12 +9972,12 @@ GeneralLedgerAccountReference
 </td>
 <td valign="top">
 
-G/L account number. The reconciliation account in G/L accounting is the account which is updated parallel to the subledger account for normal postings \(for example, invoice or payment\). For special postings \(for example, down payment or bill of exchange\), this account is replaced by another account \(for example, 'down payments received' instead of 'receivables'\). The replacement takes place due to the special G/L indicator which you must specify for these types of postings
+G/L account number. The reconciliation account in G/L accounting is the account which is updated parallel to the subledger account for normal postings \(for example, invoice or payment\). For special postings \(for example, down payment or bill of exchange\), this account is replaced by another account \(for example, 'down payments received' instead of 'receivables'\). The replacement takes place due to the special G/L indicator which you must specify for these types of postings.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/GeneralLedgerAccountReference/ID,BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/GeneralLedgerAccountReference/ID
+BusinessPartner/Supplier/AccountingInformation/GeneralLedgerAccountReference/ID
 
 </td>
 <td valign="top">
@@ -9989,12 +10004,12 @@ DoubleEntriesCheckIndicator
 </td>
 <td valign="top">
 
-Yes/No field. When incoming invoices are entered or when memos are entered in Financial Accounting \(FI\), the system checks whether an invoice or credit memo has already been entered for the same date
+Yes/No field. When incoming invoices are entered or when memos are entered in Financial Accounting \(FI\), the system checks whether an invoice or credit memo has already been entered for the same date.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/DoubleEntriesCheckIndicator,BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/DoubleEntriesCheckIndicator
+BusinessPartner/Supplier/AccountingInformation/DoubleEntriesCheckIndicator
 
 </td>
 <td valign="top">
@@ -10021,12 +10036,12 @@ EmployeeResponsiblePartyWebAddress
 </td>
 <td valign="top">
 
-Correspondence / Internet address of partner company clerk
+Correspondence / Internet address of partner company clerk.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/EmployeeResponsiblePartyWebAddress,BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/EmployeeResponsiblePartyWebAddress
+BusinessPartner/Supplier/AccountingInformation/EmployeeResponsiblePartyWebAddress
 
 </td>
 <td valign="top">
@@ -10058,7 +10073,7 @@ Terms of Payment Key: Key for defining payment terms composed of cash discount p
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/CashDiscountTermsCode,BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/CashDiscountTermsCode
+BusinessPartner/Supplier/AccountingInformation/CashDiscountTermsCode
 
 </td>
 <td valign="top">
@@ -10090,7 +10105,7 @@ The name of the accounting clerk defined by this identification code can be used
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/AccountingClerkInitialsCode, BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/AccountingClerkInitialsCode
+BusinessPartner/Supplier/AccountingInformation/AccountingClerkInitialsCode
 
 </td>
 <td valign="top">
@@ -10122,7 +10137,7 @@ The account number of the supplier with whom automatic payment transactions are 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/AlternativePayeePartyInternalID, BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/AlternativePayeePartyInternalID
+BusinessPartner/Supplier/AccountingInformation/AlternativePayeePartyInternalID
 
 </td>
 <td valign="top">
@@ -10154,7 +10169,7 @@ The type of recipient can be defined in the vendor master record.
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/WithholdingTax/VendorRecipientTypeCode,BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/WithholdingTax/VendorRecipientTypeCode
+BusinessPartner/Supplier/AccountingInformation/WithholdingTax/VendorRecipientTypeCode
 
 </td>
 <td valign="top">
@@ -10181,12 +10196,12 @@ WithholdingTaxExemptionCertificateID
 </td>
 <td valign="top">
 
-Exemption Certificate Number: Numbered assigned by the relevant authorities for exemption from withholding tax
+Exemption Certificate Number: Numbered assigned by the relevant authorities for exemption from withholding tax.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxExemptionCertificateID,BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxExemptionCertificateID
+BusinessPartner/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxExemptionCertificateID
 
 </td>
 <td valign="top">
@@ -10218,7 +10233,7 @@ Withholding Tax Code: One or more "withholding tax codes" are assigned to each w
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxCode, BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxCode
+BusinessPartner/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxCode
 
 </td>
 <td valign="top">
@@ -10245,12 +10260,12 @@ WithholdingTaxTypeCode
 </td>
 <td valign="top">
 
-Indicator for Withholding Tax Type: This indicator is used to classify the different types of withholding tax
+Indicator for Withholding Tax Type: This indicator is used to classify the different types of withholding tax.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxTypeCode,BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxTypeCode
+BusinessPartner/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxTypeCode
 
 </td>
 <td valign="top">
@@ -10282,7 +10297,7 @@ Reason for Exemption: Indicator used to classify different types of exemption fr
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxExemptionReasonCode,BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxExemptionReasonCode
+BusinessPartner/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxExemptionReasonCode
 
 </td>
 <td valign="top">
@@ -10309,12 +10324,12 @@ WithholdingTaxExemptionCertificateID
 </td>
 <td valign="top">
 
-Exemption Certificate Number: Numbered assigned by the relevant authorities for exemption from withholding tax
+Exemption Certificate Number: Numbered assigned by the relevant authorities for exemption from withholding tax.
 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxExemptionCertificateID,BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxExemptionCertificateID
+BusinessPartner/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxExemptionCertificateID
 
 </td>
 <td valign="top">
@@ -10346,7 +10361,7 @@ Exemption Rate: Rate of exemption from withholding tax.Those persons/activities 
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxExemptionRate,BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxExemptionRate
+BusinessPartner/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxExemptionRate
 
 </td>
 <td valign="top">
@@ -10378,7 +10393,7 @@ Date from which withholding tax exemption applies.
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxExemptionValidityPeriod/StartDate,BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxExemptionValidityPeriod/StartDate
+BusinessPartner/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxExemptionValidityPeriod/StartDate
 
 </td>
 <td valign="top">
@@ -10410,7 +10425,7 @@ Date on which withholding tax exemption expires.
 </td>
 <td valign="top">
 
-BusinessPartner/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxExemptionValidityPeriod/EndDate,BusinessPartner/MultipleAssignment/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxExemptionValidityPeriod/EndDate
+BusinessPartner/Supplier/AccountingInformation/WithholdingTax/WithholdingTaxExemptionValidityPeriod/EndDate
 
 </td>
 <td valign="top">
@@ -10421,171 +10436,6 @@ validTo
 <td valign="top">
 
 BusinessPartner/supplierInformation/exemption
-
-</td>
-</tr>
-</table>
-
-
-
-<a name="loio8a9a1305ac764111b648e3303f24c784__businesspartnersuitebulkreplicaterequest---multiple-assignment"/>
-
-## BusinessPartnerSUITEBulkReplicateRequest - Multiple Assignment
-
-This service node contains the following parameters:
-
-
-<table>
-<tr>
-<th valign="top">
-
-SOAP Field Name
-
-</th>
-<th valign="top">
-
-Description
-
-</th>
-<th valign="top">
-
-Necessity
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-AssignmentCategoryCode
-
-</td>
-<td valign="top">
-
-Specifies the business object types you assign to your business partners.
-
-</td>
-<td valign="top">
-
-Optional
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Object ID
-
-</td>
-<td valign="top">
-
-Specifies an ID as a supplier ID, a customer ID or as a customer-specific ID - depending on the assignment category.
-
-</td>
-<td valign="top">
-
-Optional
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-AssignmentReasonCode
-
-</td>
-<td valign="top">
-
-Specifies the reason why a supplier or a customer is assigned to a business partner.
-
-</td>
-<td valign="top">
-
-Optional
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-DefaultIndicator
-
-</td>
-<td valign="top">
-
-Indicator: Multiple assignment
-
-</td>
-<td valign="top">
-
-Optional
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-AddressReceiverUUID
-
-</td>
-<td valign="top">
-
-AddressUUID in Receiver system
-
-</td>
-<td valign="top">
-
-Optional
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-AddressUUID
-
-</td>
-<td valign="top">
-
-Address UUID in Sender Business System
-
-</td>
-<td valign="top">
-
-Optional
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Customer
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-Optional
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Supplier
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-Optional
 
 </td>
 </tr>

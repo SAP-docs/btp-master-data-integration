@@ -6,5 +6,5 @@ SAP Master Data Integration is remote consumable. Applications \(for example, SA
 
 However, for applications that only integrate via subscriptions with SAP Master Data Integration, both the application and the SAP Master Data Integration tenant have to be in the same SAP Business Technology Platform subaccount, and also in the same data center. For more details, consult the respective application-specific documentation.
 
-For the list of available regions, refer to [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/master-data-integration?region=all) .
+For the list of available regions, refer to [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/master-data-integration?region=all).
 

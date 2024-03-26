@@ -6,7 +6,7 @@
 
 
 
-**2022 and 2023**
+**2022 - 2024**
 
 
 <table>
@@ -71,6 +71,198 @@ Latest Revision
 Available as of
 
 </th>
+</tr>
+<tr>
+<td valign="top">
+
+Business Data Orchestration 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Create a Destination with Client Certificate Authentication
+
+</td>
+<td valign="top">
+
+You can use client certificate authentication to establish an HTTP connection between your Business Data Orchestration application running on an SAP BTP, ABAP environmentt and an SAP Destination service configured for "ClientCertificateAuthentication". See [Create a Destination with Client Certificate Authentication](https://help.sap.com/docs/master-data-integration/sap-master-data-orchestration-8ce78b673ef04cc1bcfeb01c93ef7885/connecting-clients?locale=en-US&version=CLOUD#create-a-destination-with-client-certificate-authentication).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2024-04-01
+
+</td>
+<td valign="top">
+
+2024-04-01
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Business Data Orchestration 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Display Clients
+
+</td>
+<td valign="top">
+
+You can now display read-only information of all clients connected to an SAP Master Data Integration tenant. For more information, see [Display Clients](https://help.sap.com/docs/master-data-integration/sap-master-data-orchestration-8ce78b673ef04cc1bcfeb01c93ef7885/display-clients-beta?locale=en-US&state=DRAFT&version=CLOUD).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2024-04-01
+
+</td>
+<td valign="top">
+
+2024-04-01
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Business Data Orchestration 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Rebranding Changes
+
+</td>
+<td valign="top">
+
+We have *renamed* the SAP Master Data Orchestration. The service will now be referred to as *Business Data Orchestration*.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2024-04-01
+
+</td>
+<td valign="top">
+
+2024-04-01
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -431,7 +623,7 @@ Documentation for General Setup of SAP Master Data Orchestration
 </td>
 <td valign="top">
 
-A documentation for the general setup of SAP Master Data Orchestration is now available. For more information, see [General Setup of SAP Master Data Orchestration](https://help.sap.com/viewer/8ce78b673ef04cc1bcfeb01c93ef7885/CLOUD/en-US/0bed505b149b4ec6af24bf503a45708b.html "") :arrow_upper_right: 
+A documentation for the general setup of SAP Master Data Orchestration is now available. For more information, see [General Setup of Business Data Orchestration](https://help.sap.com/viewer/8ce78b673ef04cc1bcfeb01c93ef7885/CLOUD/en-US/0bed505b149b4ec6af24bf503a45708b.html "") :arrow_upper_right: 
 
 </td>
 <td valign="top">

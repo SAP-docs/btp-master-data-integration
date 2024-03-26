@@ -2,7 +2,7 @@
 
 # Creating MDO Distribution Model for Business Partner Replication
 
-Follow the steps to configure distribution model, which will be used to replicate the Business Partners from the SAP Master Data Integration service to client systems. For more information refer to [Maintenance of the Distribution Model in SAP Master Data Orchestration](https://help.sap.com/viewer/8ce78b673ef04cc1bcfeb01c93ef7885/CLOUD/en-US/ef9398e6f60a44568d106f71ea4d5cfa.html "The distribution model specifies the configuration according to which master data is replicated from provider to consumer.") :arrow_upper_right:.
+Follow the steps to configure distribution model, which will be used to replicate the Business Partners from the SAP Master Data Integration service to client systems. For more information refer to [Maintenance of the Distribution Model in Business Data Orchestration](https://help.sap.com/viewer/8ce78b673ef04cc1bcfeb01c93ef7885/CLOUD/en-US/ef9398e6f60a44568d106f71ea4d5cfa.html "The distribution model specifies the configuration according to which master data is replicated from provider to consumer.") :arrow_upper_right:.
 
 1.  Go to *Instances and Subscriptions* in your Subaccount. Under *Subscriptions*, click on *Master Data Integration \(Orchestration\)*.
 2.  Select *Go to Application*. This will open the Fiori Launchpad for MDO application.

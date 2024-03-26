@@ -4,7 +4,7 @@
 
 Inbound Interface for Business Partner Relationships Data Replication Confirmation
 
-Inbound Interface for Business Partner Relationships Data Replication Confirmation
+Inbound Interface for Business Partner Relationships Data Replication Confirmation.
 
 
 
@@ -14,7 +14,7 @@ Inbound Interface for Business Partner Relationships Data Replication Confirmati
 
 Technical name: `BusinessPartnerRelationshipSUITEBulkReplicateConfirmation_In` 
 
-This service enables you to get the status of Business Partner relationship data replication from the client system to the SAP Master Data Integrationn - Business Partners system. It is based on the SOAP protocol.
+This service enables you to get the status of Business Partner relationship data replication from the client system to the SAP Master Data Integration - Business Partners system. It is based on the SOAP protocol.
 
 
 
@@ -229,7 +229,7 @@ RelatedBusinessPartnerInternalID
 </td>
 <td valign="top">
 
-Business Partner number of the Business Partner for which relationship is created \(Sender Business System\)
+Business Partner number of the Business Partner for which the relationship is created \(Sender Business System\)
 
 </td>
 <td valign="top">
@@ -297,7 +297,7 @@ BusinessPartnerExternalID
 </td>
 <td valign="top">
 
-Partner Number for systems where Business Partner number is greater then 10 characters. In sender business system Business Partner No is less than or equal to 10 character. For example, SAP Hybris
+Partner Number for systems where Business Partner number is greater than 10 characters. In sender business system Business Partner No is less than or equal to 10 character. For example, SAP Hybris
 
 </td>
 <td valign="top">
@@ -314,7 +314,7 @@ RelatedBusinessPartnerExternalID
 </td>
 <td valign="top">
 
-Partner Number of the related Business Partner. Used for systems where Business Partner number is greater then 10 characters. In sender business system Business Partner No is less than or equal to 10 character. For example, SAP Hybris
+Partner Number of the related Business Partner. Used for systems where Business Partner number is greater than 10 characters. In sender business system Business Partner No is less than or equal to 10 character. For example, SAP Hybris
 
 </td>
 <td valign="top">
@@ -366,7 +366,7 @@ Parameter
 </th>
 <th valign="top">
 
-
+ 
 
 </th>
 <th valign="top">
@@ -405,7 +405,7 @@ Optional
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -437,19 +437,19 @@ InternalID
 </td>
 <td valign="top">
 
-Contact Person number helps to uniquely identify the contact person if it has Supplier role \(FLVN00,FLVN01\) in sender system
+Contact Person number helps to uniquely identify the contact person if it has Supplier role \(FLVN00, FLVN01\) in sender system
 
 </td>
 <td valign="top">
 
-Optiona
+Optional
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -459,7 +459,7 @@ ReceiverInternalID
 </td>
 <td valign="top">
 
-Contact Person number helps to uniquely identify the contact person if it has Supplier role \(FLVN00,FLVN01\) in receiver system
+Contact Person number helps to uniquely identify the contact person if it has Supplier role \(FLVN00, FLVN01\) in receiver system
 
 </td>
 <td valign="top">

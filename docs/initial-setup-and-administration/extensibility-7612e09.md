@@ -2,18 +2,18 @@
 
 # Extensibility
 
-SAP Master Data Integration service provides the possibility to add custom fields and nodes to the integration models. The default way of defining these fields is via the Manage Business Object Typeconfiguration UI. This UI allows adding custom fields and nodes to all integration model entities of the SAP One Domain Model that are annotated with `@odm.extensible`.
-
-All extension fields and nodes are valid for the One Domain Model version in which they are defined and for all following versions that are compatible. For more information, see [Integration Models](../about-this-service/integration-models-8882bf9.md).
-
-Extension fields are not applied to previous versions, even if they are compatible. By default, extensions can be used in filters in REST-based extensions.
-
-**Example:** Extending the `WorkforcePerson` object with the field `pilotLicense` in SAP One Domain Model version 2.0.0 will make the same extension fieldalso available in the *compatible*`WorkforcePerson` of SAP One Domain Model version 3.0.0.
-
-If the field was added to `WorkforcePerson` on version 3.0.0, it would not be available in `WorkforcePerson` on version 2.0.0. It is possible to define the same extension field additionally in version 2.0.0, though the fields are exactly matching.
+SAP Master Data Integration service provides the possibility to add custom fields and nodes to the integration models. The default way of defining these fields is via the [Manage Business Object Type](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION/8ce78b673ef04cc1bcfeb01c93ef7885/8bc6da69e24f4720884e3d2665d17bd4.html?q=exten) configuration UI. This UI allows adding custom fields and nodes to all integration model entities of the SAP One Domain Model that are annotated with `@odm.extensible` .
 
 > ### Note:  
 > An alternative way of using the Extensibility APIs directly is as described in this section. Composition based extensions can only be created with Extensibility APIs right now.
+
+All extension fields and nodes are valid for the One Domain Model version in which they are defined and for all following versions that are compatible. For more information, see [Integration Models](../about-this-service/integration-models-8882bf9.md) .
+
+Extension fields are not applied to previous versions, even if they are compatible. By default, extensions can be used in filters in REST-based extensions.
+
+**Example:** Extending the `WorkforcePerson` object with the field `pilotLicense` in SAP One Domain Model version 2.0.0 will make the same extension field `pilotLicense` also available in the *compatible* `WorkforcePerson` of SAP One Domain Model version 3.0.0.
+
+If the field was added to `WorkforcePerson` on version 3.0.0, it would not be available in `WorkforcePerson` on version 2.0.0. It is possible to define the same extension field additionally in version 2.0.0, though the fields are exactly matching.
 
 
 
@@ -21,7 +21,7 @@ If the field was added to `WorkforcePerson` on version 3.0.0, it would not be av
 
 ## Extensibility API
 
-The extensibility API allows adding custom fields to all integration model entities of the SAP One Domain Model that are annotated with `@odm.extensible`. Extensibility API supports `IsPotentiallySensitive` annotation. All extension fields, which are marked `IsPotentiallySensitive` will be audited. Extension configuration must not contain personal data. For more information on sensitive data, refer [Data Protection and Privacy](../security/data-protection-and-privacy-0fd158f.md). SOAP extensions would by default point to the corresponding parent entity. SOAP parameters have a target, which is the SOAP extension field name \(including prefix\) in the target system.
+The extensibility API allows adding custom fields to all integration model entities of the SAP One Domain Model that are annotated with `@odm.extensible` . Extensibility API supports `IsPotentiallySensitive` annotation. All extension fields, which are marked `IsPotentiallySensitive` will be audited. Extension configuration must not contain personal data. For more information on sensitive data, refer [Data Protection and Privacy](../security/data-protection-and-privacy-0fd158f.md) . SOAP extensions would by default point to the corresponding parent entity. SOAP parameters have a target, which is the SOAP extension field name \(including prefix\) in the target system.
 
 
 
@@ -29,9 +29,7 @@ The extensibility API allows adding custom fields to all integration model entit
 
 ## Prerequisites
 
-The Extensibility API can be used only by Business Users with the role
-
-`ExtensionDeveloper`. Refer to [Authorization for Business Users](authorization-for-business-users-1e7e229.md) to request for the right authorization.
+The Extensibility API can be used only by Business Users with the role `ExtensionDeveloper` . Refer to [Authorization for Business Users](authorization-for-business-users-1e7e229.md) to request for the right authorization.
 
 1.  Assign the role **ExtensionDeveloper** to the user who needs to conduct extensibility configuration.
 
@@ -141,12 +139,12 @@ The name of the new extension field. It should follow the pattern `ext__<namespa
 </td>
 <td valign="top">
 
-The type of the new node extension field. It should be one of the following - `Composition`.
+The type of the new node extension field. It should be one of the following - `Composition` .
 
 </td>
 <td valign="top">
 
-The type of the new extension field. It should be one of the following -`String` `Boolean` `Date` `DateTime` `Double` `Time` `Integer` `Decimal` `UUID` .
+The type of the new extension field. It should be one of the following - `String` , `Boolean` , `Date` , `DateTime` , `Double` , `Time` , `Integer` , `Decimal` , `UUID` .
 
 </td>
 </tr>
@@ -158,11 +156,13 @@ The type of the new extension field. It should be one of the following -`String`
 </td>
 <td valign="top">
 
+Should contain
+
 -   `relationship` - one or many
 -   `name` - name of the entity type that will be added to the extended ODM model
 -   `fields` - array of field level extensions that the node will contain.
 
-Should contain
+
 
 </td>
 <td valign="top">
@@ -264,12 +264,12 @@ Namespace of the extension in the SOAP model.
 </td>
 <td valign="top">
 
-Prefix/definition for the namespace url. It should start with `extns`.
+Prefix/definition for the namespace url. It should start with `extns` .
 
 </td>
 <td valign="top">
 
-Prefix/definition for the namespace url. It should start with `extns`.
+Prefix/definition for the namespace url. It should start with `extns` .
 
 </td>
 </tr>
@@ -312,9 +312,9 @@ This parameter is required for providing different soap parameters based for dif
 > ### Note:  
 > `soapParameters` only supported for 2.1.1 businesspartner and 2.2.0 businesspartner relationship.
 
-**Example \(Node Level Extension\):** You can extend the business partner entity by adding a new node starting with **ext\_\_** with pattern **ext\_\_comSomeCustomer\_nodeName**. Follow the steps below:
+**Example \(Node Level Extension\):** You can extend the business partner entity by adding a new node starting with **ext\_\_** with pattern **ext\_\_comSomeCustomer\_nodeName** . Follow the steps below:
 
-1.  `<mdi-url>/v1/odm/2.1.1/sap.odm.businesspartner.BusinessPartner/extensions` Url:.
+1.  Url: `<mdi-url>/v1/odm/2.1.1/sap.odm.businesspartner.BusinessPartner/extensions` .
 
 2.  To add a new Node to One Domain Model, perform PUT operation with the below payload:
 
@@ -363,7 +363,7 @@ This parameter is required for providing different soap parameters based for dif
 
 
 > ### Note:  
-> After creating a node extension, the extension point of that node extension would be in this format: `<namespace>.<name-from-type-parameters>`. In case of the above sample payload, the extension point would be `BP1.BPDigitalIdentity`.
+> After creating a node extension, the extension point of that node extension would be in this format: `<namespace>.<name-from-type-parameters>` . In case of the above sample payload, the extension point would be `BP1.BPDigitalIdentity` .
 
 1.  To add a new Node to One Domain Model and SOAP Model, perform PUT operation with the below payload:
 
@@ -475,9 +475,9 @@ This parameter is required for providing different soap parameters based for dif
     ```
 
 
-**Example \(Field Level Extension\):** You can extend the business partner entity by adding a new field starting with **ext\_\_** with pattern **ext\_\_comSomeCustomer\_fieldName**. Follow the steps below:
+**Example \(Field Level Extension\):** You can extend the business partner entity by adding a new field starting with **ext\_\_** with pattern **ext\_\_comSomeCustomer\_fieldName** . Follow the steps below:
 
-1.  `<mdi-url>/v1/odm/2.1.1/sap.odm.businesspartner.BusinessPartner/extensions` Url:.
+1.  Url: `<mdi-url>/v1/odm/2.1.1/sap.odm.businesspartner.BusinessPartner/extensions` .
 
 2.  Perform PUT operation with the below REST-based payload:
 
@@ -521,11 +521,11 @@ This parameter is required for providing different soap parameters based for dif
     ```
 
 
-**Example \(Field Level Extension\(BusinessPartnerRelationship\)\):** You can extend the business partner relationship entity by adding a new field starting with **ext\_\_** with pattern **ext\_\_comSomeCustomer\_fieldName**.
+**Example \(Field Level Extension\(BusinessPartnerRelationship\)\):** You can extend the business partner relationship entity by adding a new field starting with **ext\_\_** with pattern **ext\_\_comSomeCustomer\_fieldName** .
 
 **Example \(get extension\):** You can fetch all existing extensions. Follow the steps below:
 
-1.  Url:. `<mdi-url>/v1/odm/<odm-version>/<odm-entity-name>/extensions` 
+1.  Url: `<mdi-url>/v1/odm/<odm-version>/<odm-entity-name>/extensions` .
 
 2.  Perform the GET operation. Response will have an array of all existing extensions.
 
@@ -563,17 +563,18 @@ This parameter is required for providing different soap parameters based for dif
 
 **Example \(status\):** You can check the activation status of the extension. Follow the steps below:
 
-1.  `<mdi-url>/v1/odm/<odm-version>/<odm-entity-name>Url:. /extensions/<extension-id>/status` 
+1.  Url: `<mdi-url>/v1/odm/<odm-version>/<odm-entity-name>/extensions/<extension-id>/status` .
 
-2.  `<mdi-url>/v1/odm/2.1.1/sap.odm.businesspartner.BusinessPartner/extensions/bd3ba922-953d-49b2-bb37-7e9194efd883/status` Perform the GET operation, sample URL:.z
+2.  Perform the GET operation, sample URL: `<mdi-url>/v1/odm/2.1.1/sap.odm.businesspartner.BusinessPartner/extensions/bd3ba922-953d-49b2-bb37-7e9194efd883/status` .z
 
-    `activationInProgress` `activated` `failed` Response will have status value as,ordepending upon extension's creation status.
+    Response will have status value as `activationInProgress` , `activated` or `failed` depending upon extension's creation status.
 
     Sample response when extension is activated:
 
     ```
     {
-      "status": "activated"}
+      "status": "activated"
+    }
     ```
 
     Sample response when extension is rejected:
@@ -581,11 +582,12 @@ This parameter is required for providing different soap parameters based for dif
     ```
     {
       "status": "failed",
-      "rejectionReason": "Replication to Hana failed"}
+      "rejectionReason": "Replication to Hana failed"
+    }
     ```
 
 
-**Example \(UI\):** Entities can also be extended via [SAP Master Data Orchestration UI](https://help.sap.com/viewer/8ce78b673ef04cc1bcfeb01c93ef7885/CLOUD/en-US/4841c92c3aec46bbaeb5abf2fdab9d00.html).
+**Example \(UI\):** Entities can also be extended via [SAP Master Data Orchestration UI](https://help.sap.com/viewer/8ce78b673ef04cc1bcfeb01c93ef7885/CLOUD/en-US/4841c92c3aec46bbaeb5abf2fdab9d00.html) .
 
 
 
@@ -608,11 +610,9 @@ Once all the extensions are accurately defined and activated, the subsequent ste
 
 **To extend WSDL:** 
 
--   URL:
+Business Partner: `<BASE_URL>/businesspartner/v0/soap/extend` 
 
-    `Business Partner:<BASE_URL>/businesspartner/v0/soap/extend` 
-
--   Request type: PUT with empty body like -`{}`
+-   Request type: PUT with empty body like - `{}` 
 
 -   Authorization token is needed in header
 
@@ -628,5 +628,5 @@ Once all the extensions are accurately defined and activated, the subsequent ste
 -   Authorization token is needed in header
 
 
-Here, the <BASE\_URL\> is `https://one-mds.cfapps.{region}.hana.ondemand.com`. The corresponding region of the base URL can be fetched from "uri" present in service keys of the service instance for Generic Configuration, created as part of [Connecting SOAP Applications](connecting-soap-applications-14fcc48.md) .
+Here, the <BASE\_URL\> is `https://one-mds.cfapps.{region}.hana.ondemand.com` . The corresponding region of the base URL can be fetched from "uri" present in service keys of the service instance for Generic Configuration, created as part of [Connecting SOAP Applications](connecting-soap-applications-14fcc48.md) .
 

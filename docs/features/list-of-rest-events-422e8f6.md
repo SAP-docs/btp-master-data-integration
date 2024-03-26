@@ -121,7 +121,7 @@ The instance has been deleted and no longer supports any update or delete operat
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ The instance has been replaced and no longer supports any update or delete opera
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -189,7 +189,7 @@ The instance could not be decoded properly.
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -206,7 +206,7 @@ Unexpected state error.
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -223,7 +223,7 @@ Unknown entity.
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -257,7 +257,7 @@ Could not identify active replacement because of cyclic references in replacedBy
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -274,7 +274,7 @@ Invalid logical keys.
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -325,7 +325,7 @@ The size of the SAP Master Data Integration internal record, PrimaryMasterDataEv
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -342,7 +342,7 @@ The system for which this request was send was unknown to SAP Master Data Integr
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>

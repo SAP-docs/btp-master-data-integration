@@ -2,7 +2,7 @@
 
 # Web Service for Receiving Confirmation for Key Mapping Inbound Data
 
-Technical name: `KeyMappingBulkReplicateConfirmation_In` 
+Technical name: `KeyMappingBulkReplicateConfirmation_In` .
 
 This service enables you to get the status of key mapping in the receiver client from the sender client. It is based on the SOAP protocol.
 
@@ -130,7 +130,7 @@ TypeCode
 </td>
 <td valign="top">
 
-Denotes the business object type. This is also called as Object Type Code \(OTC\). For example, 147 denotes business partner and 197 is material
+Denotes the business object type. This is also called as Object Type Code \(OTC\). For example, 147 denotes business partner and 197 is material.
 
 </td>
 <td valign="top">
@@ -181,7 +181,7 @@ DefiningSchemeCode
 </td>
 <td valign="top">
 
-Object Identifier Type Code \(OITC\). OITC denotes the chosen business object type. OITC differs based on business. object
+Object Identifier Type Code \(OITC\). OITC denotes the chosen business object type. OITC differs based on business object.
 
 </td>
 <td valign="top">

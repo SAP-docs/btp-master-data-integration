@@ -4,10 +4,10 @@
 
 The distribution model specifies the master data to be replicated from provider to consumer.
 
-To know more about Creation, Activation, Deactivation, and Editing of the Distribution Model, refer [Maintenance of the Distribution Model in SAP Master Data Orchestration](https://help.sap.com/viewer/8ce78b673ef04cc1bcfeb01c93ef7885/CLOUD/en-US/ef9398e6f60a44568d106f71ea4d5cfa.html "The distribution model specifies the configuration according to which master data is replicated from provider to consumer.") :arrow_upper_right:.
+To know more about Creation, Activation, Deactivation, and Editing of the Distribution Model, refer [Maintenance of the Distribution Model in Business Data Orchestration](https://help.sap.com/viewer/8ce78b673ef04cc1bcfeb01c93ef7885/CLOUD/en-US/ef9398e6f60a44568d106f71ea4d5cfa.html "The distribution model specifies the configuration according to which master data is replicated from provider to consumer.") :arrow_upper_right:.
 
 > ### Note:  
-> In SAP Master Data Integration - Business Partners, destinations with the below naming conventions are created to carry out replications. See [Destination Configuration for SAP Master Data Orchestration](destination-configuration-for-sap-master-data-orchestration-2959a5c.md)
+> In SAP Master Data Integration - Business Partners, destinations with the below naming conventions are created to carry out replications. See [Destination Configuration for Business Data Orchestration](destination-configuration-for-business-data-orchestration-2959a5c.md)
 > 
 > -   \*\_BPOUTBOUND – Indicates destination for replication of business partner data
 > 
@@ -78,7 +78,7 @@ Following are the data scope filters supported by SAP Master Data Integration - 
 **Related Information**  
 
 
-[Destination Configuration for SAP Master Data Orchestration](destination-configuration-for-sap-master-data-orchestration-2959a5c.md "")
+[Destination Configuration for Business Data Orchestration](destination-configuration-for-business-data-orchestration-2959a5c.md "")
 
 [Creating MDO Distribution Model for Business Partner Replication](creating-mdo-distribution-model-for-business-partner-replication-659f09e.md "")
 

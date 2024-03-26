@@ -28,7 +28,7 @@ To use SAP Master Data Integration, the following is required:
 
     A space in the respective subaccount. To know more about creating and managing spaces within a subaccount
 
-    in the SAP BTP cockpit, refer to [Managing Spaces](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/latest/en-US/5209d55d8dd84228897112b0655d999b.html) 
+    in the SAP BTP cockpit, refer to [Managing Spaces](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/latest/en-US/5209d55d8dd84228897112b0655d999b.html).
 
 
 

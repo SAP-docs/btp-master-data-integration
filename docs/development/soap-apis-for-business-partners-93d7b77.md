@@ -2,86 +2,22 @@
 
 # SOAP APIs for Business Partners
 
-> ### Note:  
-> Basic Authentication and OAuth authentication are supported for these endpoints. Refer to your service keys for the **clientid** and **clientsecret** . In Basic Authentication: **username** is the **clientid** and **password** is the **clientsecret** from your service keys.
+This section contains information about the following:
 
-> ### Note:  
-> If using Basic Authentication, the URL query parameter **tenandId** is needed. For example:
-> 
-> ```
-> 
-> 				https://one-mds.cfapps.<region>.hana.ondemand.com:443/businesspartner/v0/soap/BusinessPartnerBulkReplicateRequestIn?tenantId=<identityzone>
-> 			
-> ```
+-   [Endpoints for SOAP Replication for Business Partners](endpoints-for-soap-replication-for-business-partners-6caf145.md) 
 
-Following are the endpoints for SOAP replication in SAP Master Data Integration - Business Partners. You can call these endpoints through HTTP POST request:
+-   [Web Service for Receiving Confirmation for BP Relationship Inbound Data](web-service-for-receiving-confirmation-for-bp-relationship-inbound-data-99615be.md) 
 
-1.  BusinessPartner Inbound:
+-   [Web Service for Receiving Confirmation for Business Partner Inbound Data](web-service-for-receiving-confirmation-for-business-partner-inbound-data-c9f607c.md) 
 
+-   [Web Service for Replicating BP Relationship Inbound Data](web-service-for-replicating-bp-relationship-inbound-data-bbdc456.md) 
 
-```
+-   [Web Service for Replicating Business Partner Inbound Data](web-service-for-replicating-business-partner-inbound-data-8a9a130.md) 
 
-			Sample Code:
-			https://one-mds.cfapps.{region}.hana.ondemand.com/businesspartner/v0/soap/BusinessPartnerBulkReplicateRequestIn
-		
-```
+-   [Web Service for Receiving Confirmation for Key Mapping Inbound Data](web-service-for-receiving-confirmation-for-key-mapping-inbound-data-30b81df.md) 
 
-1.  BusinessPartner Confirmation Inbound:
+-   [Web Service for Replicating Key Mapping Inbound Data](web-service-for-replicating-key-mapping-inbound-data-1214469.md) 
 
+-   [Support for partial data handling in SOAP Outbound processing](support-for-partial-data-handling-in-soap-outbound-processing-669c6ee.md) 
 
-```
-
-			Sample Code:
-			https://one-mds.cfapps.{region}.hana.ondemand.com/businesspartner/v0/soap/BusinessPartnerBulkReplicateRequestConfIn
-		
-```
-
-1.  BusinessPartner Relationship Inbound:
-
-
-```
-
-			Sample Code:
-			https://one-mds.cfapps.{region}.hana.ondemand.com/businesspartner/v0/soap/BusinessPartnerRelationshipBulkReplicateRequestIn
-		
-```
-
-1.  BusinessPartner Relationship Confirmation Inbound:
-
-
-```
-
-			Sample Code:
-			https://one-mds.cfapps.{region}.hana.ondemand.com/businesspartner/v0/soap/BusinessPartnerRelationshipBulkReplicateRequestConfirmIn
-		
-```
-
-1.  KeyMapping Inbound:
-
-
-```
-
-			Sample Code:
-			https://one-mds.cfapps.{region}.hana.ondemand.com/businesspartner/v0/soap/KeyMappingBulkReplicateRequestIn
-		
-```
-
-1.  KeyMapping Confirmation Inbound:
-
-
-```
-
-			Sample Code:
-			https://one-mds.cfapps.{region}.hana.ondemand.com/businesspartner/v0/soap/KeyMappingBulkReplicateRequestConfirmIn
-		
-```
-
-> ### Note:  
-> The values required can be retrieved from **SAP BTP Cockpit \> Subaccount \> Spaces \> Service \> Service Instance \> Service Keys** 
-> 
-> -   TenantHost/Subdomain: Value corresponding to identityzone
-> 
-> -   tenantId: Value corresponding to identityzone
-> 
-> -   BusinessSystemName/SourceSystem: Value for own system
 

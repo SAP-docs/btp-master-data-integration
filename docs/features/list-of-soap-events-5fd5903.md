@@ -514,7 +514,7 @@ BusinessPartner Confirmation SOAP message processed successfully.
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -531,7 +531,7 @@ BusinessPartnerRelationship Confirmation SOAP message processed successfully.
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -548,7 +548,7 @@ KeyMapping Confirmation SOAP message processed successfully.
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>

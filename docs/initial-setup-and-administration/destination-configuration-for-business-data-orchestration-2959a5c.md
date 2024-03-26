@@ -1,6 +1,6 @@
 <!-- loio2959a5c628024e39bcac60e3e7e85ba7 -->
 
-# Destination Configuration for SAP Master Data Orchestration
+# Destination Configuration for Business Data Orchestration
 
 
 

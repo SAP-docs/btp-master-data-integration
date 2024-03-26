@@ -1,10 +1,10 @@
 <!-- loioeeb39293122f441d92d3816319974915 -->
 
-# Configuring SAP Master Data Orchestration for SOAP Interfaces
+# Configuring Business Data Orchestration for SOAP Interfaces
 
 To enable communication with connected systems, this sections covers the following:
 
--   [Destination Configuration for SAP Master Data Orchestration](destination-configuration-for-sap-master-data-orchestration-2959a5c.md)
+-   [Destination Configuration for Business Data Orchestration](destination-configuration-for-business-data-orchestration-2959a5c.md)
 
 -   [Distribution Model Maintenance](distribution-model-maintenance-d61330e.md)
 

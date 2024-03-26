@@ -10,7 +10,7 @@
 
 Technical name: `BusinessPartnerRelationshipSUITEBulkReplicateRequest_In` 
 
-This service enables you to replicate Business Partner Relationship data from the client system to SAP Master Data Integration - Business Partners system. It is based on the SOAP protocol.
+This service enables you to replicate Business Partner Relationship data from the client system to the SAP Master Data Integration - Business Partners system. It is based on the SOAP protocol.
 
 
 
@@ -175,7 +175,7 @@ RoleCode
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -353,7 +353,7 @@ SOAP Field
 </th>
 <th valign="top">
 
-
+ 
 
 </th>
 <th valign="top">
@@ -412,7 +412,7 @@ BusinessPartnerRelationship/ContactPerson
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -444,7 +444,7 @@ BusinessPartnerRelationship/ContactPerson
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -454,7 +454,7 @@ ReceiverInternalID
 </td>
 <td valign="top">
 
-Contact Person number helps to uniquely identify the contact person if it has Customer role \(FLCU00, FLCU01\) in reciever system
+Contact Person number helps to uniquely identify the contact person if it has Customer role \(FLCU00, FLCU01\) in receiver system
 
 </td>
 <td valign="top">
@@ -476,7 +476,7 @@ BusinessPartnerRelationship/ContactPerson
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -508,7 +508,7 @@ BusinessPartnerRelationship/ContactPerson
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -518,7 +518,7 @@ ReceiverInternalID
 </td>
 <td valign="top">
 
-Contact Person number helps to uniquely identify the contact person if it has Supplier role \(FLVN00,FLVN01\) in reciever system
+Contact Person number helps to uniquely identify the contact person if it has Supplier role \(FLVN00, FLVN01\) in receiver system
 
 </td>
 <td valign="top">
@@ -540,7 +540,7 @@ BusinessPartnerRelationship/ContactPerson
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -572,7 +572,7 @@ BusinessPartnerRelationship/ContactPerson
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -668,7 +668,7 @@ BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Wo
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -700,7 +700,7 @@ BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Wo
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -732,7 +732,7 @@ BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Wo
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -764,7 +764,7 @@ BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Wo
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -796,7 +796,7 @@ BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Wo
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -806,7 +806,7 @@ RoomID
 </td>
 <td valign="top">
 
-Room or Appartment Number
+Room or Apartment Number
 
 </td>
 <td valign="top">
@@ -860,7 +860,7 @@ BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Em
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -892,7 +892,7 @@ BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Em
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -956,7 +956,7 @@ BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Fa
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -966,7 +966,7 @@ SubscriberID
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -988,7 +988,7 @@ BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Fa
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -998,7 +998,7 @@ ExtensionID
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -1020,7 +1020,7 @@ BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Fa
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -1052,7 +1052,7 @@ BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Fa
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -1116,7 +1116,7 @@ BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/We
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -1148,7 +1148,7 @@ contactPersonInformation/address/websites/uriType
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -1180,7 +1180,7 @@ BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/We
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -1244,7 +1244,7 @@ BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Te
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -1254,7 +1254,7 @@ SubscriberID
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -1276,7 +1276,7 @@ BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Te
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -1286,7 +1286,7 @@ ExtensionID
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -1308,7 +1308,7 @@ BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Te
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -1340,7 +1340,7 @@ BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Te
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -1372,7 +1372,7 @@ BusinessPartnerRelationship/ContactPerson/WorkplaceAddressInformation/Address/Te
 <tr>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">

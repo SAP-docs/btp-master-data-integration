@@ -17,31 +17,31 @@ The steps described in the sections below consider the `clientid` and `clientsec
 
 <a name="loioef53987fbbdd41e3a76eea95485ab0d2__authentication-using-passcode-flow"/>
 
-## Authentication using passcode flow
+## Authentication Using Passcode Flow
 
 Visit `<<xsuaa_url>>/passcode` to get the required passcode.
 
 ```
 curl --location --request POST "$xsuaa_url/oauth/token" \
-  --header "Content-Type: application/x-www-form-urlencoded" \
-  --header "Accept: application/json" \
-  --user "$client_id:$client_secret" \
-  --data-urlencode "grant_type=password" \
-  --data-urlencode "passcode=$passcode"
+				--header "Content-Type: application/x-www-form-urlencoded" \
+				--header "Accept: application/json" \
+				--user "$client_id:$client_secret" \
+				--data-urlencode "grant_type=password" \
+				--data-urlencode "passcode=$passcode"
 ```
 
 
 
 <a name="loioef53987fbbdd41e3a76eea95485ab0d2__authentication-using-password-flow"/>
 
-## Authentication using password flow
+## Authentication Using Password Flow
 
 ```
 curl --location --request POST "$xsuaa_url/oauth/token?grant_type=password" \
-  --header "Content-Type: application/x-www-form-urlencoded" \
-  --user "$client_id:$client_secret" \
-  --data-urlencode "username=$username" \
-  --data-urlencode "password=$password"
+				--header "Content-Type: application/x-www-form-urlencoded" \
+				--user "$client_id:$client_secret" \
+				--data-urlencode "username=$username" \
+				--data-urlencode "password=$password"
 ```
 
 

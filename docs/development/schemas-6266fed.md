@@ -2,7 +2,7 @@
 
 # Schemas
 
-SAP Master Data Integration derives a *physical data model* from the *logical data model* defined by [SAP One Domain Model](https://github.wdf.sap.corp/pages/DMA/ODM/). The physical model is the interchange format when communicating with Master Data Integration.
+SAP Master Data Integration derives a *physical data model* from the *logical data model* defined by [SAP One Domain Model](https://github.wdf.sap.corp/pages/DMA/ODM/) . The physical model is the interchange format when communicating with Master Data Integration.
 
 The *schema API* of Master Data Integration provides [JSON schemas](https://json-schema.org/) describing the payload structure for a specific entity type and version.
 
@@ -14,19 +14,15 @@ The endpoints of the schema API are protected and require [authentication](../in
 
 ## Schema for Instance Data
 
-To retrieve the schema of the instance data for an entity type
-
-`{entityTypeName}` in One Domain Model version `{odmVersion}` send a `GET` request to the instance schema endpoint.
-
-For instance, requesting the instance schema for `sap.odm.workforce.WorkforcePerson` 
-
-in One Domain Model version `3.0.0` will yield a response like shown below.
+To retrieve the schema of the instance data for an entity type `{entityTypeName}` in One Domain Model version `{odmVersion}` , send a `GET` request to the instance schema endpoint.
 
 ```
 curl --location --request GET '{mdi_url}/v1/odm/{odmVersion}/{entityTypeName}/api/instance' \
 				--header 'Content-Type: application/json' \
 				--header 'Authorization: Bearer {access_token}'
 ```
+
+For instance, requesting the instance schema for `sap.odm.workforce.WorkforcePerson` in One Domain Model version `3.0.0` yields a response like shown in the following example.
 
 ```
 {
@@ -70,5 +66,5 @@ curl --location --request GET '{mdi_url}/v1/odm/{odmVersion}/{entityTypeName}/ap
 
 ## Extensions
 
-Any custom [extensions](../initial-setup-and-administration/extensibility-7612e09.md) defined on the One Domain Model entity and version will be included in the schema returned by the Schema API of Master Data Integration.
+Any custom [extensions](../initial-setup-and-administration/extensibility-7612e09.md) defined on the One Domain Model entity and version is included in the schema returned by the Schema API of Master Data Integration.
 

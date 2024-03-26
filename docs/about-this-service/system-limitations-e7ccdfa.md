@@ -93,3 +93,21 @@ Clients that did not synchronize for 28 days will get an error response indicati
 
 The size of incoming SOAP requests is limited to 10 megabytes.
 
+
+
+<a name="loioe7ccdfa51ed3492bb8fb5adb7f97384b__soap-distribution-of-business-partners"/>
+
+## SOAP distribution of Business Partners
+
+**Limit \#1:** Operators for data filtering
+
+SOAP distribution supports `equals` and `not equals` operators only for filtering data.
+
+**Limit \#2:** Package Size
+
+Only in case of initial replication via the Master Data Orchestration UI, the configured package size in the model will be applied to SOAP distribution. In other cases, the package size is `one` by default.
+
+**Limit \#3:** Once distributed always distributed
+
+SOAP based distribution follows the `once distributed always distributed` logic. This means if any object instance\(Business Partner\) is distributed to a destination based on a model, then any changes to the object instance or changes to the maintained filter criteria of that model will not have any impact in future distribution of the object instance.
+

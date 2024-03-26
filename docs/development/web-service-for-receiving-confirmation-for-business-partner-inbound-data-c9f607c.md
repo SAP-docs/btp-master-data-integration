@@ -208,7 +208,7 @@ ExternalID
 </td>
 <td valign="top">
 
-Business Partner number for systems where Business Partner number is greater then 10 characters. In SAP S/4HANA, Business Partner Number is less than or equal to 10 character. For example, SAP Hybris
+Business Partner number for systems where Business Partner number is greater than 10 characters. In SAP S/4HANA, Business Partner Number is less than or equal to 10 character. For example, SAP Hybris
 
 </td>
 <td valign="top">

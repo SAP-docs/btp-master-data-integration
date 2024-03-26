@@ -528,7 +528,7 @@ Enhanced value help for cost centers
 
 For *Object Selection* and *Data Scope* filters, a new value help for cost centers is available that allows filtering for cost centers with the actual cost center ID.
 
-Action: For more information on filtering, see [Maintenance of the Distribution Model in SAP Master Data Orchestration](https://help.sap.com/viewer/8ce78b673ef04cc1bcfeb01c93ef7885/CLOUD/en-US/ef9398e6f60a44568d106f71ea4d5cfa.html "The distribution model specifies the configuration according to which master data is replicated from provider to consumer.") :arrow_upper_right:.
+Action: For more information on filtering, see [Maintenance of the Distribution Model in Business Data Orchestration](https://help.sap.com/viewer/8ce78b673ef04cc1bcfeb01c93ef7885/CLOUD/en-US/ef9398e6f60a44568d106f71ea4d5cfa.html "The distribution model specifies the configuration according to which master data is replicated from provider to consumer.") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -584,7 +584,7 @@ New API for Business Partner
 
 Introduction of a new API for Business Partner that supports replication with SOAP messages.
 
-Action: For more information, see [Maintenance of the Distribution Model in SAP Master Data Orchestration](https://help.sap.com/viewer/8ce78b673ef04cc1bcfeb01c93ef7885/CLOUD/en-US/ef9398e6f60a44568d106f71ea4d5cfa.html "The distribution model specifies the configuration according to which master data is replicated from provider to consumer.") :arrow_upper_right:.
+Action: For more information, see [Maintenance of the Distribution Model in Business Data Orchestration](https://help.sap.com/viewer/8ce78b673ef04cc1bcfeb01c93ef7885/CLOUD/en-US/ef9398e6f60a44568d106f71ea4d5cfa.html "The distribution model specifies the configuration according to which master data is replicated from provider to consumer.") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -640,7 +640,7 @@ Deletion of Business Partner master data via SOAP
 
 SAP Master Data Integration service integrates with SAP Data Retention Manager\(DRM\) to check for the End of Purpose of a Business Partner in applications on SAP Business Technology Platform.
 
-Action: For more information, see  <?sap-ot O2O class="- topic/xref " href="9619262e34f84762a4d81d68ed09e204.xml" text="" desc="" xtrc="xref:12" xtrf="file:/home/builder/src/dita-all/ctw1573735083641/loio84393ac3a27149828384dc3399c04ed7_en-US/src/content/localization/en-us/ebf5291215414ad595baccda3b4f6ecc.xml" ?> .
+Action: For more information, see  <?sap-ot O2O class="- topic/xref " href="9619262e34f84762a4d81d68ed09e204.xml" text="" desc="" xtrc="xref:12" xtrf="file:/home/builder/src/dita-all/ctw1573735083641/loio84393ac3a27149828384dc3399c04ed7_en-US/src/content/localization/en-us/ebf5291215414ad595baccda3b4f6ecc.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
 
 </td>
 <td valign="top">

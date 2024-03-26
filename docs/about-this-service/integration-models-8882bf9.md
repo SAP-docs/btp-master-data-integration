@@ -2,14 +2,14 @@
 
 # Integration Models
 
-Data exchange with SAP Master Data Integration relies on integration models of the SAP One Domain Model. Supported integration models are listed in the table below.
+Data exchange with SAP Master Data Integration relies on integration models of the SAP One Domain Model. Supported integration models are listed in the following table.
 
 
 <table>
 <tr>
 <th valign="top">
 
-Entity Type
+Master Data Type
 
 </th>
 <th valign="top">
@@ -36,7 +36,7 @@ sap.odm.assetmanagement.Equipment
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ sap.odm.assetmanagement.FunctionalLocation
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ sap.odm.businesspartner.BusinessPartnerRelationship
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ sap.odm.dpp.DataController
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ sap.odm.dpp.Purpose
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ sap.odm.dpp.Purpose2DataController
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -155,7 +155,24 @@ sap.odm.finance.ExchangeRate
 </td>
 <td valign="top">
 
+ 
 
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+sap.odm.finance.accounting.SymbolicGeneralLedgerAccount
+
+</td>
+<td valign="top">
+
+6.1.0
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -172,7 +189,7 @@ sap.odm.finance.bank.Bank
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -206,7 +223,7 @@ sap.odm.finance.costobject.ProjectControllingObject
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -240,7 +257,7 @@ sap.odm.finance.costobject.SalesControllingObject
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -257,7 +274,7 @@ sap.odm.finance.publicsector.BudgetPeriod
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -274,7 +291,7 @@ sap.odm.finance.publicsector.FunctionalArea
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -291,7 +308,7 @@ sap.odm.finance.publicsector.Fund
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -308,7 +325,7 @@ sap.odm.finance.publicsector.FundsCenter
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -325,7 +342,7 @@ sap.odm.finance.publicsector.Grant
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -342,7 +359,7 @@ sap.odm.orgunit.CompanyCode
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -359,7 +376,7 @@ sap.odm.orgunit.Plant
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -376,7 +393,7 @@ sap.odm.procurement.PurchasingCategory
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -393,7 +410,7 @@ sap.odm.procurement.orgunit.PurchasingGroup
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -410,7 +427,7 @@ sap.odm.procurement.orgunit.PurchasingOrganization
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -427,7 +444,7 @@ sap.odm.product.Product
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -444,7 +461,7 @@ sap.odm.product.ProductGroup
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -461,7 +478,7 @@ sap.odm.workforce.capability.WorkforceCapability
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -478,7 +495,7 @@ sap.odm.workforce.capability.WorkforceCapabilityCatalog
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -495,7 +512,7 @@ sap.odm.workforce.capability.WorkforceCapabilityProficiencyScale
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -546,7 +563,7 @@ sap.odm.workforce.WorkforcePerson
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 </tr>
@@ -570,5 +587,5 @@ sap.odm.workforce.WorkforcePerson
 </table>
 
 > ### Note:  
-> \*multi-version support between BusinessPartner v3.3.0 and v2.1.1 is restricted. Business Partner instances created/modified from clients in v3.3.0 will not include address independent communication data replicated to clients retrieving Business Partners in v2.1.1.
+> \*Multiversion support between BusinessPartner v3.3.0 and v2.1.1 is restricted. Business Partner instances created or modified from clients in v3.3.0 do not include address independent communication data replicated to clients retrieving Business Partners in v2.1.1.
 
