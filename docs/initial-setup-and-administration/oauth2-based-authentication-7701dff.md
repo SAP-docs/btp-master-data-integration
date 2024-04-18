@@ -10,7 +10,7 @@ As an alternative to the authentication via Client ID and Client Secret describe
 
 ## OAuth2 Client Credentials
 
-If no parameters are provided during service binding or service key creation, a binding-level client ID and client secret is created by default for an OAuth2 client credentials flow.
+If no parameters are provided during service binding or service key creation, a binding-level client ID and a client secret are created by default for an OAuth2 client credentials flow.
 
 
 
@@ -52,9 +52,9 @@ Configuration to be passed during service binding or service key creation for XS
 
 If the following configuration is passed during service binding or service key creation, a user-provided certificate is used for authentication.
 
--   `ensure-uniqueness` ensures that the certificate has to be unique among all following instances, defaults to `false` .
+-   `ensure-uniqueness` ensures that the certificate has to be unique among all following instances, default is set to `false` .
 
--   `certificate-pinning` set to `false` allows for an eased credential rotation: The incoming certificate's subject and issuer distinguished name is compared to those of the stored certificate. If they match and the certificate was issued on or after the stored issuer date, the authentication is accepted. Afterwards, the incoming certificate's issuer date is stored for future authentication attempts. For instance, at first, assume a binding is created with a certificate specified in the binding request. This certificate can then be used normally until it expires. However, when the certificate should be rotated and certificate pinning is set to `false` , the service allows for a rotation without creating a new binding or rebinding the service: When a token request is performed with a new certificate \(issued by the same root CA, with the same subject distinguished name, and with a newer issuer date\) the service will save the new issuer date and will only accept certificates that are issued at this or a newer point of time. Thus, the old/initial certificate will automatically not be accepted anymore. Defaults to `true` due to compatibility reasons, `false` is recommended for an easier rotation.
+-   `certificate-pinning` set to `false` allows for an eased credential rotation: The incoming certificate's subject and issuer distinguished name is compared to those of the stored certificate. If they match and the certificate was issued on or after the stored issuer date, the authentication is accepted. Afterwards, the incoming certificate's issuer date is stored for future authentication attempts. For instance, at first, assume a binding is created with a certificate specified in the binding request. This certificate can then be used normally until it expires. However, when the certificate should be rotated and certificate pinning is set to `false` , the service allows for a rotation without creating a new binding or rebinding the service: When a token request is performed with a new certificate \(issued by the same root CA, with the same subject distinguished name, and with a newer issuer date\) the service saves the new issuer date and only accepts certificates that are issued at this or a newer point of time. Thus, the old/initial certificate is automatically not accepted anymore. Default is set to `true` due to compatibility reasons, `false` is recommended for an easier rotation.
 
 
 Configuration to be passed during service binding or service key creation for externally-managed certificates:

@@ -468,6 +468,74 @@ sap.odm.product.ProductGroup
 <tr>
 <td valign="top">
 
+sap.odm.realestate.contract.RealEstateContract
+
+</td>
+<td valign="top">
+
+7.0.0
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+sap.odm.realestate.rentalobject.RealEstateRentableObject
+
+</td>
+<td valign="top">
+
+7.0.0
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+sap.odm.realestate.rentalobject.RealEstateUsableObject
+
+</td>
+<td valign="top">
+
+7.0.0
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+sap.odm.realestate.architecture.RealEstateArchitectureObject
+
+</td>
+<td valign="top">
+
+7.0.0
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 sap.odm.workforce.capability.WorkforceCapability
 
 </td>
@@ -575,12 +643,12 @@ sap.odm.workforce.WorkforcePerson
 </td>
 <td valign="top">
 
-3.1.0
+3.5.0
 
 </td>
 <td valign="top">
 
-3.0.0, 2.3.0, 2.2.0, 2.1.1, 2.0.0
+3.4.0, 3.1.0, 3.0.0, 2.3.0, 2.2.0, 2.1.1, 2.0.0
 
 </td>
 </tr>

@@ -696,7 +696,7 @@ Create MDO Distribution Model for Business Partner Replication
 
 You can configure distribution model, which will be used to replicate the Business Partners from the SAP Master Data Integration service to client systems.
 
-Action: For more information, see [Creating MDO Distribution Model for Business Partner Replication](../initial-setup-and-administration/creating-mdo-distribution-model-for-business-partner-replication-659f09e.md) 
+Action: For more information, see  <?sap-ot O2O class="- topic/xref " href="659f09eb7d4a40bba9974d60bcd291de.xml" text="" desc="" xtrc="xref:13" xtrf="file:/home/builder/src/dita-all/ctw1573735083641/loio84393ac3a27149828384dc3399c04ed7_en-US/src/content/localization/en-us/ebf5291215414ad595baccda3b4f6ecc.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>  
 
 </td>
 <td valign="top">

@@ -37,7 +37,13 @@ SAP S/4HANA provides integrations to SAP Master Data Integration service for the
 
 Refer to the [Central Integration Chapter](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/d761beaeedd949c18213f449f4617250/34ee350171bf41bb8d015f8061a5a918.html) on SAP S/4HANA help page, to learn more about the capabilities of SAP S/4HANA for replicating master data using the SAP Master Data Integration service.
 
-*Limitations* : A single SAP S/4HANA system cannot be connected to multiple SAP Master Data Integration tenants.
+
+
+<a name="loioadbf8efbda2e4514b7f2776a9eb879c7__limitations"/>
+
+## *Limitations* :
+
+A single SAP S/4HANA system cannot be connected to multiple SAP Master Data Integration tenants
 
 
 

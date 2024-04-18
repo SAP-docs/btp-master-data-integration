@@ -16,7 +16,7 @@ The `businessSystemId` serves the following two purposes.
 
     -   In SAP S/4HANA On-premise, run transaction `SLDCHECK` and check the section **Calling function** `LCR_GET_OWN_BUSINESS_SYSTEM` .
 
-    -   In SAP S/4HANA Cloud, or the SAP Business Technology Platform ABAP environment, go to the Communication Systems and select the system that is marked as **Own System** . Use the name that is maintained in the **Business System** field.
+    -   In SAP S/4HANA Cloud, or the SAP Business Technology Platform ABAP environment, go to the Communication Systems and select the system that is marked as **Own System** . Use the name that is maintained in the **Business System** field. If the **Business System** field is empty, then choose the name maintained in the **Logical System** field.
 
 
 
@@ -45,9 +45,7 @@ View and update attributes as follows:
 Add the following attribute to configure the `businessSystemId` .
 
 ```
-
-				"businessSystemId": "<businessSystemId>"
-			
+"businessSystemId": "<businessSystemId>"
 ```
 
 The `businessSystemId` attribute has to meet the following constraints:

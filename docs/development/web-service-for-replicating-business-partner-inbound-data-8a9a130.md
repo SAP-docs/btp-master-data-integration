@@ -2519,7 +2519,7 @@ Optional
 <tr>
 <td valign="top">
 
-BusinessPartnerExternalBankID
+BankAccountExternalID
 
 </td>
 <td valign="top">
@@ -2529,7 +2529,7 @@ The field contains ID in the external system that provides information on the nu
 </td>
 <td valign="top">
 
-BusinessPartner/BankDetails/BusinessPartnerExternalBankID
+BusinessPartner/BankDetails/BankAccountExternalID
 
 </td>
 <td valign="top">
@@ -3248,7 +3248,7 @@ StartDate
 </td>
 <td valign="top">
 
-Address validity start date.
+Address validity start date
 
 </td>
 <td valign="top">
@@ -3280,7 +3280,7 @@ EndDate
 </td>
 <td valign="top">
 
-Address validity end date.
+Address validity end date
 
 </td>
 <td valign="top">
@@ -3344,7 +3344,7 @@ PreferredCommunicationMediumTypeCode
 </td>
 <td valign="top">
 
-Preferred Medium of Communication \(Phone/Email etc.\).
+Preferred Medium of Communication \(Phone/Email etc\)
 
 </td>
 <td valign="top">
@@ -3440,7 +3440,7 @@ StartDate
 </td>
 <td valign="top">
 
-Validity for email address Start Date.
+Validity for email address Start Date
 
 </td>
 <td valign="top">
@@ -3472,7 +3472,7 @@ EndDate
 </td>
 <td valign="top">
 
-Validity for email address End Date.
+Validity for email address End Date
 
 </td>
 <td valign="top">
@@ -3504,7 +3504,7 @@ IsDefaultEmailAddress
 </td>
 <td valign="top">
 
-Flag: this address is the default address.
+Flag: this address is the default address
 
 </td>
 <td valign="top">
@@ -3568,7 +3568,7 @@ SubscriberID
 </td>
 <td valign="top">
 
-Fax number, consisting of dialing code and number, but without country dialing code.
+Fax number, consisting of dialling code and number, but without country dialling code.
 
 </td>
 <td valign="top">
@@ -3664,7 +3664,7 @@ StartDate
 </td>
 <td valign="top">
 
-Validity for fax address Start date.
+Validity for fax address Start date
 
 </td>
 <td valign="top">
@@ -3696,7 +3696,7 @@ EndDate
 </td>
 <td valign="top">
 
-Validity for fax address end date.
+Validity for fax address end date
 
 </td>
 <td valign="top">
@@ -3728,7 +3728,7 @@ IsDefaultFaxNumber
 </td>
 <td valign="top">
 
-Standard Sender Address in this Communication Type.
+Standard Sender Address in this Communication Type
 
 </td>
 <td valign="top">
@@ -3792,7 +3792,7 @@ SubscriberID
 </td>
 <td valign="top">
 
-Telephone number, consisting of dialing code and number, but without country dialing code.
+Telephone number, consisting of dialling code and number, but without country dialling code.
 
 </td>
 <td valign="top">
@@ -3888,7 +3888,7 @@ StartDate
 </td>
 <td valign="top">
 
-Validity Start Date of the master data object.
+Validity Start Date of the master data object
 
 </td>
 <td valign="top">
@@ -3920,7 +3920,7 @@ EndDate
 </td>
 <td valign="top">
 
-Validity End Date of the master data object.
+Validity End Date of the master data object
 
 </td>
 <td valign="top">
@@ -3952,7 +3952,7 @@ SMSEnabledIndicator
 </td>
 <td valign="top">
 
-Indicator: Telephone is SMS-Enabled.
+Indicator: Telephone is SMS-Enabled
 
 </td>
 <td valign="top">
@@ -4016,7 +4016,7 @@ IsDefaultPhoneNumber
 </td>
 <td valign="top">
 
-Standard Sender Address in this Communication Type.
+Standard Sender Address in this Communication Type
 
 </td>
 <td valign="top">
@@ -4048,7 +4048,7 @@ IsDefaultUri
 </td>
 <td valign="top">
 
-Flag: this URI is the default URI.
+Flag: this URI is the default URI
 
 </td>
 <td valign="top">
@@ -4080,7 +4080,7 @@ URI
 </td>
 <td valign="top">
 
-Website Address. Universal Resource Identifier \(URI\).
+Website Address. Universal Resource Identifier \(URI\)
 
 </td>
 <td valign="top">
@@ -4112,7 +4112,7 @@ URITypeCode
 </td>
 <td valign="top">
 
-URI type flag Eg. HPG: Homepage, FTP, Log : Company Logo etc.
+URI type flag Eg. HPG: Homepage, FTP, Log : Company Logo etc
 
 </td>
 <td valign="top">
@@ -4144,7 +4144,7 @@ StartDate
 </td>
 <td valign="top">
 
-Validity Start Date of the master data object.
+Validity Start Date of the master data object
 
 </td>
 <td valign="top">
@@ -4176,7 +4176,7 @@ EndDate
 </td>
 <td valign="top">
 
-Validity End Date of the master data object.
+Validity End Date of the master data object
 
 </td>
 <td valign="top">
@@ -4198,7 +4198,7 @@ BusinessPartner/addressData/websites
 <tr>
 <td valign="top">
 
-**Person Postal Address** 
+**Person Postal Address and Organization Postal Address** 
 
 </td>
 <td valign="top">
@@ -4208,7 +4208,7 @@ RoomID
 </td>
 <td valign="top">
 
-Room or Apartment Number in an address.
+Room or Appartment Number in an address.
 
 </td>
 <td valign="top">
@@ -4223,7 +4223,7 @@ door
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/personPostalAddress
+BusinessPartner/addressData/personPostalAddress,BusinessPartner/addressData/organizationPostalAddress
 
 </td>
 </tr>
@@ -4255,7 +4255,7 @@ country
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/personPostalAddress
+BusinessPartner/addressData/personPostalAddress,BusinessPartner/addressData/organizationPostalAddress
 
 </td>
 </tr>
@@ -4272,7 +4272,7 @@ GivenName
 </td>
 <td valign="top">
 
-First Name of Business Partner \(Person\).
+First Name of Business Partner \(Person\)
 
 </td>
 <td valign="top">
@@ -4304,7 +4304,7 @@ MiddleName
 </td>
 <td valign="top">
 
-Middle name or second forename of a person.
+Middle name or second forename of a person
 
 </td>
 <td valign="top">
@@ -4336,7 +4336,7 @@ FamilyName
 </td>
 <td valign="top">
 
-Last Name of Business Partner \(Person\).
+Last Name of Business Partner \(Person\)
 
 </td>
 <td valign="top">
@@ -4368,7 +4368,7 @@ AdditionalFamilyName
 </td>
 <td valign="top">
 
-Other Last Name of a Person.
+Other Last Name of a Person
 
 </td>
 <td valign="top">
@@ -4400,7 +4400,7 @@ InitialsName
 </td>
 <td valign="top">
 
-"Middle Initial" or personal initials.
+"Middle Initial" or personal initials
 
 </td>
 <td valign="top">
@@ -4464,7 +4464,7 @@ AcademicTitleCode
 </td>
 <td valign="top">
 
-Key for academic title. Describes a name component that is an additional title of a natural person to indicate academic training.
+Key for academic title. Describes a name component that is an additional title of a natural person to indicate academic training
 
 </td>
 <td valign="top">
@@ -4496,7 +4496,7 @@ AdditionalAcademicTitleCode
 </td>
 <td valign="top">
 
-Second academic title \(key\). Possible academic titles \(or academic qualifications\).
+Second academic title \(key\). Possible academic titles \(or academic qualifications\)
 
 </td>
 <td valign="top">
@@ -4528,7 +4528,7 @@ NamePrefixCode
 </td>
 <td valign="top">
 
-Key for name prefix. An addition to the last name that is usually a title of nobility.
+Key for name prefix. An addition to the last name that is usually a title of nobility
 
 </td>
 <td valign="top">
@@ -4560,7 +4560,7 @@ AdditionalNamePrefixCode
 </td>
 <td valign="top">
 
-2nd name prefix \(key\). An addition to the last name that is usually a title of nobility.
+2nd name prefix \(key\). An addition to the last name that is usually a title of nobility
 
 </td>
 <td valign="top">
@@ -4592,7 +4592,7 @@ NameSupplementCode
 </td>
 <td valign="top">
 
-Describes a name component that is an additional title of a natural person to indicate noble origin. This could be a title of nobility, but there are other possibilities.
+Describes a name component that is an additional title of a natural person to indicate noble origin. This could be a title of nobility, but there are other possibilities
 
 </td>
 <td valign="top">
@@ -4688,7 +4688,7 @@ NickName
 </td>
 <td valign="top">
 
-Nickname of Business Partner \(Person\).
+Nickname of Business Partner \(Person\)
 
 </td>
 <td valign="top">
@@ -4720,7 +4720,7 @@ BirthName
 </td>
 <td valign="top">
 
-Name at birth of business partner.
+Name at birth of business partner
 
 </td>
 <td valign="top">
@@ -4752,7 +4752,7 @@ DeviatingFullName
 </td>
 <td valign="top">
 
-If the SOAP field DeviatingFullName is left blank, then the corresponding ODM field, formattedPersonName will also remains blank.
+If the SOAP field, DeviatingFullName is left blank, then the corresponding ODM field, formattedPersonName will also remains blank
 
 </td>
 <td valign="top">
@@ -4779,972 +4779,12 @@ BusinessPartner/addressData/personPostalAddress
 </td>
 <td valign="top">
 
-HouseID
-
-</td>
-<td valign="top">
-
-House number as part of an address.
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/HouseID
-
-</td>
-<td valign="top">
-
-houseNumber
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-POBoxIDVisibleIndicator
-
-</td>
-<td valign="top">
-
-PO Box address without PO Box number flag.
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/POBoxIDVisibleIndicator
-
-</td>
-<td valign="top">
-
-postBoxIsWithoutNumber
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-StreetName
-
-</td>
-<td valign="top">
-
-Street name as part of the address.
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/StreetName
-
-</td>
-<td valign="top">
-
-street
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-StreetSuffixName
-
-</td>
-<td valign="top">
-
-Additional address text line for Street.
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/StreetSuffixName
-
-</td>
-<td valign="top">
-
-streetSuffix1
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-StreetPrefixName
-
-</td>
-<td valign="top">
-
-Additional address field which is printed below the Street line.
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/StreetPrefixName
-
-</td>
-<td valign="top">
-
-streetPrefix1
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-AdditionalStreetPrefixName
-
-</td>
-<td valign="top">
-
-Additional address field which is printed above the Street line.
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/AdditionalStreetPrefixName
-
-</td>
-<td valign="top">
-
-streetPrefix2
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-AdditionalStreetSuffixName
-
-</td>
-<td valign="top">
-
-Additional address field which is printed under the Street line.
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/AdditionalStreetSuffixName
-
-</td>
-<td valign="top">
-
-streetSuffix2
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-FloorID
-
-</td>
-<td valign="top">
-
-Floor of the building as more exact specification of an address.
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/FloorID
-
-</td>
-<td valign="top">
-
-floor
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-CompanyPostalCode
-
-</td>
-<td valign="top">
-
-This field is used for countries where major companies are assigned their own postal code by the national post office.
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/CompanyPostalCode
-
-</td>
-<td valign="top">
-
-companyPostalCode
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-RegionCode
-
-</td>
-<td valign="top">
-
-Region Key. For example, Washington is a Region of USA, Karnataka is region of India etc.
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/RegionCode
-
-</td>
-<td valign="top">
-
-primaryRegion
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-CountyName
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/CountyName
-
-</td>
-<td valign="top">
-
-secondaryRegion
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-CityName
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/CityName
-
-</td>
-<td valign="top">
-
-town
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-POBoxDeliveryServiceID
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/POBoxDeliveryServiceID
-
-</td>
-<td valign="top">
-
-deliveryServiceNumber
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-TimeZoneCode
-
-</td>
-<td valign="top">
-
-Address Time Zone.
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/TimeZoneCode
-
-</td>
-<td valign="top">
-
-timeZone
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-AdditionalRegionalStructureCityCode
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/AdditionalRegionalStructureCityCode
-
-</td>
-<td valign="top">
-
-additionalCityName
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-CareOfName
-
-</td>
-<td valign="top">
-
-c/o name; Part of the address \(c/o = care of\) if the recipient is different from the occupant and the names are not similar \(e.g. subtenants\).
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/CareOfName
-
-</td>
-<td valign="top">
-
-careOf
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-TransportationZoneID
-
-</td>
-<td valign="top">
-
-Transportation zone to or from which the goods are delivered.
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/TransportationZoneID
-
-</td>
-<td valign="top">
-
-transportationZone
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-TaxJurisdictionCode
-
-</td>
-<td valign="top">
-
-The tax jurisdiction code defines the tax authority to which taxes must be paid.
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/TaxJurisdictionCode
-
-</td>
-<td valign="top">
-
-taxJurisdiction
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-DistrictName
-
-</td>
-<td valign="top">
-
-In some countries, this entry is appended with a hyphen to the city name by the automatic address formatting, other countries, it is output on a line of its own or \(For example, in the USA\) not printed.
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/DistrictName
-
-</td>
-<td valign="top">
-
-district
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-AdditionalHouseID
-
-</td>
-<td valign="top">
-
-House number supplement.
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/AdditionalHouseID
-
-</td>
-<td valign="top">
-
-houseNumberSupplement
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-StreetPostalCode
-
-</td>
-<td valign="top">
-
-If different postal codes are maintained for the PO Box and Street address of an address, this field contains the Street address postal code.
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/StreetPostalCode
-
-</td>
-<td valign="top">
-
-postCode
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**Alternative - Person Address** 
-
-</td>
-<td valign="top">
-
-POBoxDeviatingCountryCode
-
-</td>
-<td valign="top">
-
-PO Box Country
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/POBoxDeviatingCountryCode
-
-</td>
-<td valign="top">
-
-country
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress/alternative
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-POBoxDeviatingRegionCode
-
-</td>
-<td valign="top">
-
-Region for PO Box \(Country, State, Province, etc.\).
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/POBoxDeviatingRegionCode
-
-</td>
-<td valign="top">
-
-primaryRegion
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress/alternative
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-POBoxDeviatingCityName
-
-</td>
-<td valign="top">
-
-PO Box city.
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/POBoxDeviatingCityName
-
-</td>
-<td valign="top">
-
-town
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress/alternative
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-POBoxPostalCode
-
-</td>
-<td valign="top">
-
-Postal code that is required for a unique assignment of the PO box; This field is used for countries where a different postal code applies to mail that is sent to the PO box rather than to the street address of a particular business partner.
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/POBoxPostalCode
-
-</td>
-<td valign="top">
-
-postCode
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress/alternative
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-POBoxLobbyName
-
-</td>
-<td valign="top">
-
-PO Box Lobby.
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/POBoxLobbyName
-
-</td>
-<td valign="top">
-
-deliveryServiceQualifier
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress/alternative
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-POBoxDeliveryServiceTypeCode
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/POBoxDeliveryServiceTypeCode
-
-</td>
-<td valign="top">
-
-deliveryServiceType
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress/alternative
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**Script Variants - Person Address** 
-
-</td>
-<td valign="top">
-
-AddressRepresentationCode
-
-</td>
-<td valign="top">
-
-Version indicator of an address.
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/AddressRepresentationCode
-
-</td>
-<td valign="top">
-
-scriptCode
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/personPostalAddress/scriptVariants
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**Organization Postal Address** 
-
-</td>
-<td valign="top">
-
-RoomID
-
-</td>
-<td valign="top">
-
-RoomID Room or Apartment Number.
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/RoomID
-
-</td>
-<td valign="top">
-
-door
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/organizationPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-CountryCode
-
-</td>
-<td valign="top">
-
-Country Code.
-
-</td>
-<td valign="top">
-
-BusinessPartner/AddressInformation/Address/PostalAddress/CountryCode
-
-</td>
-<td valign="top">
-
-country
-
-</td>
-<td valign="top">
-
-BusinessPartner/addressData/organizationPostalAddress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
 FirstLineName
 
 </td>
 <td valign="top">
 
-Organisation Name Line 1. First name field for business partners in the Organization category.
+Organisation Name Line1. First name field for business partners in the Organization category.
 
 </td>
 <td valign="top">
@@ -5808,7 +4848,7 @@ ThirdLineName
 </td>
 <td valign="top">
 
-Organization Name Line 3. Third name field for business partners in the Organization category.
+Organsiation Name Line 3. Third name field for business partners in the Organization category.
 
 </td>
 <td valign="top">
@@ -5872,7 +4912,7 @@ HouseID
 </td>
 <td valign="top">
 
-House Number.
+House number as part of an address.
 
 </td>
 <td valign="top">
@@ -5887,7 +4927,7 @@ houseNumber
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/organizationPostalAddress
+BusinessPartner/addressData/personPostalAddress,BusinessPartner/addressData/organizationPostalAddress
 
 </td>
 </tr>
@@ -5904,7 +4944,7 @@ POBoxIDVisibleIndicator
 </td>
 <td valign="top">
 
- 
+PO Box address without PO Box number flag.
 
 </td>
 <td valign="top">
@@ -5919,7 +4959,7 @@ postBoxIsWithoutNumber
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/organizationPostalAddress
+BusinessPartner/addressData/personPostalAddress,BusinessPartner/addressData/organizationPostalAddress
 
 </td>
 </tr>
@@ -5936,7 +4976,7 @@ StreetName
 </td>
 <td valign="top">
 
-Street Address.
+Street name as part of the address.
 
 </td>
 <td valign="top">
@@ -5951,7 +4991,7 @@ street
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/organizationPostalAddress
+BusinessPartner/addressData/personPostalAddress,BusinessPartner/addressData/organizationPostalAddress
 
 </td>
 </tr>
@@ -5968,7 +5008,7 @@ StreetSuffixName
 </td>
 <td valign="top">
 
-Additional address text line for Street.
+Additional address text line for Street
 
 </td>
 <td valign="top">
@@ -5983,7 +5023,7 @@ streetSuffix1
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/organizationPostalAddress
+BusinessPartner/addressData/personPostalAddress,BusinessPartner/addressData/organizationPostalAddress
 
 </td>
 </tr>
@@ -6000,7 +5040,7 @@ StreetPrefixName
 </td>
 <td valign="top">
 
-Additional address text line for Street.
+Additional address field which is printed below the Street line
 
 </td>
 <td valign="top">
@@ -6015,7 +5055,7 @@ streetPrefix1
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/organizationPostalAddress
+BusinessPartner/addressData/personPostalAddress,BusinessPartner/addressData/organizationPostalAddress
 
 </td>
 </tr>
@@ -6032,7 +5072,7 @@ AdditionalStreetPrefixName
 </td>
 <td valign="top">
 
-Additional address text line for Street.
+Additional address field which is printed above the Street line.
 
 </td>
 <td valign="top">
@@ -6047,7 +5087,7 @@ streetPrefix2
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/organizationPostalAddress
+BusinessPartner/addressData/personPostalAddress,BusinessPartner/addressData/organizationPostalAddress
 
 </td>
 </tr>
@@ -6064,7 +5104,7 @@ AdditionalStreetSuffixName
 </td>
 <td valign="top">
 
-Additional address text line for Street.
+Additional address field which is printed under the Street line.
 
 </td>
 <td valign="top">
@@ -6079,7 +5119,7 @@ streetSuffix2
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/organizationPostalAddress
+BusinessPartner/addressData/personPostalAddress,BusinessPartner/addressData/organizationPostalAddress
 
 </td>
 </tr>
@@ -6096,7 +5136,7 @@ FloorID
 </td>
 <td valign="top">
 
-Floor in building.
+Floor of the building as more exact specification of an address.
 
 </td>
 <td valign="top">
@@ -6111,7 +5151,7 @@ floor
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/organizationPostalAddress
+BusinessPartner/addressData/personPostalAddress,BusinessPartner/addressData/organizationPostalAddress
 
 </td>
 </tr>
@@ -6128,7 +5168,7 @@ CompanyPostalCode
 </td>
 <td valign="top">
 
-This field is used for countries where major companies are assigned their own postal code by the national post office.
+Postal code that is assigned directly to one company \(= company postal code = major customer postal code\).
 
 </td>
 <td valign="top">
@@ -6138,12 +5178,12 @@ BusinessPartner/AddressInformation/Address/PostalAddress/CompanyPostalCode
 </td>
 <td valign="top">
 
-companyPostalCode
+postCode
 
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/organizationPostalAddress
+BusinessPartner/addressData/personPostalAddress/alternative,BusinessPartner/addressData/organizationPostalAddress/alternative
 
 </td>
 </tr>
@@ -6160,7 +5200,7 @@ RegionCode
 </td>
 <td valign="top">
 
-Region Key. For example, Washington is a Region of USA, Karnataka is a region of India etc.
+In some countries, the region forms part of the address. The meaning depends on the country.
 
 </td>
 <td valign="top">
@@ -6175,7 +5215,7 @@ primaryRegion
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/organizationPostalAddress
+BusinessPartner/addressData/personPostalAddress,BusinessPartner/addressData/organizationPostalAddress
 
 </td>
 </tr>
@@ -6192,7 +5232,7 @@ CountyName
 </td>
 <td valign="top">
 
- 
+Specifies the countys name
 
 </td>
 <td valign="top">
@@ -6207,7 +5247,7 @@ secondaryRegion
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/organizationPostalAddress
+BusinessPartner/addressData/personPostalAddress,BusinessPartner/addressData/organizationPostalAddress
 
 </td>
 </tr>
@@ -6224,7 +5264,7 @@ CityName
 </td>
 <td valign="top">
 
- 
+City name as part of the address.
 
 </td>
 <td valign="top">
@@ -6239,7 +5279,7 @@ town
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/organizationPostalAddress
+BusinessPartner/addressData/personPostalAddress,BusinessPartner/addressData/organizationPostalAddress
 
 </td>
 </tr>
@@ -6256,7 +5296,7 @@ POBoxDeliveryServiceID
 </td>
 <td valign="top">
 
- 
+The delivery service is part of the PO box address.
 
 </td>
 <td valign="top">
@@ -6271,7 +5311,7 @@ deliveryServiceNumber
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/organizationPostalAddress
+BusinessPartner/addressData/personPostalAddress,BusinessPartner/addressData/organizationPostalAddress
 
 </td>
 </tr>
@@ -6288,7 +5328,7 @@ TimeZoneCode
 </td>
 <td valign="top">
 
-Address Time Zone.
+Time zone as part of an address.
 
 </td>
 <td valign="top">
@@ -6303,7 +5343,7 @@ timeZone
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/organizationPostalAddress
+BusinessPartner/addressData/personPostalAddress,BusinessPartner/addressData/organizationPostalAddress
 
 </td>
 </tr>
@@ -6320,7 +5360,7 @@ AdditionalRegionalStructureCityCode
 </td>
 <td valign="top">
 
- 
+City or District supplement
 
 </td>
 <td valign="top">
@@ -6335,7 +5375,7 @@ additionalCityName
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/organizationPostalAddress
+BusinessPartner/addressData/personPostalAddress,BusinessPartner/addressData/organizationPostalAddress
 
 </td>
 </tr>
@@ -6367,7 +5407,7 @@ careOf
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/organizationPostalAddress
+BusinessPartner/addressData/personPostalAddress,BusinessPartner/addressData/organizationPostalAddress
 
 </td>
 </tr>
@@ -6399,7 +5439,7 @@ transportationZone
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/organizationPostalAddress
+BusinessPartner/addressData/personPostalAddress,BusinessPartner/addressData/organizationPostalAddress
 
 </td>
 </tr>
@@ -6431,7 +5471,7 @@ taxJurisdiction
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/organizationPostalAddress
+BusinessPartner/addressData/personPostalAddress,BusinessPartner/addressData/organizationPostalAddress
 
 </td>
 </tr>
@@ -6448,7 +5488,7 @@ DistrictName
 </td>
 <td valign="top">
 
-In some countries this entry is appended with a hyphen to the city name by the automatic address formatting. In other countries, it is output on a line of its own or \(for example, in the USA\) not printed.
+District code for City and Street file
 
 </td>
 <td valign="top">
@@ -6463,7 +5503,7 @@ district
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/organizationPostalAddress
+BusinessPartner/addressData/personPostalAddress,BusinessPartner/addressData/organizationPostalAddress
 
 </td>
 </tr>
@@ -6480,7 +5520,7 @@ AdditionalHouseID
 </td>
 <td valign="top">
 
-House number supplement.
+House number supplement as part of an address
 
 </td>
 <td valign="top">
@@ -6495,7 +5535,7 @@ houseNumberSupplement
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/organizationPostalAddress
+BusinessPartner/addressData/personPostalAddress,BusinessPartner/addressData/organizationPostalAddress
 
 </td>
 </tr>
@@ -6512,7 +5552,7 @@ StreetPostalCode
 </td>
 <td valign="top">
 
-If different postal codes are maintained for the PO Box and Street address of an address, this field contains the Street address postal code.
+Postal code as part of the address
 
 </td>
 <td valign="top">
@@ -6527,14 +5567,14 @@ postCode
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/organizationPostalAddress
+BusinessPartner/addressData/personPostalAddress,BusinessPartner/addressData/organizationPostalAddress
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-**Organization Address - Alternative** 
+**Alternative - Person Address and Organization Address** 
 
 </td>
 <td valign="top">
@@ -6544,7 +5584,7 @@ POBoxDeviatingCountryCode
 </td>
 <td valign="top">
 
-PO Box Country.
+Different PO Box country in address.
 
 </td>
 <td valign="top">
@@ -6559,7 +5599,7 @@ country
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/personPostalAddress/alternative
+BusinessPartner/addressData/personPostalAddress/alternative,BusinessPartner/addressData/organizationPostalAddress/alternative
 
 </td>
 </tr>
@@ -6576,7 +5616,7 @@ POBoxDeviatingRegionCode
 </td>
 <td valign="top">
 
-Region for PO Box \(Country, State, Province, etc.\),
+Different Region for PO Box in an address.
 
 </td>
 <td valign="top">
@@ -6591,7 +5631,7 @@ primaryRegion
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/personPostalAddress/alternative
+BusinessPartner/addressData/personPostalAddress/alternative,BusinessPartner/addressData/organizationPostalAddress/alternative
 
 </td>
 </tr>
@@ -6608,7 +5648,7 @@ POBoxDeviatingCityName
 </td>
 <td valign="top">
 
-PO Box city.
+Different city for the PO Box as an address component.
 
 </td>
 <td valign="top">
@@ -6623,7 +5663,7 @@ town
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/personPostalAddress/alternative
+BusinessPartner/addressData/personPostalAddress/alternative,BusinessPartner/addressData/organizationPostalAddress/alternative
 
 </td>
 </tr>
@@ -6655,7 +5695,7 @@ postCode
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/personPostalAddress/alternative
+BusinessPartner/addressData/personPostalAddress/alternative,BusinessPartner/addressData/organizationPostalAddress/alternative
 
 </td>
 </tr>
@@ -6672,7 +5712,7 @@ POBoxLobbyName
 </td>
 <td valign="top">
 
-PO Box Lobby.
+The PO box lobby is part of the PO box address.
 
 </td>
 <td valign="top">
@@ -6687,7 +5727,7 @@ deliveryServiceQualifier
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/personPostalAddress/alternative
+BusinessPartner/addressData/personPostalAddress/alternative,BusinessPartner/addressData/organizationPostalAddress/alternative
 
 </td>
 </tr>
@@ -6704,7 +5744,7 @@ POBoxDeliveryServiceTypeCode
 </td>
 <td valign="top">
 
- 
+The delivery service is part of the PO box address.
 
 </td>
 <td valign="top">
@@ -6714,19 +5754,83 @@ BusinessPartner/AddressInformation/Address/PostalAddress/POBoxDeliveryServiceTyp
 </td>
 <td valign="top">
 
-deliveryServiceType
+deliveryType
 
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/personPostalAddress/alternative
+BusinessPartner/addressData/personPostalAddress/alternative,BusinessPartner/addressData/organizationPostalAddress/alternative
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-**Script Variants - Organization Address** 
+ 
+
+</td>
+<td valign="top">
+
+POBoxDeliveryServiceID
+
+</td>
+<td valign="top">
+
+The delivery service is part of the PO box address.
+
+</td>
+<td valign="top">
+
+BusinessPartner/AddressInformation/Address/PostalAddress/POBoxDeliveryServiceID
+
+</td>
+<td valign="top">
+
+deliveryServiceIdentifier
+
+</td>
+<td valign="top">
+
+BusinessPartner/addressData/personPostalAddress/alternative,BusinessPartner/addressData/organizationPostalAddress/alternative
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+POBoxID
+
+</td>
+<td valign="top">
+
+PO Box number as part of an address.
+
+</td>
+<td valign="top">
+
+BusinessPartner/AddressInformation/Address/PostalAddress/POBoxID
+
+</td>
+<td valign="top">
+
+poBoxId
+
+</td>
+<td valign="top">
+
+BusinessPartner/addressData/personPostalAddress/alternative,BusinessPartner/addressData/organizationPostalAddress/alternative
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Script Variants - Person Address and Organization Address** 
 
 </td>
 <td valign="top">
@@ -6736,7 +5840,7 @@ AddressRepresentationCode
 </td>
 <td valign="top">
 
-Version indicator of an address.
+Version indicator of an address
 
 </td>
 <td valign="top">
@@ -6751,11 +5855,14 @@ scriptCode
 </td>
 <td valign="top">
 
-BusinessPartner/addressData/personPostalAddress/scriptVariants
+BusinessPartner/addressData/personPostalAddress/scriptVariants,BusinessPartner/addressData/organizationPostalAddress/scriptVariants
 
 </td>
 </tr>
 </table>
+
+> ### Note:  
+> companyPostalCode and POBoxPostalCode in the "Person and Organization Address" are both mapped to the same ODM field 'postCode'. If the SOAP payload has both its values, companyPostalCode will be prioritised and its value will be mapped to postCode in the ODM.
 
 
 
@@ -9074,6 +8181,390 @@ taxClassification
 <td valign="top">
 
 BusinessPartner/customerInformation/taxClassifications
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Permitted Alternative Payer** 
+
+</td>
+<td valign="top">
+
+PermittedPayer/InternalID
+
+</td>
+<td valign="top">
+
+Local identifier of a customer who is a permitted alternative payer.
+
+</td>
+<td valign="top">
+
+BusinessPartner/Customer/PermittedPayer/InternalID
+
+</td>
+<td valign="top">
+
+localId
+
+</td>
+<td valign="top">
+
+BusinessPartner/customerInformation/permittedAlternativePayer
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Accounting Information** 
+
+</td>
+<td valign="top">
+
+CompanyID
+
+</td>
+<td valign="top">
+
+An ID that represents the company code. The financial accounting organization responsible for the accounting information.
+
+</td>
+<td valign="top">
+
+BusinessPartner/Customer/AccountingInformation/CompanyID
+
+</td>
+<td valign="top">
+
+companyCodeDisplayId
+
+</td>
+<td valign="top">
+
+BusinessPartner/customerInformation/accountingInformation
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+CashDiscountTermsCode
+
+</td>
+<td valign="top">
+
+Payment terms that are arranged by a company with a customer.
+
+</td>
+<td valign="top">
+
+BusinessPartner/Customer/AccountingInformation/CashDiscountTermsCode
+
+</td>
+<td valign="top">
+
+paymentTermCode
+
+</td>
+<td valign="top">
+
+BusinessPartner/customerInformation/accountingInformation
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+PaymentMethodsCode
+
+</td>
+<td valign="top">
+
+List of payment methods which may be used in automatic payment transactions with a customer if you do not specify a payment method in the item to be paid.
+
+</td>
+<td valign="top">
+
+BusinessPartner/Customer/AccountingInformation/PaymentMethodsCode
+
+</td>
+<td valign="top">
+
+paymentMethod
+
+</td>
+<td valign="top">
+
+BusinessPartner/customerInformation/accountingInformation/paymentMethods
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+DeletedIndicator
+
+</td>
+<td valign="top">
+
+Indicates that the company code data for a customer is to be deleted.
+
+</td>
+<td valign="top">
+
+BusinessPartner/Customer/AccountingInformation/DeletedIndicator
+
+</td>
+<td valign="top">
+
+deletionIndicator
+
+</td>
+<td valign="top">
+
+BusinessPartner/customerInformation/accountingInformation
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+AlternativePayeePartyInternalID
+
+</td>
+<td valign="top">
+
+Account number of a customer for whom automatic payment transactions are to be carried out.
+
+</td>
+<td valign="top">
+
+BusinessPartner/Customer/AccountingInformation/AlternativePayeePartyInternalID
+
+</td>
+<td valign="top">
+
+localId
+
+</td>
+<td valign="top">
+
+BusinessPartner/customerInformation/accountingInformation/alternativePayerAccount
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+AccountingClerkInitialsCode
+
+</td>
+<td valign="top">
+
+The name of the accounting clerk defined by this identification code can be used in the payment program for correspondence and reporting \(for example, open item lists\).
+
+</td>
+<td valign="top">
+
+BusinessPartner/Customer/AccountingInformation/AccountingClerkInitialsCode
+
+</td>
+<td valign="top">
+
+accountingClerkInitials
+
+</td>
+<td valign="top">
+
+BusinessPartner/customerInformation/accountingInformation
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+PaymentBlockCode
+
+</td>
+<td valign="top">
+
+A reason to block payment transactions for a customer.
+
+</td>
+<td valign="top">
+
+BusinessPartner/Customer/AccountingInformation/PaymentBlockCode
+
+</td>
+<td valign="top">
+
+paymentBlockingReason
+
+</td>
+<td valign="top">
+
+BusinessPartner/customerInformation/accountingInformation
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+EmployeeResponsiblePartyWebAddress
+
+</td>
+<td valign="top">
+
+Internet address of an accounting clerk at customer.
+
+</td>
+<td valign="top">
+
+BusinessPartner/Customer/AccountingInformation/EmployeeResponsiblePartyWebAddress
+
+</td>
+<td valign="top">
+
+accountingClerkInternetAddress
+
+</td>
+<td valign="top">
+
+BusinessPartner/customerInformation/accountingInformation
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+EmployeeResponsiblePartyTelephoneFormattedNumberDescription
+
+</td>
+<td valign="top">
+
+Telephone number of an accounting clerk at customer.
+
+</td>
+<td valign="top">
+
+BusinessPartner/Customer/AccountingInformation/EmployeeResponsiblePartyTelephoneFormattedNumberDescription
+
+</td>
+<td valign="top">
+
+accountingClerkPhoneNumber
+
+</td>
+<td valign="top">
+
+BusinessPartner/customerInformation/accountingInformation
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+EmployeeResponsiblePartyFaxFormattedNumberDescription
+
+</td>
+<td valign="top">
+
+Fax number of an accounting clerk at customer.
+
+</td>
+<td valign="top">
+
+BusinessPartner/Customer/AccountingInformation/EmployeeResponsiblePartyFaxFormattedNumberDescription
+
+</td>
+<td valign="top">
+
+accountingClerkFaxNumber
+
+</td>
+<td valign="top">
+
+BusinessPartner/customerInformation/accountingInformation
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Accounting Permitted Alternative Payer** 
+
+</td>
+<td valign="top">
+
+PermittedPayer/InternalID
+
+</td>
+<td valign="top">
+
+Local identifier of a customer who is a permitted alternative payer.
+
+</td>
+<td valign="top">
+
+BusinessPartner/Customer/AccountingInformation/PermittedPayer/InternalID
+
+</td>
+<td valign="top">
+
+localId
+
+</td>
+<td valign="top">
+
+BusinessPartner/customerInformation/accountingInformation/permittedAlternativePayer
 
 </td>
 </tr>

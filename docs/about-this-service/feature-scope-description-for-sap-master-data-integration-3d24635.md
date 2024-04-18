@@ -216,7 +216,7 @@ The Service Level Agreement \(SLA\) is a contract between SAP and its customers 
 
 -   The **SAP Business Technology Platform Supplement** overrides the Service Level Agreement for SAP Cloud Services in case of deviations and specifies the SLA for SAP Business Technology Platform in general.
 
--   The **SAP Business Technology Platform Service Description Guide** provides information on the `<service short-name>` service, including any deviations to the SLA. For more information, see [SAP Business Technology Platform Service Description Guide](https://www.sap.com/products/cloud-platform.html) .
+-   The **SAP Business Technology Platform Service Description Guide** provides information on the `<service short-name>` service, including any deviations to the SLA. For more information, see [SAP Business Technology Platform Service Description Guide](https://www.sap.com/about/trust-center/agreements/cloud/cloud-services.html) .
 
 
 Additionally, the **General Terms and Conditions for SAP Cloud Services** warrants the SLA and provides the available remedy if SAP fails to meet its SLA. For more information, see [General Terms and Conditions for SAP Cloud Services](https://www.sap.com/about/trust-center/agreements/cloud/cloud-services.html?search=General+Terms+and+Conditions&sort=title_asc) .
