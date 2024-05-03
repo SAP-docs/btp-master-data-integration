@@ -587,7 +587,7 @@ This parameter is required for providing different soap parameters based for dif
     ```
 
 
-**Example \(UI\):** Entities can also be extended via [SAP Master Data Orchestration UI](https://help.sap.com/viewer/8ce78b673ef04cc1bcfeb01c93ef7885/CLOUD/en-US/4841c92c3aec46bbaeb5abf2fdab9d00.html) .
+**Example \(UI\):** Entities can also be extended via [Business Data Orchestration UI](https://help.sap.com/viewer/8ce78b673ef04cc1bcfeb01c93ef7885/CLOUD/en-US/4841c92c3aec46bbaeb5abf2fdab9d00.html) .
 
 
 

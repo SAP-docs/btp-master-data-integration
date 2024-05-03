@@ -468,6 +468,23 @@ sap.odm.product.ProductGroup
 <tr>
 <td valign="top">
 
+sap.odm.project.ProjectServiceOrganization
+
+</td>
+<td valign="top">
+
+7.0.0
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 sap.odm.realestate.contract.RealEstateContract
 
 </td>

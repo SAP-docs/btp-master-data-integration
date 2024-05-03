@@ -90,7 +90,7 @@ Master Data Integration can be used to replicate master data between two or more
 </td>
 <td valign="top">
 
-Configure filters via SAP Master Data Orchestration service to control master data replication.
+Configure filters via Business Data Orchestration service to control master data replication.
 
 </td>
 </tr>

@@ -13,10 +13,10 @@ To use the SOAP APIs for business partners, you need to configure the business s
 
 ## Procedure
 
-Own business system ID of a tenant can be maintained using the SAP Master Data Orchestration UI or Generic Configuration API.
+Own business system ID of a tenant can be maintained using the Business Data Orchestration UI or Generic Configuration API.
 
 > ### Note:  
-> You cannot change the business system ID in SAP Master Data Orchestration once it is set and the replication has started. Changing the business system ID after the replication started can lead to inconsistencies. Therefore, SAP Master Data Integration does not support updating the business system ID after the replication started.
+> You cannot change the business system ID in Business Data Orchestration once it is set and the replication has started. Changing the business system ID after the replication started can lead to inconsistencies. Therefore, SAP Master Data Integration does not support updating the business system ID after the replication started.
 
 For choosing a business system ID, we recommend the following:
 
@@ -36,13 +36,13 @@ For choosing a business system ID, we recommend the following:
 
 
 
-<a name="loio75d55b7c8488424cb9b8a9c14c6eae09__using-master-data-orchestration-ui"/>
+<a name="loio75d55b7c8488424cb9b8a9c14c6eae09__using-business-data-orchestration-ui"/>
 
-## Using Master Data Orchestration UI
+## Using Business Data Orchestration UI
 
 1.  Go to **Instances and Subscriptions** in your Subaccount. Under **Subscriptions** , click on **Master Data Integration \(Orchestration\)** .
 
-2.  Select **Go to Application** . This will open the Fiori Launchpad for SAP Master Data Orchestration.
+2.  Select **Go to Application** . This will open the Fiori Launchpad for Business Data Orchestration.
 
 3.  Go to **Configure Master Data Integration** section and select [Configure Business System Name](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION/8ce78b673ef04cc1bcfeb01c93ef7885/2efb0f9407eb49a381a0e70e0311ab36.html) tile.
 
@@ -91,7 +91,7 @@ Ensure that `201 Created` response is received for your POST call.
 
 -   Changing the business system ID of a tenant is only possible as long as no business partner data has been replicated to MDI.
 
--   Update of the Business System ID value **using Master Data Orchestration UI** is possible using the [Configure Business System Name](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION/8ce78b673ef04cc1bcfeb01c93ef7885/2efb0f9407eb49a381a0e70e0311ab36.html) tile.
+-   Update of the Business System ID value **using Business Data Orchestration UI** is possible using the [Configure Business System Name](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION/8ce78b673ef04cc1bcfeb01c93ef7885/2efb0f9407eb49a381a0e70e0311ab36.html) tile.
 
 -   Once [Configure SOAP Replication](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION/8ce78b673ef04cc1bcfeb01c93ef7885/7d72e4afac074ed09533bbe83470dc77.html) is **Activated** business system ID value can no longer be edited.
 

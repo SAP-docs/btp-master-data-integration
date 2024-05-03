@@ -19,19 +19,9 @@ If you have connected a SAP BTP application via a service instance and a destina
 
 
 
-<a name="loiod09d7b9a840147bda023f078e6db9d80__deleting-a-subscription"/>
-
-## Deleting a Subscription
-
-SAP Master Data Integration can also be used as a dependency of an SAP BTP application. In this case, a subscription to SAP Master Data Integration is maintained along with the subscription of the SAP BTP application. If such an application is unsubscribed, the corresponding subscription to SAP Master Data Integration will also be deleted.
-
-
-
 <a name="loiod09d7b9a840147bda023f078e6db9d80__remarks"/>
 
 ## Remarks
-
-If you do not intend to delete the tenant of the subaccount, make sure to always have at least one service instance or subscription of SAP Master Data Integration in the subaccount. Refer to [Deleting Tenants](deleting-tenants-c53da25.md) to learn more about deleting tenants.
 
 Before deleting a service instance or subscription, make sure to always deactivate its distribution models. Refer to [Deactivating Distribution Models](configuring-distribution-models-b033b0a.md) for more details on how to manage distribution models.
 

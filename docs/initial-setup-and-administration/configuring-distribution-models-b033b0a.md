@@ -2,7 +2,7 @@
 
 # Configuring Distribution Models
 
-Use SAP Master Data Orchestration for configuring distribution models. For more information on SAP Master Data Orchestration, refer to [help.sap.com](https://help.sap.com/viewer/8ce78b673ef04cc1bcfeb01c93ef7885/CLOUD/en-US/f3fc55879f8342ee9fbafda37db36019.html) 
+Use Business Data Orchestration for configuring distribution models. For more information on Business Data Orchestration, refer to [Subscription Process for Business Data Orchestration](https://help.sap.com/viewer/8ce78b673ef04cc1bcfeb01c93ef7885/CLOUD/en-US/f3fc55879f8342ee9fbafda37db36019.html) 
 
 > ### Note:  
 > SAP Master Data Integration offers SOAP APIs for the integration of the Business Partner object in addition to the generic REST APIs. Refer to the documentation of the respective integrating application to identify the underlying APIs used for the integration. The specifics for the Business Partner distribution models are shown below.
@@ -36,31 +36,41 @@ In order to avoid replication failures, a BP Relationship distribution model mus
 
 ## Configuring SAP Master Data Integration — Business Partners for SOAP Scenario
 
-Follow the steps to configure the distribution model, which will be used to replicate the Business Partners from the SAP Master Data Integration service to connected clients. For more information refer to [Maintenance of the Distribution Model in SAP Master Data Orchestration](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION/8ce78b673ef04cc1bcfeb01c93ef7885/ef9398e6f60a44568d106f71ea4d5cfa.html) .
+Follow the steps to configure the distribution model, which will be used to replicate the Business Partners from the SAP Master Data Integration service to connected clients.
+
+For more information refer to [Maintenance of the Distribution Model in Business Data Orchestration](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION/8ce78b673ef04cc1bcfeb01c93ef7885/ef9398e6f60a44568d106f71ea4d5cfa.html) .
 
 -   Go to **Instances and Subscriptions** in your Subaccount. Under **Subscriptions** , click on **Master Data Integration \(Orchestration\)** .
 
--   Select **Go to Application** . This will open the Fiori Launchpad for SAP Master Data Orchestration service application.
+-   Select **Go to Application** . This will open the Fiori Launchpad for Business Data Orchestration service application.
 
--   Go to **Manage Master Data Orchestration** section and select **Manage Distribution Model** tile.
+
+Go to **Manage Master Data Orchestration** section and select **Manage Distribution Model** tile.
 
 -   Click **Create** .
 
--   Provide a name in the **Model** field. **Select Business Partner \(sap.odm.businesspartner.BusinessPartner\)** from **Business Object Type** dropdown field.
-
--   Next, choose **Push** from the **Mode** dropdown field.
-
--   Select the **Continuous Distribution** checkbox to have the business partners replicated as soon as they are created/updated.
-
--   Under **Provider Interface** section, select **SAP Master Data Integration\_SOAP\_BUSINESS\_PARTNER** in the **API** placeholder.
+-   Provide a name in the **Model** field.
 
 -   In Provider section, click **Create** .
 
--   Under **Cloud Platform Cockpit Destination** field, click to open the input popup.
+    -   For the provider Business System, click on the value help and select **SAP Master Data Integration** from the **Business System** column.
 
--   In the display table, select **SAP Master Data Integration** from the **Provider Value** column.
 
--   In **Consumer** section, select the `businessSystemId` for the business system for which the distribution model is being created. The `businessSystemId` , which was used while creating the service instance will appear here. For more information, see [Service Instance in SAP Master Data Integration](connecting-applications-via-service-instances-e01bb46.md) .
+-   In **Consumer** section, click **Create** .
+
+    -   For the consumer Business System, click on the value help and select the `businessSystemId` for the business system for which the distribution model is being created. The `businessSystemId` , which was used while creating the service instance will appear here. For more information, see [Connecting applications via service instance](connecting-applications-via-service-instances-e01bb46.md) .
+
+
+-   Select the below value in the **Parameters** section:
+
+    -   Select **Business Partner \(sap.odm.businesspartner.BusinessPartner\)** from **Business Object Type** dropdown field.
+
+    -   Add a relevant number to define the **Package Size** as per your requirement. Recommendation is not to exceed above 50.
+
+    -   For **API** field, select **MDI\_SOAP\_BUSINESS\_PARTNER** 
+
+    -   Select a relevant option for **Recurrence Pattern** under **Scheduling Information** 
+
 
 
 > ### Note:  
@@ -71,8 +81,6 @@ Follow the steps to configure the distribution model, which will be used to repl
 > -   `<businessSystemId>_BPRELOUTBOUND` 
 > 
 > -   `<businessSystemId>_KMOUTBOUND` 
-
--   Select the appropriate **Application Category** if applicable.
 
 -   Optionally, you can set **Data Filters** under **Object Selection** section if applicable.
 
@@ -132,7 +140,7 @@ Follow the steps to configure the distribution model, which will be used to repl
 
 
 > ### Note:  
-> 1.  A PUSH based SAP Master Data Orchestration model for Business Partners also includes distribution of Business Partners Relationships and Key Mapping \(if any\). A separate SOAP PUSH distribution model is not required for Business Partners Relationships and Key Mapping. However, a separate destination configuration setup is required for Business Partners Relationships and Key Mapping.For example, `<businessSystemId>_BPRELOUTBOUND` and `<businessSystemId>_KMOUTBOUND` 
+> 1.  A PUSH based Business Data Orchestration model for Business Partners also includes distribution of Business Partners Relationships and Key Mapping \(if any\). A separate SOAP PUSH distribution model is not required for Business Partners Relationships and Key Mapping. However, a separate destination configuration setup is required for Business Partners Relationships and Key Mapping.For example, `<businessSystemId>_BPRELOUTBOUND` and `<businessSystemId>_KMOUTBOUND` 
 > 
 > 2.  Refer here for [SOAP distribution related system limitations](../about-this-service/system-limitations-e7ccdfa.md) .
 

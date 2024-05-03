@@ -14,7 +14,7 @@ This page lists the available configuration attributes.
 
 The `businessSystemId` attribute serves two purposes:
 
-1.  It acts as display name for the client in the distribution model configuration of the SAP Master Data Orchestration UI.
+1.  It acts as display name for the client in the distribution model configuration of the Business Data Orchestration UI.
 
 2.  It is mandatory to integrate with the SOAP API for business partners.
 

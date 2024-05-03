@@ -9,5 +9,5 @@ After registering a filter for a client, all following responses of the Log API 
 > ### Note:  
 > The filtering behavior can be changed by registering a different filter. Registering a new filter for one client deactivates the previous filter registered for this client.
 
-Changing the filter triggers new include or exclude messages for existing master data instances, if the visibility has changed in the next request of the client to the Log API. s For more information, see [Connecting Clients](https://help.sap.com/viewer/c7713d6177ad479d9ea00958db9f2f81/CLOUD/en-US/69ae614272654411a4c03acea8d488b3.html) and [Maintenance of the Distribution Model in SAP Cloud Platform Master Data Orchestration](https://help.sap.com/viewer/c7713d6177ad479d9ea00958db9f2f81/CLOUD/en-US/ef9398e6f60a44568d106f71ea4d5cfa.html) .
+Changing the filter triggers new include or exclude messages for existing master data instances, if the visibility has changed in the next request of the client to the Log API. s For more information, see [Connecting Clients](https://help.sap.com/viewer/c7713d6177ad479d9ea00958db9f2f81/CLOUD/en-US/69ae614272654411a4c03acea8d488b3.html) and [Maintenance of the Distribution Model in SAP Cloud Platform Business Data Orchestration](https://help.sap.com/viewer/c7713d6177ad479d9ea00958db9f2f81/CLOUD/en-US/ef9398e6f60a44568d106f71ea4d5cfa.html) .
 

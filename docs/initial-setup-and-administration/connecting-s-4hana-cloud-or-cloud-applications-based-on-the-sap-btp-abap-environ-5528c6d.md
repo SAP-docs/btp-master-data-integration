@@ -55,9 +55,9 @@ Using the service binding, create a Communication Arrangement as follows:
 
 
 
-<a name="loio5528c6dc25ef45ec9b9f7fcb0f3b986c__enable-integration-with-sap-master-data-orchestration"/>
+<a name="loio5528c6dc25ef45ec9b9f7fcb0f3b986c__enable-integration-with-business-data-orchestration"/>
 
-## Enable integration with SAP Master Data Orchestration
+## Enable integration with Business Data Orchestration
 
 
 
@@ -73,7 +73,7 @@ Create a Communication Arrangement as follows:
 
 2.  Choose **New** . Select communication scenario `SAP_COM_0594` , enter any description, and click on **Save** .
 
-3.  Make note of the service URL of service " **MDO: Distribution Administration** " in the **Inbound Services** table, as you will need it later when configuring the SAP BTP destination for SAP Master Data Orchestration.
+3.  Make note of the service URL of service " **MDO: Distribution Administration** " in the **Inbound Services** table, as you will need it later when configuring the SAP BTP destination for Business Data Orchestration.
 
 4.  Create the communication system by clicking on the **New** link.
 
@@ -83,7 +83,7 @@ Create a Communication Arrangement as follows:
 
 7.  Create a new user with any name by clicking on **New User** .
 
-8.  Enter a password \(long enough\) if required, and create the user. **Note:** Ensure that you copy this password since it is required later while configuring the SAP BTP destination for SAP Master Data Orchestration.
+8.  Enter a password \(long enough\) if required, and create the user. **Note:** Ensure that you copy this password since it is required later while configuring the SAP BTP destination for Business Data Orchestration.
 
 9.  Save the communication system.
 
@@ -92,11 +92,11 @@ Create a Communication Arrangement as follows:
 
 
 
-<a name="loio5528c6dc25ef45ec9b9f7fcb0f3b986c__create-a-sap-btp-destination-for-sap-master-data-orchestration"/>
+<a name="loio5528c6dc25ef45ec9b9f7fcb0f3b986c__create-a-sap-btp-destination-for-business-data-orchestration"/>
 
-## Create a SAP BTP Destination for SAP Master Data Orchestration
+## Create a SAP BTP Destination for Business Data Orchestration
 
-Follow guide [SAP Master Data Integration\>SAP Master Data Orchestration\>Initial Setup of SAP Master Data Orchestration\>Connecting Clients](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION/8ce78b673ef04cc1bcfeb01c93ef7885/6b7029a67db0438084485b3b26579b4f.html) to create a destination for your ABAP system using the service URL as well as the inbound user details noted in the previous step.
+Follow guide [SAP Master Data Integration\>Business Data Orchestration\>Initial Setup of Business Data Orchestration\>Connecting Clients](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION/8ce78b673ef04cc1bcfeb01c93ef7885/6b7029a67db0438084485b3b26579b4f.html) to create a destination for your ABAP system using the service URL as well as the inbound user details noted in the previous step.
 
 
 
@@ -104,5 +104,5 @@ Follow guide [SAP Master Data Integration\>SAP Master Data Orchestration\>Initia
 
 ## Set up Distribution Models
 
-Follow guide [SAP Master Data Integration\>SAP Master Data Orchestration\>Initial Setup of SAP Master Data Orchestration\>Manage Distribution Models](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION/8ce78b673ef04cc1bcfeb01c93ef7885/f63ec1de09ea4211a8dab5884447c25c.html) to create push or pull distribution models depending on your scenario.
+Follow guide [SAP Master Data Integration\>Business Data Orchestration\>Initial Setup of Business Data Orchestration\>Manage Distribution Models](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION/8ce78b673ef04cc1bcfeb01c93ef7885/f63ec1de09ea4211a8dab5884447c25c.html) to create push or pull distribution models depending on your scenario.
 

@@ -20,11 +20,11 @@ The Booster for SAP Master Data Integration performs the following setup steps:
 
 -   Creation of a new Master Data Integration service instance along with a service key. For more information on manual creation of Master Data Integration service instances, see [Connecting Applications via Service Instances](connecting-applications-via-service-instances-e01bb46.md) .
 
--   Subscription of the SAP Master Data Orchestration application.
+-   Subscription of the Business Data Orchestration application.
 
 -   Assignment of users of the connected Identity Provider to administrator and developer roles in SAP BTP.
 
--   Creation and assignment of a BTP role collection for the SAP Master Data Orchestration application.
+-   Creation and assignment of a BTP role collection for the Business Data Orchestration application.
 
 
 

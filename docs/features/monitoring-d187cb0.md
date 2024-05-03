@@ -2,7 +2,7 @@
 
 # Monitoring
 
-Monitoring in SAP Master Data Orchestration offers an end-to-end monitoring of the distribution of master data. It visualizes the distribution process of the master data objects throughout the landscape via SAP Master Data Integration service. The distribution processes are configured by distribution models. The distribution model describes per connection\(combination of provider and consumer\), which master data objects are distributed and contains parameters controlling the distribution. Monitoring supports the administrator and the business user to check the correctness of the distribution setup, to observe the distribution of object changes and to resolve distribution errors.
+Monitoring in Business Data Orchestration offers an end-to-end monitoring of the distribution of master data. It visualizes the distribution process of the master data objects throughout the landscape via SAP Master Data Integration service. The distribution processes are configured by distribution models. The distribution model describes per connection\(combination of provider and consumer\), which master data objects are distributed and contains parameters controlling the distribution. Monitoring supports the administrator and the business user to check the correctness of the distribution setup, to observe the distribution of object changes and to resolve distribution errors.
 
 You can have different views on the distribution statuses:
 
@@ -23,9 +23,9 @@ Any client sending or receiving master data objects reports the processing of th
 
 The central monitoring platform for monitoring the integration of SAP products is SAP Cloud ALM, mainly with the application "Integration & Exception Monitoring". You can configure business services there representing the configured connections between the clients. In this context, SAP Cloud ALM also supports a correlation of the SAP Passport Events by the logging information between provider and consumer.
 
-The logging information regarding the distributed master data is also used by SAP Master Data Orchestration. SAP Master Data Orchestration will import every five minutes the logging information from SAP Cloud ALM and aggregate it to the distribution status.
+The logging information regarding the distributed master data is also used by Business Data Orchestration. Business Data Orchestration will import every five minutes the logging information from SAP Cloud ALM and aggregate it to the distribution status.
 
-SAP Cloud ALM offers a message oriented and technical point of view to the distribution process, while SAP Master Data Orchestration has a master data object oriented and distribution model-driven point of view.
+SAP Cloud ALM offers a message oriented and technical point of view to the distribution process, while Business Data Orchestration has a master data object oriented and distribution model-driven point of view.
 
 Refer to [SOAP monitoring events](list-of-soap-events-5fd5903.md) for more details on SOAP events and to [REST monitoring events](list-of-rest-events-422e8f6.md) for more details on REST events that are sent to SAP Cloud ALM.
 
@@ -37,9 +37,9 @@ Refer to [SOAP monitoring events](list-of-soap-events-5fd5903.md) for more detai
 
 1.  You must subscribe to SAP Cloud ALM, which may result in additional costs depending on the amount of buffered data.
 
-2.  You must register any client participating at the master data replication to SAP Cloud ALM to enable, that the SAP Passport Events are accepted by it. In addition, also the replication of the SAP Passport Events to SAP Cloud ALM must be set up individually per client. SAP Master Data Orchestration must be registered with “Configure Monitoring” in the same way. This step also registers implicitly Master Data Integration and enables the replication of the SAP Passport Events to SAP Cloud ALM.
+2.  You must register any client participating at the master data replication to SAP Cloud ALM to enable, that the SAP Passport Events are accepted by it. In addition, also the replication of the SAP Passport Events to SAP Cloud ALM must be set up individually per client. Business Data Orchestration must be registered with “Configure Monitoring” in the same way. This step also registers implicitly Master Data Integration and enables the replication of the SAP Passport Events to SAP Cloud ALM.
 
-3.  You must configure a mapping between the service instances used in Master Data Integration\(defined in the Business Cloud Cockpit\) to the services known in SAP Cloud ALM. This enables SAP Master Data Orchestration to read and identify the logging information from SAP Cloud ALM.
+3.  You must configure a mapping between the service instances used in Master Data Integration\(defined in the Business Cloud Cockpit\) to the services known in SAP Cloud ALM. This enables Business Data Orchestration to read and identify the logging information from SAP Cloud ALM.
 
 
 
@@ -56,7 +56,7 @@ Altering, that is, informing administrators in case of warnings or errors, is a 
 
 ## Error Resolution
 
-If the reason of a distribution error is solved, the monitors of SAP Master Data Orchestration can be used to retrigger the distribution of the failed master data objects.
+If the reason of a distribution error is solved, the monitors of Business Data Orchestration can be used to retrigger the distribution of the failed master data objects.
 
 
 
@@ -72,7 +72,7 @@ Don't disable or filter in SAP Cloud ALM the SAP Passport Events regarding maste
 
 ## Restrictions
 
-The monitoring in SAP Master Data Orchestration focus on the distribution process. Changes of business-related status of the master data objects are not reflected in this monitoring.
+The monitoring in Business Data Orchestration focus on the distribution process. Changes of business-related status of the master data objects are not reflected in this monitoring.
 
-Currently SAP Master Data Orchestration only offers the connection-centric view with “Display Distribution Status”.
+Currently, Business Data Orchestration only offers the connection-centric view with “Display Distribution Status”.
 

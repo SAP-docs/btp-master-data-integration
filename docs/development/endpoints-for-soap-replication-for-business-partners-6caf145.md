@@ -110,3 +110,12 @@ KeyMapping Confirmation Inbound
 </tr>
 </table>
 
+Note:
+
+SOAP endpoints of Master Data Integration support HEAD requests.This enables clients to check connectivity with the SOAP APIs of Master Data Integration.For example:
+
+-   When performing "Check Connection" on Communication Arrangement UI in SAP S/4HANA Cloud.
+
+-   When performing "Ping Web Service" in SOAMANAGER in SAP S/4HANA.
+
+

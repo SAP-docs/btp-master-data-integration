@@ -2,9 +2,9 @@
 
 # Distribution Models
 
-Distribution models contain distribution relevant settings in a central place. They are needed independently if the integrating applications are cloud or on-premise applications. To avoid heterogeneous logic and diverse user interfaces of the specific applications in point-to-point integrations, SAP Master Data Orchestration provides a central control of data distribution in the context of SAP Master Data Integration service.
+Distribution models contain distribution relevant settings in a central place. They are needed independently if the integrating applications are cloud or on-premise applications. To avoid heterogeneous logic and diverse user interfaces of the specific applications in point-to-point integrations, Business Data Orchestration provides a central control of data distribution in the context of SAP Master Data Integration service.
 
-SAP Master Data Orchestration delivers a user interface for the central maintenance of distribution models. These are later replicated to the clients when the models are activated.
+Business Data Orchestration delivers a user interface for the central maintenance of distribution models. These are later replicated to the clients when the models are activated.
 
 > ### Note:  
 > The transition process from the local distribution frameworks to its central representation and maintenance has started. Further information on supported clients will be made available in the scenario descriptions of the Intelligent Enterprise Suite.
@@ -28,7 +28,7 @@ To fulfill these requirements two types of filters are available, instance and d
 > ### Note:  
 > This implies directly that data providers \("upstream clients" of Master Data Integration\) will normally only have filters if data are strictly only for local use or outdated.
 
-As already indicated in the above two examples, the final filtering occurs by setting up logical conditions based on the payload of the replicated object. The explicit formulation of the specific condition requires knowledge of the business process. Therefore, it can only be set up at the individual SAP customer. This clarifies that the user of the distribution model maintenance in SAP Master Data Orchestration would rather be a user with business background than a technical administrator.
+As already indicated in the above two examples, the final filtering occurs by setting up logical conditions based on the payload of the replicated object. The explicit formulation of the specific condition requires knowledge of the business process. Therefore, it can only be set up at the individual SAP customer. This clarifies that the user of the distribution model maintenance in Business Data Orchestration would rather be a user with business background than a technical administrator.
 
 
 
@@ -36,7 +36,7 @@ As already indicated in the above two examples, the final filtering occurs by se
 
 ## Related Information
 
--   [Maintenance of the Distribution Model in SAP Master Data Orchestration](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION/8ce78b673ef04cc1bcfeb01c93ef7885/ef9398e6f60a44568d106f71ea4d5cfa.html) 
+-   [Maintenance of the Distribution Model in Business Data Orchestration](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION/8ce78b673ef04cc1bcfeb01c93ef7885/ef9398e6f60a44568d106f71ea4d5cfa.html) 
 
 -   [Destinations Configuration for SOAP API in Master Data Integration](../initial-setup-and-administration/configuring-destinations-for-soap-870fed9.md) 
 

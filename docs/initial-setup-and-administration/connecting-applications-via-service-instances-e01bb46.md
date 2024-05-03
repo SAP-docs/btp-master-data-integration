@@ -31,6 +31,15 @@ Examples of applications that integrate vie service instances, are the following
 
 
 
+<a name="loioe01bb46b7e09427aa37ac2da40198cf2__prerequisites"/>
+
+## Prerequisites
+
+-   SAP Master Data Integration tenant, see [How to Create a Tenant](creating-tenants-6e3b768.md) .
+
+
+
+
 <a name="loioe01bb46b7e09427aa37ac2da40198cf2__create-a-service-instance"/>
 
 ## Create a Service Instance
@@ -326,5 +335,5 @@ If you are using client ID and client secret for authentication, the relevant fi
 For further details on available authentication methods, refer to [OAuth2-based Authentication](oauth2-based-authentication-7701dff.md) .
 
 > ### Caution:  
-> The newly connected client does not yet have permissions to access data. Refer to [Maintenance of the Distribution Model in SAP Master Data Orchestration](configuring-distribution-models-b033b0a.md) for more details on how to provide the desired permissions.
+> The newly connected client does not yet have permissions to access data. Refer to [Maintenance of the Distribution Model in Business Data Orchestration](configuring-distribution-models-b033b0a.md) for more details on how to provide the desired permissions.
 

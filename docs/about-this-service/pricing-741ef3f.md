@@ -40,8 +40,6 @@ Consumption of Master Data Integration that is induced by running integration of
 
 -   [SAP S/4HANA Cloud for Projects, Resource Management](https://help.sap.com/docs/PPRM_OD) 
 
--   [SAP S/4HANA](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE) 
-
 -   [SAP Subscription Billing](https://help.sap.com/docs/CLOUD_TO_CASH_OD) 
 
 -   [SAP SuccessFactors Employee Central](https://help.sap.com/docs/SAP_SUCCESSFACTORS_EMPLOYEE_CENTRAL) 

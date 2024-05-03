@@ -6,7 +6,7 @@ Standard software as delivered by SAP covers a large number of processes, functi
 
 This demand is increased in a heterogeneous landscape with integration capabilities like SAP Master Data Integration service. Here, the integration is facilitated by the [SAP One Domain Model](https://api.sap.com/sap-one-domain-model) as a common language for all connected applications, which normally possess own data models. The One Domain Model contains related objects that were considered to be relevant for more than one application or even instance in the landscape. Because not all attributes of the connecting applications might be contained in the One Domain Model, an additional need for extensibility is created.
 
-Extensions can be defined in SAP Master Data Orchestration. In this user interface, the One Domain Model structures within Master Data Integration can be extended with additional attributes in case they are annotated as being extensible in the central One Domain Model. It allows the creation of new attributes at every level of the One Domain Model structure.
+Extensions can be defined in Business Data Orchestration. In this user interface, the One Domain Model structures within Master Data Integration can be extended with additional attributes in case they are annotated as being extensible in the central One Domain Model. It allows the creation of new attributes at every level of the One Domain Model structure.
 
 > ### Note:  
 > A draft mode is offered on the user interface in order to make extensions only visible after they are saved to the repository. After that they can't be changed or removed any longer for various reasons. An improvement is in preparation.
@@ -16,7 +16,7 @@ Extensions can be defined in SAP Master Data Orchestration. In this user interfa
 
 Concerning compatibility, Master Data Integration propagates extensions to newer versions of the One Domain Model as long as these versions do not contain breaking changes.
 
-In addition, the created attributes can be automatically used as filter criteria in the [Distribution Models of SAP Master Data Orchestration](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION/8ce78b673ef04cc1bcfeb01c93ef7885/ef9398e6f60a44568d106f71ea4d5cfa.html?version=CLOUD) .
+In addition, the created attributes can be automatically used as filter criteria in the [Distribution Models of Business Data Orchestration](https://help.sap.com/docs/SAP_MASTER_DATA_INTEGRATION/8ce78b673ef04cc1bcfeb01c93ef7885/ef9398e6f60a44568d106f71ea4d5cfa.html?version=CLOUD) .
 
 
 

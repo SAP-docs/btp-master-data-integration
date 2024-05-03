@@ -6,7 +6,7 @@ A destination for SAP Master Data Integration service is only necessary in two i
 
 -   When Business Partner models use SOAP-based integrations.
 
--   When stated by the respective application integration guide \(for improved SAP Master Data Orchestration compatibility\).
+-   When stated by the respective application integration guide \(for improved Business Data Orchestration compatibility\).
 
 
 The connected systems to SAP Master Data Integration can be on-premise or cloud systems. All of those systems send their data to one consumer destination. For SAP Master Data Integration service to securely access remote connected systems, consumer destinations must be maintained.
@@ -26,7 +26,7 @@ These are the steps to set up the destination to connect SAP Master Data Integra
 
 -   Navigate to **Connectivity \> Destinations** .
 
--   Choose **New Destination** and enter the mandatory details as follows:
+-   Select **Create Destination** and enter the mandatory details as follows:
 
 
 

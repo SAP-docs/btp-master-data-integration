@@ -10,7 +10,7 @@
 
 The `businessSystemId` serves the following two purposes.
 
-1.  The `businessSystemId` acts as a display name for the client represented by the service instance in the SAP Master Data Orchestration UI. The display name represents the client's service instance when selecting the consumer destinations for the Master Data Integration service provider when [configuring distribution models](configuring-distribution-models-b033b0a.md) . Distribution models control for instance the read permissions of clients for the data replicated via SAP Master Data Integration.
+1.  The `businessSystemId` acts as a display name for the client represented by the service instance in the Business Data Orchestration UI. The display name represents the client's service instance when selecting the consumer destinations for the Master Data Integration service provider when [configuring distribution models](configuring-distribution-models-b033b0a.md) . Distribution models control for instance the read permissions of clients for the data replicated via SAP Master Data Integration.
 
 2.  In addition, the `businessSystemId` configuration attribute is mandatory to connect a client using the SOAP API for Business Partner. When replicating SOAP messages from client to SAP Master Data Integration, the `businessSystemId` must correspond to `SenderBusinessSystemID` in the SOAP message. Therefore, use the **Own Business System** that is configured in SAP S/4HANA On Premise and SAP S/4HANA Cloud systems as `businessSystemId` . You can retrieve this value as follows:
 

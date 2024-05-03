@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
-To create a tenant and use SAP Master Data Integration service, you must have a **global enterprise account** for the SAP Business Technology Platform. For more information on how to obtain a global account, see [Getting a Global Account](https://help.sap.com/docs/btp/sap-business-technology-platform/getting-global-account) . For a comprehensive overview of the account model of SAP BTP, refer to [Account Model](https://help.sap.com/docs/btp/sap-business-technology-platform/account-model) .
+To create a tenant and use the SAP Master Data Integration service, you must have a **global enterprise account** for the SAP Business Technology Platform. For more information on how to obtain a global account, see [Getting a Global Account](https://help.sap.com/docs/btp/sap-business-technology-platform/getting-global-account) . For a comprehensive overview of the account model of SAP BTP, refer to [Account Model](https://help.sap.com/docs/btp/sap-business-technology-platform/account-model) .
 
 > ### Note:  
 > SAP Master Data Integration service does not support Trial Accounts or Free Tier.
@@ -21,7 +21,7 @@ To create a tenant and use SAP Master Data Integration service, you must have a 
 
 To create a tenant, the first step is to create a subaccount. You must create the subaccount in one of the regions in which SAP Master Data Integration is available. Availability is described in the [data center availability](../about-this-service/data-center-availability-ab183ca.md) . To learn more about creating and managing subaccounts, refer to [Managing Subaccounts Using the Cockpit](https://help.sap.com/docs/btp/sap-business-technology-platform/managing-subaccounts-using-cockpit) .
 
-For each subaccount, there can be at most one tenant of SAP Master Data Integration. This tenant is created for a subaccount when the first service instance or subscription of SAP Master Data Integration is created. Each service instance or subscription within a subaccount is used to connect a different client. To establish technical connectivity, each client requires its own service instance or subscription. Neither data nor configuration is shared between different SAP Master Data Integration tenants.
+For each subaccount, there can be at most one tenant of SAP Master Data Integration. This tenant is created for a subaccount with the subscription of the SAP Master Data Integration Tenant application. Each service instance of SAP Master Data Integration within a subaccount is used to connect a client. To establish technical connectivity, each client requires its own service instance. Neither data nor configuration is shared between different SAP Master Data Integration tenants.
 
 For more information on how to create an SAP Master Data Integration service instance, see [Connecting Applications](connecting-applications-69ae614.md) .
 
