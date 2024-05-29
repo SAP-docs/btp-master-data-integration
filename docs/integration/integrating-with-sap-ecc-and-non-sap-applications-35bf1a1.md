@@ -10,3 +10,6 @@ To learn more about synchronizing master data from SAP applications like SAP ECC
 
 Furthermore, in SAP Discovery Center, there is a mission called " [Use SAP Integration Suite to Synchronize Master Data](https://discovery-center.cloud.sap/missiondetail/4248/4505/) ". It includes the use case to synchronize master data between an ECC System, SAP Integration Suite, SAP Master Data Integration service and SAP SuccessFactors on the example of a cost center object.
 
+> ### Note:  
+> The JSON schema for the SAP Master Data Integration APIs that is needed for configuring the mapping in SAP Integration Suite can be obtained from the object specific SAP Master Data Integration API specification on the [SAP Business Accelerator Hub](https://api.sap.com/package/masterDataIntegration/rest) \(under API Resources - API Specification of the respective object type\).
+
